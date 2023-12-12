@@ -1,0 +1,19 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6032bb23-1c58-4b1e-b7b2-bcfc4bbea058)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "+VBAT" (shape output) (at 66.04 86.36 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 345ccaf1-2992-4729-b27f-b578e36b967f)
+  )
+  (hierarchical_label "+VBUS" (shape output) (at 66.04 91.44 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ee1ccdd7-ca66-4a71-8685-d9c74f1fd4fc)
+  )
+)
