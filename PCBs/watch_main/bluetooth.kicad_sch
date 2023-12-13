@@ -346,7 +346,7 @@
     (uuid e9297c98-eae2-4c2f-9985-151e025f754c)
   )
 
-  (label "UART.RX" (at 236.22 93.98 0)
+  (label "UART.RX" (at 236.22 93.98 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3cb623a0-2ace-4d0f-ad35-f9e6d28b9802)
   )
@@ -374,7 +374,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bfb171a3-9a41-4e8b-92f2-747268909299)
   )
-  (label "UART.TX" (at 236.22 91.44 0)
+  (label "UART.TX" (at 236.22 91.44 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d7d5cb40-d80b-4bac-91a4-df3d8f7b743d)
   )
