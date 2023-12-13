@@ -587,6 +587,14 @@
     [
       "dff74814-9a9e-4db2-96a8-a0f68c0eeebf",
       "Antenna"
+    ],
+    [
+      "94a04c7e-2df4-48c8-836e-45859d212f11",
+      "16MHz Crystal"
+    ],
+    [
+      "b61ad1a8-5087-4f89-b480-4f4125b03fd8",
+      "32MHz Crystal"
     ]
   ],
   "text_variables": {}
