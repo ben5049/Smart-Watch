@@ -83,7 +83,7 @@
   (pad "F4" smd circle (at 0.2 1) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b8e5de42-be0a-4dfa-8b37-732f1419ab8e))
   (pad "F5" smd circle (at 0.6 1) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ca9910fc-8379-49a1-8427-9684bc35d6c6))
   (pad "F6" smd circle (at 1 1) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 36cd3949-531f-480d-aaf2-182187259bc1))
-  (model "C:/Users/bens1/OneDrive/Documents/Projects/Smart-Watch/PCBs/component_library/watch_models/ADP5360ACBZ-2-R7.stp"
+  (model "${KIPRJMOD}/../component_library/watch_models/ADP5360ACBZ-2-R7.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

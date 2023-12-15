@@ -101,8 +101,8 @@
     (property "Manufacturer_Part_Number" "ANT161575TT-3000A1" (at 176.53 863.5 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "2" (uuid 8afa8623-b345-4ca2-98f7-1f64289cab5d))
     (pin "1" (uuid 03e74253-6e36-4522-9239-e1dad26c6482))
+    (pin "2" (uuid 8afa8623-b345-4ca2-98f7-1f64289cab5d))
     (pin "4" (uuid d1a20d95-9531-4f85-8b50-fd3ceef95783))
     (pin "6" (uuid 290217ad-0933-4d9e-8764-11b481d6f9b3))
     (instances

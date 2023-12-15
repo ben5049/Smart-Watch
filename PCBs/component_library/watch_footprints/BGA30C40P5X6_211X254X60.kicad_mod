@@ -75,7 +75,7 @@
   (pad "F3" smd circle (at 0 1) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 43c29f69-fba8-45c9-a532-8a57ccb80984))
   (pad "F4" smd circle (at 0.4 1) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b0b996c9-2f55-4ba8-adc7-8ee54962034c))
   (pad "F5" smd circle (at 0.8 1) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c3fb641f-eb38-49e6-9116-12fb15252edd))
-  (model "C:/Users/bens1/OneDrive/Documents/Projects/Smart-Watch/PCBs/component_library/watch_models/ICE40UP5K-UWG30ITR1K.stp"
+  (model "${KIPRJMOD}/../component_library/watch_models/ICE40UP5K-UWG30ITR1K.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

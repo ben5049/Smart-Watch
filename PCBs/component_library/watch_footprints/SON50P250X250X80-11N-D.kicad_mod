@@ -46,7 +46,7 @@
   (pad "9" smd rect (at 1.25 -0.5 90) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 03c5e41d-afcf-4f96-a7dd-5324e69d4ae6))
   (pad "10" smd rect (at 1.25 -1 90) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f32dab2b-6f72-437f-851b-ac81a54233d6))
   (pad "11" smd rect (at 0 0) (size 1.3 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0fd7ffde-ad7a-44ac-82f6-5e0095148690))
-  (model "C:/Users/bens1/OneDrive/Documents/Projects/Smart-Watch/PCBs/component_library/watch_models/TPS65631WDSKR.stp"
+  (model "${KIPRJMOD}/../component_library/watch_models/TPS65631WDSKR.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

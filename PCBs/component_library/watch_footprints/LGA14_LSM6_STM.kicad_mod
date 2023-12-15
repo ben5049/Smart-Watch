@@ -239,7 +239,7 @@
   (pad "12" smd rect (at 0.500126 -0.889) (size 0.3048 0.5334) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c0bf2e72-f870-4d3f-b993-09970b701ba3))
   (pad "13" smd rect (at 0 -0.889) (size 0.3048 0.5334) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 84b132f3-6387-48b6-84ff-ed30a095a6df))
   (pad "14" smd rect (at -0.500126 -0.889) (size 0.3048 0.5334) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ba60b556-6fe8-4aad-ba04-1a989133325b))
-  (model "C:/Users/bens1/OneDrive/Documents/Projects/Smart-Watch/PCBs/component_library/watch_models/LGA14_LSM6_STM.step"
+  (model "${KIPRJMOD}/../component_library/watch_models/LGA14_LSM6_STM.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -508,8 +508,8 @@
     (property "Datasheet" "~" (at 134.62 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 61870153-ef01-46dd-b65e-e57db50aa1ed))
     (pin "1" (uuid 8c25e354-edc4-4b7e-8edc-9b8e37ff49c2))
+    (pin "2" (uuid 61870153-ef01-46dd-b65e-e57db50aa1ed))
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/2c0a5010-ab28-463f-b516-9128de6cd18d"
@@ -534,8 +534,8 @@
     (property "Datasheet" "~" (at 121.92 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 094ba3af-f566-4333-9d50-db2d7bdc02ad))
     (pin "1" (uuid cd3d2efd-00bf-4aa9-a66f-7f96163f36bc))
+    (pin "2" (uuid 094ba3af-f566-4333-9d50-db2d7bdc02ad))
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/2c0a5010-ab28-463f-b516-9128de6cd18d"
@@ -650,17 +650,17 @@
     (property "Manufacturer_Part_Number" "TPS65631WDSKR" (at 179.07 888.9 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "10" (uuid da893315-0a2c-4ebb-ab4b-11391dc4dcfa))
     (pin "1" (uuid a4d58921-be0e-4f21-a89a-bc3508defc2e))
+    (pin "10" (uuid da893315-0a2c-4ebb-ab4b-11391dc4dcfa))
     (pin "11" (uuid a2949219-3a9a-4703-a295-5ac843bd8d5f))
+    (pin "2" (uuid b0036b8e-a16a-4482-b155-79137f355059))
     (pin "3" (uuid 0e91b9aa-7c09-44ef-96ec-8114094801ef))
-    (pin "7" (uuid 859c022f-a500-4e11-8caf-2d29ffb218bf))
     (pin "4" (uuid 34406ccc-6348-4046-9591-45b184a8b3be))
-    (pin "9" (uuid 1c38a98c-c4a1-4fd8-8566-e560c5ce142c))
     (pin "5" (uuid bd926cc8-fa51-406e-8118-775783e65bcf))
     (pin "6" (uuid c50ded74-21b4-434e-9e52-d7bb20ff6052))
-    (pin "2" (uuid b0036b8e-a16a-4482-b155-79137f355059))
+    (pin "7" (uuid 859c022f-a500-4e11-8caf-2d29ffb218bf))
     (pin "8" (uuid eb28ee0f-0bac-4a32-a832-5e3b462a31e4))
+    (pin "9" (uuid 1c38a98c-c4a1-4fd8-8566-e560c5ce142c))
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/2c0a5010-ab28-463f-b516-9128de6cd18d"

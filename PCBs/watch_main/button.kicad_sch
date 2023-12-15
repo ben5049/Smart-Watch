@@ -332,11 +332,11 @@
     (property "voltage rating DC" "15V" (at 124.46 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "3" (uuid 95f605f5-3011-41d4-ab26-c3166f2af05d))
-    (pin "4" (uuid 66788d19-6799-4abc-bc5c-465bf14d091a))
-    (pin "2" (uuid a257a68e-bb1b-4b62-9d72-2f3b393bf53b))
     (pin "1" (uuid 688f7d03-4c5d-484d-b9ab-9222bed11e10))
     (pin "1'" (uuid aca47e21-44b7-4d84-af91-ce7f819da159))
+    (pin "2" (uuid a257a68e-bb1b-4b62-9d72-2f3b393bf53b))
+    (pin "3" (uuid 95f605f5-3011-41d4-ab26-c3166f2af05d))
+    (pin "4" (uuid 66788d19-6799-4abc-bc5c-465bf14d091a))
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/007c56e9-a012-43a8-8c47-a9871f01caa0"

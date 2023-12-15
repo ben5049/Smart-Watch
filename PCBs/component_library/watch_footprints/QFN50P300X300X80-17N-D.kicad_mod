@@ -52,7 +52,7 @@
   (pad "15" smd rect (at -0.25 -1.5) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4b4a2ab4-ad32-472a-969c-e84442f3cc32))
   (pad "16" smd rect (at -0.75 -1.5) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 037840da-4166-4e0e-a6d4-2ae8661741ce))
   (pad "17" smd rect (at 0 0) (size 1.76 1.76) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bc5ef015-6b2d-489f-bb22-acbfbabca024))
-  (model "C:/Users/bens1/OneDrive/Documents/Projects/Smart-Watch/PCBs/component_library/watch_models/TLV9004SIRTER.stp"
+  (model "${KIPRJMOD}/../component_library/watch_models/TLV9004SIRTER.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

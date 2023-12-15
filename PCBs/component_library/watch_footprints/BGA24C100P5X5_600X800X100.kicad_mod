@@ -69,7 +69,7 @@
   (pad "E3" smd circle (at 0 2 90) (size 0.37 0.37) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 46cb2543-a0a8-49cb-bf9a-88f100b7450d))
   (pad "E4" smd circle (at 1 2 90) (size 0.37 0.37) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 44fb635d-dd7e-493e-9e66-a8b2c1e3d5ec))
   (pad "E5" smd circle (at 2 2 90) (size 0.37 0.37) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3291af91-b2bd-4691-ab19-7333f2bda898))
-  (model "C:/Users/bens1/OneDrive/Documents/Projects/Smart-Watch/PCBs/component_library/watch_models/S25HS512TFABHM010.stp"
+  (model "${KIPRJMOD}/../component_library/watch_models/S25HS512TFABHM010.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -47,7 +47,7 @@
   (pad "2" smd rect (at 0 0.253 90) (size 0.26 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 452f5f90-12e0-4e34-b9ef-34d603a0da59))
   (pad "4" smd rect (at 0.625 0) (size 0.35 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0800add8-3919-444c-ad81-f4ff967155ac))
   (pad "6" smd rect (at 0 -0.253 90) (size 0.26 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 18b3de5b-fa79-48d5-a2b1-3feb78983bbd))
-  (model "C:/Users/bens1/OneDrive/Documents/Projects/Smart-Watch/PCBs/component_library/watch_models/ANT161575TT-3000A1.stp"
+  (model "${KIPRJMOD}/../component_library/watch_models/ANT161575TT-3000A1.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

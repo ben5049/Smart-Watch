@@ -328,7 +328,7 @@
   (pad "R13" smd circle (at 4 5.599999) (size 0.4064 0.4064) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0f796b9d-ba2f-44f6-9a19-759c049e2ab7))
   (pad "R14" smd circle (at 4.799999 5.599999) (size 0.4064 0.4064) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ec6e8c31-1c20-4d83-9b4a-eed77d7176fe))
   (pad "R15" smd circle (at 5.599999 5.599999) (size 0.4064 0.4064) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7272d6b7-78a7-4508-b0b8-89b9f37b19cc))
-  (model "C:/Users/bens1/OneDrive/Documents/Projects/Smart-Watch/PCBs/component_library/watch_models/TFBGA216_13X13_STM.step"
+  (model "${KIPRJMOD}/../component_library/watch_models/TFBGA216_13X13_STM.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

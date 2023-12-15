@@ -55,7 +55,7 @@
   (pad "14" smd rect (at 0.2 -1.175) (size 0.22 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3f4f67bd-94c9-45e8-bc07-ba40537f9a09))
   (pad "15" smd rect (at -0.2 -1.175) (size 0.22 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6b9576b1-8bf9-4427-b2c7-acfde4330872))
   (pad "16" smd rect (at -0.6 -1.175) (size 0.22 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2418f50c-64c6-4f2e-9ca3-2ae4e5b831ae))
-  (model "C:/Users/bens1/OneDrive/Documents/Projects/Smart-Watch/PCBs/component_library/watch_models/NVT4858HKZ.stp"
+  (model "${KIPRJMOD}/../component_library/watch_models/NVT4858HKZ.stp"
     (offset (xyz 0 0 0.4999999925))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

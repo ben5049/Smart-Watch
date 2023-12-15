@@ -54,7 +54,7 @@
   (pad "2" smd rect (at 0 -1.375) (size 0.8 1.35) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp da6a5744-8afd-4a38-98c3-812181f08a0f))
   (pad "3" smd rect (at -2.7 0.25) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c7b9b3ae-1ff0-4590-8f2d-43816188b207))
   (pad "4" smd rect (at 2.7 0.25) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6947a4e0-441f-4cc7-8ff9-989d412066a7))
-  (model "C:/Users/bens1/Documents/Other/Projects/Smart-Watch/PCBs/component_library/watch_models/Panasonic_-_EVP-AEJB2A.step"
+  (model "${KIPRJMOD}/../component_library/watch_models/Panasonic_-_EVP-AEJB2A.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
