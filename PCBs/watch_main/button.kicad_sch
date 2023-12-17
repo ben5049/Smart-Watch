@@ -349,7 +349,7 @@
   (symbol (lib_id "power:GND") (at 149.86 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4292ea2c-14cf-4543-b0ad-1c1c2202e14c)
-    (property "Reference" "#PWR01406" (at 149.86 113.03 0)
+    (property "Reference" "#PWR01502" (at 149.86 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 111.76 0)
@@ -365,7 +365,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/007c56e9-a012-43a8-8c47-a9871f01caa0"
-          (reference "#PWR01406") (unit 1)
+          (reference "#PWR01502") (unit 1)
         )
       )
     )
@@ -374,7 +374,7 @@
   (symbol (lib_id "power:GND") (at 124.46 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4df70f02-5f66-4a2c-9184-a04215077606)
-    (property "Reference" "#PWR01407" (at 124.46 107.95 0)
+    (property "Reference" "#PWR01501" (at 124.46 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 106.68 0)
@@ -390,7 +390,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/007c56e9-a012-43a8-8c47-a9871f01caa0"
-          (reference "#PWR01407") (unit 1)
+          (reference "#PWR01501") (unit 1)
         )
       )
     )

@@ -777,7 +777,7 @@
   (symbol (lib_id "power:GND") (at 175.26 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 694a006e-2d49-4d37-a391-5c6d8ff68b64)
-    (property "Reference" "#PWR01104" (at 175.26 118.11 0)
+    (property "Reference" "#PWR01204" (at 175.26 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 116.84 0)
@@ -793,7 +793,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/7779aa81-4bd2-46f8-9e9a-59e6873efba9"
-          (reference "#PWR01104") (unit 1)
+          (reference "#PWR01204") (unit 1)
         )
       )
     )
@@ -802,7 +802,7 @@
   (symbol (lib_id "power:+3V3") (at 175.26 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2de8fa0-6533-4d77-aa4f-81d5c09c1d6c)
-    (property "Reference" "#PWR01101" (at 175.26 67.31 0)
+    (property "Reference" "#PWR01202" (at 175.26 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 175.26 58.42 0)
@@ -818,7 +818,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/7779aa81-4bd2-46f8-9e9a-59e6873efba9"
-          (reference "#PWR01101") (unit 1)
+          (reference "#PWR01202") (unit 1)
         )
       )
     )
@@ -827,7 +827,7 @@
   (symbol (lib_id "power:+1V8") (at 175.26 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid affe9b8a-4dd9-4ae4-969a-e8b47074774c)
-    (property "Reference" "#PWR01103" (at 175.26 82.55 0)
+    (property "Reference" "#PWR01203" (at 175.26 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 175.26 73.66 0)
@@ -843,7 +843,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/7779aa81-4bd2-46f8-9e9a-59e6873efba9"
-          (reference "#PWR01103") (unit 1)
+          (reference "#PWR01203") (unit 1)
         )
       )
     )
@@ -852,7 +852,7 @@
   (symbol (lib_id "power:+1V2") (at 175.26 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf08beae-73cd-427b-92e7-3da6c00d6839)
-    (property "Reference" "#PWR01102" (at 175.26 54.61 0)
+    (property "Reference" "#PWR01201" (at 175.26 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 175.26 45.72 0)
@@ -868,7 +868,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/7779aa81-4bd2-46f8-9e9a-59e6873efba9"
-          (reference "#PWR01102") (unit 1)
+          (reference "#PWR01201") (unit 1)
         )
       )
     )

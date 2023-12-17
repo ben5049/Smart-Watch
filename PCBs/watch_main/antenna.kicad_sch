@@ -62,11 +62,11 @@
   )
 
 
-  (hierarchical_label "RF_2.4G" (shape input) (at 259.08 109.22 0) (fields_autoplaced)
+  (hierarchical_label "RF_2.4G" (shape bidirectional) (at 259.08 109.22 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 19be6c85-39b0-451a-8c90-3caf5ab706e3)
   )
-  (hierarchical_label "RF_1.575G" (shape input) (at 259.08 111.76 0) (fields_autoplaced)
+  (hierarchical_label "RF_1.575G" (shape output) (at 259.08 111.76 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 54e6b666-c1a8-4048-8e73-cc55a0ad2c14)
   )
