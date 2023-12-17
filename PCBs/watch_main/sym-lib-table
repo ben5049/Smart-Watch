@@ -15,4 +15,5 @@
   (lib (name "TLV9004SIRTER")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/TLV9004SIRTER.kicad_sym")(options "")(descr ""))
   (lib (name "NVT4858HKZ")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/NVT4858HKZ.kicad_sym")(options "")(descr ""))
   (lib (name "NRF5340-QKAA-R7")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/NRF5340-QKAA-R7.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX9028EBT+T")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/MAX9028EBT+T.kicad_sym")(options "")(descr ""))
 )
