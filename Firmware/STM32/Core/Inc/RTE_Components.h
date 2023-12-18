@@ -22,6 +22,14 @@
 #define  __RTE_COMPONENTS_H__
 
 /* Defines ------------------------------------------------------------------*/
+/* STMicroelectronics.X-CUBE-GNSS1.6.0.0 */
+#define TESEO_LIV3F
+#define USE_THREADX_NATIVE_API
+#define LIB_GNSS
+#define LIB_NMEA
+#define LIB_GNSS_INTERFACE
+/* STMicroelectronics.X-CUBE-ISPU.1.1.0 */
+#define LSM6DSO16IS_ACCGYR_SPI
 /* STMicroelectronics.X-CUBE-TOUCHGFX.4.22.1 */
 #define TOUCHGFX_APP
 

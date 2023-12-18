@@ -65,6 +65,8 @@ void Error_Handler(void);
 #define RFID_RF_IN_GPIO_Port GPIOB
 #define RFID_PULL_Pin GPIO_PIN_15
 #define RFID_PULL_GPIO_Port GPIOG
+#define SPI2_NSS_Pin GPIO_PIN_9
+#define SPI2_NSS_GPIO_Port GPIOB
 #define RFID_OUT_Pin GPIO_PIN_11
 #define RFID_OUT_GPIO_Port GPIOG
 

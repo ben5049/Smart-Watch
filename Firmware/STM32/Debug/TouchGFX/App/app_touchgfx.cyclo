@@ -1,0 +1,4 @@
+../TouchGFX/App/app_touchgfx.c:61:6:MX_TouchGFX_PreOSInit	1
+../TouchGFX/App/app_touchgfx.c:71:6:MX_TouchGFX_Init	3
+../TouchGFX/App/app_touchgfx.c:98:6:MX_TouchGFX_Process	1
+../TouchGFX/App/app_touchgfx.c:107:6:TouchGFX_Task	1
