@@ -1,6 +1,6 @@
 (footprint "NRF5340-QKAA-R7" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at -3.75 -4.325) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp 6b4205c3-88ec-481e-b364-729b45a91513)
