@@ -1,4 +1,4 @@
-21920949745677481
+21926058621031557
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91455,9 +91455,23 @@ GPS & BT Antenna
 0
 0
 watch_footprints
+IIS2MDCTR
+LGA-12 XDM
+Integrated Circuit
+0
+12
+12
+watch_footprints
 LGA14_LSM6_STM
 
 LSM6DSO16IS 
+0
+14
+14
+watch_footprints
+MAX30102EFD+T
+
+
 0
 14
 14
@@ -91503,6 +91517,13 @@ Integrated Circuit
 0
 11
 11
+watch_footprints
+SON65P200X200X65-7N-D
+OPT3004DNPR
+Integrated Circuit
+0
+7
+7
 watch_footprints
 TESEOLIV4FTR
 TESEO-LIV4FTR-1

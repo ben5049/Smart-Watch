@@ -2,7 +2,7 @@
   ******************************************************************************
   * File Name          : app_touchgfx.c
   ******************************************************************************
-  * This file was created by TouchGFX Generator 4.22.1. This file is only
+  * This file was created by TouchGFX Generator 4.23.0. This file is only
   * generated once! Delete this file from your project and re-generate code
   * using STM32CubeMX or change this file manually to update it.
   ******************************************************************************
@@ -60,36 +60,36 @@ void touchgfx_taskEntry(void);
  */
 void MX_TouchGFX_PreOSInit(void)
 {
-  // Calling forward to touchgfx_init in C++ domain
-  touchgfx_components_init();
-  touchgfx_init();
+    // Calling forward to touchgfx_init in C++ domain
+    touchgfx_components_init();
+    touchgfx_init();
 }
 
 /**
  * Create TouchGFX Thread
  */
-UINT MX_TouchGFX_Init(VOID *memory_ptr)
+UINT MX_TouchGFX_Init(VOID* memory_ptr)
 {
-  UINT ret = TX_SUCCESS;
-  CHAR *pointer = 0;
+    UINT ret = TX_SUCCESS;
+    CHAR* pointer = 0;
 
-  /* Allocate the stack for TouchGFX Thread.  */
-  if (tx_byte_allocate((TX_BYTE_POOL*)memory_ptr, (VOID **) &pointer,
-                       TOUCHGFX_STACK_SIZE, TX_NO_WAIT) != TX_SUCCESS)
-  {
-    ret = TX_POOL_ERROR;
-  }
+    /* Allocate the stack for TouchGFX Thread.  */
+    if (tx_byte_allocate((TX_BYTE_POOL*)memory_ptr, (VOID**) &pointer,
+                         TOUCHGFX_STACK_SIZE, TX_NO_WAIT) != TX_SUCCESS)
+    {
+        ret = TX_POOL_ERROR;
+    }
 
-  /* Create TouchGFX Thread */
-  else if (tx_thread_create(&TouchGFXThread, (CHAR *)"TouchGFX", TouchGFX_Task, 0,
-                       pointer, TOUCHGFX_STACK_SIZE,
-                       5, 5,
-                       TX_NO_TIME_SLICE, TX_AUTO_START) != TX_SUCCESS)
-  {
-    ret = TX_THREAD_ERROR;
-  }
+    /* Create TouchGFX Thread */
+    else if (tx_thread_create(&TouchGFXThread, (CHAR*)"TouchGFX", TouchGFX_Task, 0,
+                              pointer, TOUCHGFX_STACK_SIZE,
+                              5, 5,
+                              TX_NO_TIME_SLICE, TX_AUTO_START) != TX_SUCCESS)
+    {
+        ret = TX_THREAD_ERROR;
+    }
 
-  return ret;
+    return ret;
 }
 
 /**
@@ -97,8 +97,8 @@ UINT MX_TouchGFX_Init(VOID *memory_ptr)
  */
 void MX_TouchGFX_Process(void)
 {
-  // Calling forward to touchgfx_taskEntry in C++ domain
-  touchgfx_taskEntry();
+    // Calling forward to touchgfx_taskEntry in C++ domain
+    touchgfx_taskEntry();
 }
 
 /**
@@ -106,8 +106,8 @@ void MX_TouchGFX_Process(void)
  */
 void TouchGFX_Task(unsigned long thread_input)
 {
-  // Calling forward to touchgfx_taskEntry in C++ domain
-  touchgfx_taskEntry();
+    // Calling forward to touchgfx_taskEntry in C++ domain
+    touchgfx_taskEntry();
 }
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

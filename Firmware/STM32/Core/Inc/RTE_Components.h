@@ -29,8 +29,10 @@
 #define LIB_NMEA
 #define LIB_GNSS_INTERFACE
 /* STMicroelectronics.X-CUBE-ISPU.1.1.0 */
-#define LSM6DSO16IS_ACCGYR_SPI
-/* STMicroelectronics.X-CUBE-TOUCHGFX.4.22.1 */
+#define LSM6DSO16IS_ACCGYR_I2C
+/* STMicroelectronics.X-CUBE-MEMS1.10.0.0 */
+#define IIS2MDC_MAG_I2C
+/* STMicroelectronics.X-CUBE-TOUCHGFX.4.23.0 */
 #define TOUCHGFX_APP
 
 #endif /* __RTE_COMPONENTS_H__ */

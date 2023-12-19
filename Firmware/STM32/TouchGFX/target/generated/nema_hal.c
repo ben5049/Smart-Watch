@@ -53,9 +53,9 @@ extern GPU2D_HandleTypeDef hgpu2d;
 TX_SEMAPHORE nema_irq_sem; /* Semaphore struct */
 
 #if (USE_HAL_GPU2D_REGISTER_CALLBACKS == 1)
-static void GPU2D_CommandListCpltCallback(GPU2D_HandleTypeDef *hgpu2d, uint32_t CmdListID)
+static void GPU2D_CommandListCpltCallback(GPU2D_HandleTypeDef* hgpu2d, uint32_t CmdListID)
 #else /* USE_HAL_GPU2D_REGISTER_CALLBACKS = 0 */
-void HAL_GPU2D_CommandListCpltCallback(GPU2D_HandleTypeDef *hgpu2d, uint32_t CmdListID)
+void HAL_GPU2D_CommandListCpltCallback(GPU2D_HandleTypeDef* hgpu2d, uint32_t CmdListID)
 #endif /* USE_HAL_GPU2D_REGISTER_CALLBACKS = 1 */
 {
     /* Prevent unused argument(s) compilation warning */
@@ -140,12 +140,12 @@ int nema_wait_irq_brk(int brk_id)
     return 0;
 }
 
-void nema_host_free(void *ptr)
+void nema_host_free(void* ptr)
 {
     tsi_free(ptr);
 }
 
-void *nema_host_malloc(unsigned size)
+void* nema_host_malloc(unsigned size)
 {
     return tsi_malloc(size);
 }
@@ -170,18 +170,18 @@ nema_buffer_t nema_buffer_create_pool(int pool, int size)
     return nema_buffer_create(size);
 }
 
-void *nema_buffer_map(nema_buffer_t *bo)
+void* nema_buffer_map(nema_buffer_t* bo)
 {
     return bo->base_virt;
 }
 
-void nema_buffer_unmap(nema_buffer_t *bo)
+void nema_buffer_unmap(nema_buffer_t* bo)
 {
     /* Prevent unused argument(s) compilation warning */
     UNUSED(bo);
 }
 
-void nema_buffer_destroy(nema_buffer_t *bo)
+void nema_buffer_destroy(nema_buffer_t* bo)
 {
     if (bo->fd == -1)
     {
@@ -190,18 +190,18 @@ void nema_buffer_destroy(nema_buffer_t *bo)
 
     tsi_free(bo->base_virt);
 
-    bo->base_virt = (void *)0;
+    bo->base_virt = (void*)0;
     bo->base_phys = 0;
     bo->size      = 0;
     bo->fd        = -1; /* Buffer not allocated */
 }
 
-uintptr_t nema_buffer_phys(nema_buffer_t *bo)
+uintptr_t nema_buffer_phys(nema_buffer_t* bo)
 {
     return bo->base_phys;
 }
 
-void nema_buffer_flush(nema_buffer_t * bo)
+void nema_buffer_flush(nema_buffer_t* bo)
 {
     /* Prevent unused argument(s) compilation warning */
     UNUSED(bo);
@@ -211,10 +211,10 @@ int nema_mutex_lock(int mutex_id)
 {
     int retval = 0;
 
-/* USER CODE BEGIN nema_mutex_lock */
+    /* USER CODE BEGIN nema_mutex_lock */
     /* Prevent unused argument(s) compilation warning */
     UNUSED(mutex_id);
-/* USER CODE END nema_mutex_lock */
+    /* USER CODE END nema_mutex_lock */
 
     return retval;
 }
@@ -223,10 +223,10 @@ int nema_mutex_unlock(int mutex_id)
 {
     int retval = 0;
 
-/* USER CODE BEGIN nema_mutex_unlock */
+    /* USER CODE BEGIN nema_mutex_unlock */
     /* Prevent unused argument(s) compilation warning */
     UNUSED(mutex_id);
-/* USER CODE END nema_mutex_unlock */
+    /* USER CODE END nema_mutex_unlock */
 
     return retval;
 }

@@ -18,4 +18,6 @@
   (lib (name "MAX9028EBT+T")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/MAX9028EBT+T.kicad_sym")(options "")(descr ""))
   (lib (name "AXG110144A")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/AXG110144A.kicad_sym")(options "")(descr ""))
   (lib (name "AXG120144")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/AXG120144.kicad_sym")(options "")(descr ""))
+  (lib (name "IIS2MDCTR")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/IIS2MDCTR.kicad_sym")(options "")(descr ""))
+  (lib (name "OPT3004DNPR")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/OPT3004DNPR.kicad_sym")(options "")(descr ""))
 )
