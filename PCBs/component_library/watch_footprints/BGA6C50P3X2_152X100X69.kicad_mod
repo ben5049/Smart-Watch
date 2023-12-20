@@ -11,7 +11,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp ec9c5c1d-6143-42e6-9248-886c532f2104)
   )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp 1f808c4f-3016-4c3b-8021-65f574ff6953)
   )
@@ -51,7 +51,7 @@
   (pad "B1" smd circle (at -0.5 0.25 90) (size 0.298 0.298) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c8cbf309-6010-4096-a7e9-21a0e0a41e86))
   (pad "B2" smd circle (at 0 0.25 90) (size 0.298 0.298) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cee13478-1315-404b-9262-b4289294093f))
   (pad "B3" smd circle (at 0.5 0.25 90) (size 0.298 0.298) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1edeafd3-33f9-4395-b9dc-31f92fcd4cf4))
-  (model "${KIPRJMOD}/../component_library/watch_models/MAX9028EBT+T.stp"
+  (model "${KIPRJMOD}/../component_library/watch_models/MAX9027EBT+T.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

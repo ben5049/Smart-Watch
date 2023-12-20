@@ -24,7 +24,7 @@
     (property "Manufacturer_Name" "Analog Devices" (at 31.75 -694.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Manufacturer_Part_Number" "ADP5301ACBZ-3-R7" (at 31.75 -794.92 0)
+    (property "Manufacturer_Part_Number" "ADP5301ACBZ-2-R7" (at 31.75 -794.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "ki_description" "Switching Voltage Regulators 50mA/500mA ULP Buck VOUT1" (at 0 0 0)

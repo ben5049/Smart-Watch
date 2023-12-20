@@ -1,12 +1,12 @@
 (kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "MAX9028EBT+T" (in_bom yes) (on_board yes)
+  (symbol "MAX9027EBT+T" (in_bom yes) (on_board yes)
     (property "Reference" "IC" (at 0 17.78 0)
       (effects (font (size 1.27 1.27)) (justify top))
     )
-    (property "Value" "MAX9028EBT+T" (at 0 15.24 0)
+    (property "Value" "MAX9027EBT+T" (at 0 15.24 0)
       (effects (font (size 1.27 1.27)) (justify top))
     )
-    (property "Footprint" "BGA6C50P3X2_152X100X69" (at 29.21 -94.92 0)
+    (property "Footprint" "watch_footprints:BGA6C50P3X2_152X100X69" (at 29.21 -94.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX9025-MAX9028.pdf" (at 29.21 -194.92 0)
@@ -27,10 +27,10 @@
     (property "Manufacturer_Part_Number" "MAX9028EBT+T" (at 29.21 -794.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "ki_description" "Analog Comparators UCSP, 1.8V, Nanopower, Beyond-the-Rails Comparators With/Without Reference" (at 0 0 0)
+    (property "ki_description" "Analog Comparators UCSP, 1.8V, Nanopower, Beyond-the-Rails Comparators Without Reference" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "MAX9028EBT+T_0_1"
+    (symbol "MAX9027EBT+T_0_1"
       (polyline
         (pts
           (xy -7.62 -5.08)
@@ -108,7 +108,7 @@
         (fill (type none))
       )
     )
-    (symbol "MAX9028EBT+T_1_1"
+    (symbol "MAX9027EBT+T_1_1"
       (rectangle (start -15.24 12.7) (end 15.24 -12.7)
         (stroke (width 0.254) (type default))
         (fill (type background))

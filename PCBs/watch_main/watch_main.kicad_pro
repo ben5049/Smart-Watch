@@ -614,6 +614,10 @@
     [
       "e805c593-17ac-4f08-b6e2-d497b0af0a05",
       "RFID"
+    ],
+    [
+      "a7679e4f-f097-4da0-abbe-b751bbcda887",
+      "Microphone"
     ]
   ],
   "text_variables": {}
