@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MAX30102EFD+T")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/MAX30102EFD+T.kicad_sym")(options "")(descr ""))
+  (lib (name "AXG220144")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/AXG220144.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV2605LYZFR")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/DRV2605LYZFR.kicad_sym")(options "")(descr ""))
+  (lib (name "watch_symbols_lib")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/watch_symbols_lib.kicad_sym")(options "")(descr ""))
+  (lib (name "TPD1E10B06DPYR")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/TPD1E10B06DPYR.kicad_sym")(options "")(descr ""))
+)

@@ -476,6 +476,10 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/GNSS/LNA_IN": "50Ω MS SE",
+      "/GNSS/LNA_OUT": "50Ω MS SE",
+      "/GNSS/RF_IN": "50Ω MS SE",
+      "/GNSS/SAW_OUT": "50Ω MS SE",
       "/OSPI1.CLKN": "100Ω MS D",
       "/OSPI1.CLKP": "100Ω MS D",
       "/OSPI1.DQS": "50Ω MS SE",

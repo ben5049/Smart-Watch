@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Watch Antenna")
+    (date "2023-12-21")
+    (rev "1")
+    (comment 1 "Checked by Ben Smith on 21/12/23")
+  )
+
   (lib_symbols
     (symbol "ANT161575TT-3000A1:ANT161575TT-3000A1" (in_bom yes) (on_board yes)
       (property "Reference" "ANT" (at 0 12.7 0)
@@ -1993,13 +2000,13 @@
     )
   )
 
-  (symbol (lib_id "Device:L_Small") (at 220.98 71.12 0) (mirror y) (unit 1)
+  (symbol (lib_id "Device:L_Small") (at 220.98 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6dc45cd4-725a-4711-83eb-3324a8cc663d)
-    (property "Reference" "L1603" (at 219.71 70.485 0)
+    (property "Reference" "L1603" (at 222.25 70.485 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2n7" (at 219.71 73.025 0)
+    (property "Value" "2n7" (at 222.25 73.025 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at 220.98 71.12 0)
@@ -2215,13 +2222,13 @@
     )
   )
 
-  (symbol (lib_id "Device:L_Small") (at 91.44 71.12 0) (mirror y) (unit 1)
+  (symbol (lib_id "Device:L_Small") (at 91.44 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de911537-4e68-4fe1-aeb4-5fdafa55636c)
-    (property "Reference" "L1601" (at 90.17 70.485 0)
+    (property "Reference" "L1601" (at 92.71 70.485 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1n5" (at 90.17 73.025 0)
+    (property "Value" "1n5" (at 92.71 73.025 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at 91.44 71.12 0)

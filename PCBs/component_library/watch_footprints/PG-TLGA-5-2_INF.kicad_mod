@@ -240,4 +240,9 @@
   (pad "3" smd rect (at 1.3614 -0.8375) (size 0.5334 0.762) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f9fadb6c-e3d1-47c9-9cf0-9850f762e519))
   (pad "4" smd rect (at 0.5394 -0.8375) (size 0.5334 0.762) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8015dc74-597a-475a-b06a-ae91029b8ea5))
   (pad "5" smd rect (at -1.39205 0) (size 0.127 0.127) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2404a31d-4d94-434b-8bb0-0e52da950fbf))
+  (model "C:/Users/bens1/Documents/Other/Projects/Smart-Watch/PCBs/component_library/watch_models/IM70D122V01.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

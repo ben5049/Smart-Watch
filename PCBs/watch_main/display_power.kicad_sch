@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Watch Display Power")
+    (date "2023-12-21")
+    (rev "1")
+    (comment 1 "Checked by Ben Smith 21/12/23")
+  )
+
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
@@ -585,6 +592,12 @@
     (uuid fb724e38-2d86-4fcc-99ed-22f8f5eb566c)
   )
 
+  (text "23mA Maximum output current\n(A1D3T-001 datasheet p5)"
+    (at 215.9 76.2 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9e601290-b126-4517-b0f6-9848a08dfc34)
+  )
+
   (label "SWP" (at 167.64 83.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03737f6b-8890-4b48-8ecf-a4963210ea6d)
@@ -648,7 +661,7 @@
     (property "Value" "10u" (at 152.4 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (at 152.4 71.12 0)
+    (property "Footprint" "Inductor_SMD:L_TDK_MLZ1608" (at 152.4 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 71.12 0)
@@ -789,7 +802,7 @@
     (property "Value" "10u" (at 171.45 118.745 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (at 170.18 116.84 0)
+    (property "Footprint" "Inductor_SMD:L_TDK_MLZ1608" (at 170.18 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 170.18 116.84 0)

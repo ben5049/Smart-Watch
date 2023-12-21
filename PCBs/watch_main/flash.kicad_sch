@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Watch Flash")
+    (date "2023-12-21")
+    (rev "1")
+    (comment 1 "Checked by Ben Smith on 21/12/23")
+  )
+
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
@@ -623,7 +630,7 @@
     (uuid 28fa241d-fd8e-4c0f-9a24-80cb7e685149)
   )
   (text "AN224153 - Design and Layout Guide for SEMPER Flash Memory"
-    (at 177.8 172.72 0)
+    (at 101.6 139.7 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2ac2f93b-1a36-4c77-b96a-7d7047556c96)
   )
@@ -632,7 +639,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 53a704ba-b526-470f-9e53-3359d2fd000c)
   )
-  (text "AN211622 - HYPERFLASH and HYPERRAM layout guide" (at 177.8 170.18 0)
+  (text "AN211622 - HYPERFLASH and HYPERRAM layout guide" (at 101.6 137.16 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 87e36067-f948-46fe-9153-8d96f0077356)
   )

@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Watch Display Connector")
+    (date "2023-12-21")
+    (rev "1")
+    (comment 1 "Checked by Ben Smith on 21/12/23")
+  )
+
   (lib_symbols
     (symbol "power:+1V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
@@ -1757,15 +1764,6 @@
       CGEcHCGRSNhXMvZjhuvCcbiNHyVe+B9m3IVjnnEXjnnGXTjmGXfhmOf/AZnIquZkFIfWAAAAAElF
       TkSuQmCC
     )
-  )
-
-  (text "A1D3T-001" (at 180.34 167.64 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom) (href "file://C:\\Users\\bens1\\Documents\\Other\\Projects\\Smart-Watch\\Documentation\\Datasheets/A1D3T-001.pdf"))
-    (uuid 2fdd1a02-a9f3-42aa-b9fa-4f197f7a6872)
-  )
-  (text "A1D3T-001" (at 180.34 172.72 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom) (href "file://${KIPRJMOD}/../../Documentation/Datasheets/A1D3T-001.pdf"))
-    (uuid ec6c6618-7a1c-4fc7-b782-c564f118ae8b)
   )
 
   (label "PCD" (at 121.92 119.38 0) (fields_autoplaced)
