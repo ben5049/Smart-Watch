@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "watch_symbols_lib")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/watch_symbols_lib.kicad_sym")(options "")(descr ""))
+)
