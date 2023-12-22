@@ -1854,7 +1854,7 @@
   (symbol (lib_id "power:+3V3") (at 99.06 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b3b984c-afb9-4d5e-80bc-3f7468c2d294)
-    (property "Reference" "#PWR0505" (at 99.06 123.19 0)
+    (property "Reference" "#PWR0502" (at 99.06 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 99.06 115.57 0)
@@ -1870,7 +1870,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e6589a80-c4f6-4562-bcb4-1d61b94d1497"
-          (reference "#PWR0505") (unit 1)
+          (reference "#PWR0502") (unit 1)
         )
       )
     )
@@ -1950,7 +1950,7 @@
   (symbol (lib_id "watch_symbols_lib:+4V6") (at 114.3 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 601c1004-2514-43c3-bcae-06dbd0573d65)
-    (property "Reference" "#PWR0502" (at 114.3 140.97 0)
+    (property "Reference" "#PWR0503" (at 114.3 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+4V6" (at 114.3 133.35 0)
@@ -1966,7 +1966,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e6589a80-c4f6-4562-bcb4-1d61b94d1497"
-          (reference "#PWR0502") (unit 1)
+          (reference "#PWR0503") (unit 1)
         )
       )
     )
@@ -1975,7 +1975,7 @@
   (symbol (lib_id "power:GND") (at 132.08 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80dc42ba-486d-415d-828b-2e41acb5c45e)
-    (property "Reference" "#PWR0501" (at 132.08 163.83 0)
+    (property "Reference" "#PWR0505" (at 132.08 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 162.56 0)
@@ -1991,7 +1991,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e6589a80-c4f6-4562-bcb4-1d61b94d1497"
-          (reference "#PWR0501") (unit 1)
+          (reference "#PWR0505") (unit 1)
         )
       )
     )
@@ -2000,7 +2000,7 @@
   (symbol (lib_id "watch_symbols_lib:-2V2") (at 114.3 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b45b53c-68c7-41ba-9881-9b582c82ebe2)
-    (property "Reference" "#PWR0503" (at 114.3 151.13 0)
+    (property "Reference" "#PWR0504" (at 114.3 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-2V2" (at 114.3 143.51 0)
@@ -2016,7 +2016,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e6589a80-c4f6-4562-bcb4-1d61b94d1497"
-          (reference "#PWR0503") (unit 1)
+          (reference "#PWR0504") (unit 1)
         )
       )
     )
@@ -2025,7 +2025,7 @@
   (symbol (lib_id "power:+1V8") (at 93.98 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd065668-85fc-4637-acdb-d4d5efeb2b82)
-    (property "Reference" "#PWR0504" (at 93.98 125.73 0)
+    (property "Reference" "#PWR0501" (at 93.98 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 93.98 118.11 0)
@@ -2041,7 +2041,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e6589a80-c4f6-4562-bcb4-1d61b94d1497"
-          (reference "#PWR0504") (unit 1)
+          (reference "#PWR0501") (unit 1)
         )
       )
     )

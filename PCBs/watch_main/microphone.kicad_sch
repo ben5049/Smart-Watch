@@ -279,7 +279,7 @@
   (symbol (lib_id "power:GND") (at 167.64 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f63ce1f-2bf0-42bb-a6a4-630d82cbc5a2)
-    (property "Reference" "#PWR01801" (at 167.64 115.57 0)
+    (property "Reference" "#PWR01803" (at 167.64 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 114.3 0)
@@ -295,7 +295,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/a7679e4f-f097-4da0-abbe-b751bbcda887"
-          (reference "#PWR01801") (unit 1)
+          (reference "#PWR01803") (unit 1)
         )
       )
     )
@@ -333,7 +333,7 @@
   (symbol (lib_id "power:+1V8") (at 167.64 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5020e55a-0cfb-42b9-be84-3adff342d2fe)
-    (property "Reference" "#PWR01803" (at 167.64 97.79 0)
+    (property "Reference" "#PWR01802" (at 167.64 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 167.64 90.17 0)
@@ -349,7 +349,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/a7679e4f-f097-4da0-abbe-b751bbcda887"
-          (reference "#PWR01803") (unit 1)
+          (reference "#PWR01802") (unit 1)
         )
       )
     )
@@ -358,7 +358,7 @@
   (symbol (lib_id "power:GND") (at 132.08 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d220fc67-ef2b-4c4d-9f8e-78a624c0111c)
-    (property "Reference" "#PWR01802" (at 132.08 115.57 0)
+    (property "Reference" "#PWR01801" (at 132.08 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 114.3 0)
@@ -374,7 +374,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/a7679e4f-f097-4da0-abbe-b751bbcda887"
-          (reference "#PWR01802") (unit 1)
+          (reference "#PWR01801") (unit 1)
         )
       )
     )

@@ -5,7 +5,9 @@
   (paper "A4")
 
   (title_block
+    (date "2023-12-21")
     (rev "1")
+    (comment 1 "Checked by Ben Smith 21/12/23")
   )
 
   (lib_symbols
@@ -323,10 +325,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4212d1fa-0da2-48b5-bad0-d5f687a990ff)
   )
-  (text "2.7-3.6V" (at 154.94 162.56 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 987091c9-93a5-4082-b019-c9a6db66beae)
-  )
 
   (label "I2C{I2C}" (at 104.14 76.2 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -368,7 +366,7 @@
   (symbol (lib_id "power:+3V3") (at 129.54 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7524a4e2-7b6a-4a40-aaca-bbf126a05c47)
-    (property "Reference" "#PWR0602" (at 129.54 72.39 0)
+    (property "Reference" "#PWR0601" (at 129.54 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 129.54 64.77 0)
@@ -384,7 +382,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/33389a00-643f-4d0e-bdc2-cdeb49d6ab4d"
-          (reference "#PWR0602") (unit 1)
+          (reference "#PWR0601") (unit 1)
         )
       )
     )
@@ -450,7 +448,7 @@
   (symbol (lib_id "power:GND") (at 132.08 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b55d9e6d-ab9c-488c-85a8-de83083d0ced)
-    (property "Reference" "#PWR0601" (at 132.08 102.87 0)
+    (property "Reference" "#PWR0602" (at 132.08 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 101.6 0)
@@ -466,7 +464,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/33389a00-643f-4d0e-bdc2-cdeb49d6ab4d"
-          (reference "#PWR0601") (unit 1)
+          (reference "#PWR0602") (unit 1)
         )
       )
     )

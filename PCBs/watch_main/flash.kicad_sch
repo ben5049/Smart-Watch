@@ -814,7 +814,7 @@
           (reference "C901") (unit 1)
         )
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/07a86d0c-0eda-4696-ba3d-09f483cff526"
-          (reference "C1004") (unit 1)
+          (reference "C1005") (unit 1)
         )
       )
     )
@@ -897,7 +897,7 @@
           (reference "C901") (unit 1)
         )
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/07a86d0c-0eda-4696-ba3d-09f483cff526"
-          (reference "C1005") (unit 1)
+          (reference "C1004") (unit 1)
         )
       )
     )
@@ -906,7 +906,7 @@
   (symbol (lib_id "power:GND") (at 248.92 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce455cca-8cd1-4d35-87e2-124c9a9fe58f)
-    (property "Reference" "#PWR01006" (at 248.92 105.41 0)
+    (property "Reference" "#PWR01004" (at 248.92 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 248.92 104.14 0)
@@ -922,7 +922,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/07a86d0c-0eda-4696-ba3d-09f483cff526"
-          (reference "#PWR01006") (unit 1)
+          (reference "#PWR01004") (unit 1)
         )
       )
     )

@@ -655,7 +655,7 @@
   (symbol (lib_id "Device:L_Small") (at 152.4 71.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15f1b745-8e12-4a95-9b72-2e0da939e707)
-    (property "Reference" "L1402" (at 152.4 66.04 90)
+    (property "Reference" "L1401" (at 152.4 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10u" (at 152.4 68.58 90)
@@ -672,7 +672,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/2c0a5010-ab28-463f-b516-9128de6cd18d"
-          (reference "L1402") (unit 1)
+          (reference "L1401") (unit 1)
         )
       )
     )
@@ -768,7 +768,7 @@
   (symbol (lib_id "power:GND") (at 182.88 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f84e074-b5f1-40b3-b800-fda2d946a0cb)
-    (property "Reference" "#PWR01407" (at 182.88 125.73 0)
+    (property "Reference" "#PWR01406" (at 182.88 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 124.46 0)
@@ -784,7 +784,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/2c0a5010-ab28-463f-b516-9128de6cd18d"
-          (reference "#PWR01407") (unit 1)
+          (reference "#PWR01406") (unit 1)
         )
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/a7679e4f-f097-4da0-abbe-b751bbcda887"
           (reference "#PWR01803") (unit 1)
@@ -796,7 +796,7 @@
   (symbol (lib_id "Device:L_Small") (at 170.18 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5396373c-1430-4b2f-a179-d18905c0412f)
-    (property "Reference" "L1401" (at 171.45 116.205 0)
+    (property "Reference" "L1402" (at 171.45 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 171.45 118.745 0)
@@ -813,7 +813,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/2c0a5010-ab28-463f-b516-9128de6cd18d"
-          (reference "L1401") (unit 1)
+          (reference "L1402") (unit 1)
         )
       )
     )
@@ -822,7 +822,7 @@
   (symbol (lib_id "power:GND") (at 182.88 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ac8bd79-eada-4c82-8ef8-db3c62a7773f)
-    (property "Reference" "#PWR01408" (at 182.88 102.87 0)
+    (property "Reference" "#PWR01405" (at 182.88 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 101.6 0)
@@ -838,7 +838,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/2c0a5010-ab28-463f-b516-9128de6cd18d"
-          (reference "#PWR01408") (unit 1)
+          (reference "#PWR01405") (unit 1)
         )
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/a7679e4f-f097-4da0-abbe-b751bbcda887"
           (reference "#PWR01803") (unit 1)
@@ -850,7 +850,7 @@
   (symbol (lib_id "power:GND") (at 170.18 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7606c8a5-9861-417b-bbf6-d30be2052340)
-    (property "Reference" "#PWR01406" (at 170.18 128.27 0)
+    (property "Reference" "#PWR01404" (at 170.18 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 127 0)
@@ -866,7 +866,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/2c0a5010-ab28-463f-b516-9128de6cd18d"
-          (reference "#PWR01406") (unit 1)
+          (reference "#PWR01404") (unit 1)
         )
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/a7679e4f-f097-4da0-abbe-b751bbcda887"
           (reference "#PWR01803") (unit 1)
@@ -963,7 +963,7 @@
   (symbol (lib_id "watch_symbols_lib:+4V6") (at 190.5 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbfcf458-30d2-4e72-99f4-9ea373f53316)
-    (property "Reference" "#PWR01404" (at 190.5 87.63 0)
+    (property "Reference" "#PWR01407" (at 190.5 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+4V6" (at 190.5 78.74 0)
@@ -979,7 +979,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/2c0a5010-ab28-463f-b516-9128de6cd18d"
-          (reference "#PWR01404") (unit 1)
+          (reference "#PWR01407") (unit 1)
         )
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/a7679e4f-f097-4da0-abbe-b751bbcda887"
           (reference "#PWR01804") (unit 1)
@@ -1044,7 +1044,7 @@
   (symbol (lib_id "watch_symbols_lib:-2V2") (at 190.5 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3596a71-4a2a-4bf8-874e-bbdade3d99a4)
-    (property "Reference" "#PWR01405" (at 190.5 110.49 0)
+    (property "Reference" "#PWR01408" (at 190.5 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-2V2" (at 190.5 101.6 0)
@@ -1060,7 +1060,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/2c0a5010-ab28-463f-b516-9128de6cd18d"
-          (reference "#PWR01405") (unit 1)
+          (reference "#PWR01408") (unit 1)
         )
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/a7679e4f-f097-4da0-abbe-b751bbcda887"
           (reference "#PWR01805") (unit 1)

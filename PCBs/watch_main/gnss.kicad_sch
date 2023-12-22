@@ -886,38 +886,38 @@
     (uuid f4e2c44a-a7d9-40f2-9e4d-397152c2659c)
   )
 
-  (netclass_flag "" (length 2.54) (shape round) (at 76.2 81.28 0) (fields_autoplaced)
+  (netclass_flag "" (length 2.54) (shape round) (at 53.34 81.28 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 1921b28e-8250-4061-a73b-7f8aeaa8f712)
-    (property "Netclass" "50Ω MS SE" (at 76.8985 78.74 0)
+    (uuid 44818b75-7968-4bdc-8fbb-202705977fc2)
+    (property "Netclass" "50Ω RF" (at 54.0385 78.74 0)
       (effects (font (size 1.27 1.27) italic) (justify left))
     )
   )
-  (netclass_flag "" (length 2.54) (shape round) (at 53.34 81.28 0) (fields_autoplaced)
+  (netclass_flag "" (length 2.54) (shape round) (at 160.02 81.28 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 358e146d-4090-4250-b440-a8936a0c9db1)
-    (property "Netclass" "50Ω MS SE" (at 54.0385 78.74 0)
+    (uuid 8a5f92b6-2a68-4036-a53b-8325d70cbcbf)
+    (property "Netclass" "50Ω RF" (at 160.7185 78.74 0)
       (effects (font (size 1.27 1.27) italic) (justify left))
     )
   )
   (netclass_flag "" (length 2.54) (shape round) (at 177.8 81.28 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 98dfcebc-5f30-44a5-a6af-d352ed68178b)
-    (property "Netclass" "50Ω MS SE" (at 178.4985 78.74 0)
+    (property "Netclass" "50Ω RF" (at 178.4985 78.74 0)
       (effects (font (size 1.27 1.27) italic) (justify left))
     )
   )
-  (netclass_flag "" (length 2.54) (shape round) (at 160.02 81.28 0) (fields_autoplaced)
+  (netclass_flag "" (length 2.54) (shape round) (at 76.2 81.28 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid cd96cd58-7f6c-44a9-8429-eb03193b1b95)
-    (property "Netclass" "50Ω MS SE" (at 160.7185 78.74 0)
+    (uuid b97ded67-3b84-4ace-ace6-25ff7e7c37f1)
+    (property "Netclass" "50Ω RF" (at 76.8985 78.74 0)
       (effects (font (size 1.27 1.27) italic) (justify left))
     )
   )
   (netclass_flag "" (length 2.54) (shape round) (at 119.38 81.28 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ef60fc1a-3388-48ee-a34f-4e1c4e0f8a57)
-    (property "Netclass" "50Ω MS SE" (at 120.0785 78.74 0)
+    (uuid cc3370c4-6a8f-4862-8b9d-2f3693acd402)
+    (property "Netclass" "50Ω RF" (at 120.0785 78.74 0)
       (effects (font (size 1.27 1.27) italic) (justify left))
     )
   )
@@ -996,7 +996,7 @@
   (symbol (lib_id "Device:C_Small") (at 175.26 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b07af39-b929-4fb9-a6e2-83dbb9cbe6b2)
-    (property "Reference" "C401" (at 175.2663 76.2 90)
+    (property "Reference" "C402" (at 175.2663 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "120p" (at 175.2663 78.74 90)
@@ -1013,7 +1013,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/5b4d8e40-7178-4a95-9fb2-854856b4b577"
-          (reference "C401") (unit 1)
+          (reference "C402") (unit 1)
         )
       )
     )
@@ -1111,7 +1111,7 @@
   (symbol (lib_id "Device:C_Small") (at 76.2 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2fe24799-b92f-481d-953e-21be5d61e150)
-    (property "Reference" "C402" (at 78.74 95.8913 0)
+    (property "Reference" "C401" (at 78.74 95.8913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 78.74 98.4313 0)
@@ -1128,7 +1128,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/5b4d8e40-7178-4a95-9fb2-854856b4b577"
-          (reference "C402") (unit 1)
+          (reference "C401") (unit 1)
         )
       )
     )
@@ -1194,7 +1194,7 @@
   (symbol (lib_id "power:GND") (at 86.36 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a0f2134-9c3f-4722-bd50-24a7e8789fb8)
-    (property "Reference" "#PWR0406" (at 86.36 107.95 0)
+    (property "Reference" "#PWR0402" (at 86.36 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 106.68 0)
@@ -1210,7 +1210,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/5b4d8e40-7178-4a95-9fb2-854856b4b577"
-          (reference "#PWR0406") (unit 1)
+          (reference "#PWR0402") (unit 1)
         )
       )
     )
@@ -1245,7 +1245,7 @@
   (symbol (lib_id "power:GND") (at 132.08 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9903ad9c-cb68-4af9-a64a-244a8694f2c6)
-    (property "Reference" "#PWR0405" (at 132.08 100.33 0)
+    (property "Reference" "#PWR0404" (at 132.08 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 99.06 0)
@@ -1261,7 +1261,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/5b4d8e40-7178-4a95-9fb2-854856b4b577"
-          (reference "#PWR0405") (unit 1)
+          (reference "#PWR0404") (unit 1)
         )
       )
     )
@@ -1270,7 +1270,7 @@
   (symbol (lib_id "power:GND") (at 238.76 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2d37c27-f27d-46de-80f6-fbe2675cce34)
-    (property "Reference" "#PWR0404" (at 238.76 123.19 0)
+    (property "Reference" "#PWR0406" (at 238.76 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 121.92 0)
@@ -1286,7 +1286,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/5b4d8e40-7178-4a95-9fb2-854856b4b577"
-          (reference "#PWR0404") (unit 1)
+          (reference "#PWR0406") (unit 1)
         )
       )
     )
@@ -1295,7 +1295,7 @@
   (symbol (lib_id "power:+1V8") (at 238.76 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3df0d6c-d0d6-4faa-9efa-f595cf695d8a)
-    (property "Reference" "#PWR0402" (at 238.76 82.55 0)
+    (property "Reference" "#PWR0405" (at 238.76 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 238.76 74.93 0)
@@ -1311,7 +1311,7 @@
     (instances
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/5b4d8e40-7178-4a95-9fb2-854856b4b577"
-          (reference "#PWR0402") (unit 1)
+          (reference "#PWR0405") (unit 1)
         )
       )
     )
