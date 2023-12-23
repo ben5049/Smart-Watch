@@ -13,7 +13,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 62a1cb94-6812-41f4-8e53-147d309b173e)
   )
-  (pad "1" thru_hole circle (at 0 0) (size 3 3) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp b90a65e5-e918-43cf-be38-42f632969e33))
+  (pad "1" thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp b90a65e5-e918-43cf-be38-42f632969e33))
   (model "${KIPRJMOD}/../component_library/watch_models/Pogo_Pin_8mm.step"
     (offset (xyz 0 0 -2.16))
     (scale (xyz 1 1 1))

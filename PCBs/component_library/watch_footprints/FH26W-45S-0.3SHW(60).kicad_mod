@@ -21,6 +21,8 @@
     (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp ecc79e8b-dcba-492b-99eb-0ac259164645))
   (fp_line (start 7.7 2) (end 7.7 0.5)
     (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp 9b596322-251b-46b3-b58e-f39db3de19a4))
+  (fp_rect (start -8 -0.5) (end 8 3.5)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp dd552481-92f9-42a8-bb6b-015bc5db7ae5))
   (pad "1" smd rect (at -6.6 2.875) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp 413e7e57-56a3-43cc-8a59-c6a2ceaeed11))
   (pad "2" smd rect (at -6.3 0) (size 0.3 0.65) (layers "F.Cu" "F.Paste" "F.Mask")

@@ -1349,6 +1349,11 @@
     (uuid fabe826d-de91-4bad-a459-d9b759815dc9)
   )
 
+  (text "Add reset buttons + power switch" (at 139.7 154.94 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0c9351f6-3b9e-40c6-8070-936406b50ba9)
+  )
+
   (label "STM32_SWCLK" (at 58.42 48.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 15c9b6c6-5456-40b8-ab6b-efd37f4a27bd)
