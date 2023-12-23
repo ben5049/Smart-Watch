@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -184,6 +184,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.15
         },
         {
           "diameter": 0.3,
@@ -483,7 +487,7 @@
         "name": "50Ω RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.2591,
         "via_diameter": 0.3,
         "via_drill": 0.2,
         "wire_width": 6
@@ -623,6 +627,38 @@
       {
         "netclass": "50Ω RF",
         "pattern": "/GNSS/RF_1.575G"
+      },
+      {
+        "netclass": "50Ω RF",
+        "pattern": "/GNSS/LNA_OUT"
+      },
+      {
+        "netclass": "50Ω RF",
+        "pattern": "/GNSS/SAW_OUT"
+      },
+      {
+        "netclass": "50Ω RF",
+        "pattern": "/GNSS/RF_IN"
+      },
+      {
+        "netclass": "50Ω RF",
+        "pattern": "/GNSS/LNA_IN"
+      },
+      {
+        "netclass": "50Ω RF",
+        "pattern": "/Antenna/Ft_GPS"
+      },
+      {
+        "netclass": "50Ω RF",
+        "pattern": "/Antenna/Ft_2.4GHz"
+      },
+      {
+        "netclass": "50Ω RF",
+        "pattern": "/Antenna/Ft_5.5GHz"
+      },
+      {
+        "netclass": "50Ω RF",
+        "pattern": "/Antenna/Mt_2.4GHz"
       }
     ]
   },
