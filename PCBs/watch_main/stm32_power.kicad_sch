@@ -1232,58 +1232,6 @@
         )
       )
     )
-    (symbol "watch_symbols_lib:+3V3A" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3V3A" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3V3A\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3V3A_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3V3A_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3A" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
   )
 
   (junction (at 231.14 99.06) (diameter 0) (color 0 0 0 0)
@@ -2588,6 +2536,34 @@
     )
   )
 
+  (symbol (lib_id "power:+3V3") (at 33.02 116.84 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2d7e452c-00ca-433a-a403-b0ec8dba9094)
+    (property "Reference" "#PWR0226" (at 33.02 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 33.02 111.76 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 33.02 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 33.02 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1e1c3dfe-500c-4b85-bd64-49ecfa42580e))
+    (instances
+      (project "watch_main"
+        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f996a8c-7777-4a55-b361-37cede76953f"
+          (reference "#PWR0226") (unit 1)
+        )
+        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f147234-e39a-4c7c-8011-0af923cea553/79cbc0a6-b22c-4240-8664-408cf0e62ea6"
+          (reference "#PWR0905") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Small") (at 152.4 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3832532e-0b50-44f3-a877-f4eac53c8bb5)
@@ -2934,34 +2910,6 @@
     )
   )
 
-  (symbol (lib_id "watch_symbols_lib:+3V3A") (at 33.02 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9aba357e-5f90-4f8b-b75c-74b5c38c8538)
-    (property "Reference" "#PWR0702" (at 33.02 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3A" (at 33.02 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 33.02 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 33.02 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ca0e3094-309d-490a-82f9-e0c17af882cb))
-    (instances
-      (project "watch_main"
-        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f147234-e39a-4c7c-8011-0af923cea553"
-          (reference "#PWR0702") (unit 1)
-        )
-        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f147234-e39a-4c7c-8011-0af923cea553/79cbc0a6-b22c-4240-8664-408cf0e62ea6"
-          (reference "#PWR0905") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C_Small") (at 71.12 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9cd2a58c-350b-4a89-b7ca-5768aef82a2c)
@@ -3062,6 +3010,34 @@
         )
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f147234-e39a-4c7c-8011-0af923cea553/79cbc0a6-b22c-4240-8664-408cf0e62ea6"
           (reference "#PWR0906") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 157.48 127 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b411555b-cbca-4a8b-91a1-371b19a7b580)
+    (property "Reference" "#PWR0226" (at 157.48 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 157.48 121.92 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 157.48 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 157.48 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a3a8408e-d7d8-4ae8-acff-106c6b4670fa))
+    (instances
+      (project "watch_main"
+        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f996a8c-7777-4a55-b361-37cede76953f"
+          (reference "#PWR0226") (unit 1)
+        )
+        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f147234-e39a-4c7c-8011-0af923cea553/79cbc0a6-b22c-4240-8664-408cf0e62ea6"
+          (reference "#PWR0911") (unit 1)
         )
       )
     )
@@ -3760,34 +3736,6 @@
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f147234-e39a-4c7c-8011-0af923cea553/79cbc0a6-b22c-4240-8664-408cf0e62ea6"
           (reference "C918") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "watch_symbols_lib:+3V3A") (at 157.48 127 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e8238482-dbc1-477f-8de4-7c782d88cc4c)
-    (property "Reference" "#PWR0702" (at 157.48 130.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3A" (at 157.48 121.92 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 157.48 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 157.48 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0a7ce986-a54a-4cff-8e56-9d029ab77952))
-    (instances
-      (project "watch_main"
-        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f147234-e39a-4c7c-8011-0af923cea553"
-          (reference "#PWR0702") (unit 1)
-        )
-        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f147234-e39a-4c7c-8011-0af923cea553/79cbc0a6-b22c-4240-8664-408cf0e62ea6"
-          (reference "#PWR0911") (unit 1)
         )
       )
     )

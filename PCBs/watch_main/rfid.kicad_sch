@@ -877,6 +877,58 @@
         )
       )
     )
+    (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V3" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V3_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V3_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -965,58 +1017,6 @@
       (symbol "+1V65_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
           (name "+1V65" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "watch_symbols_lib:+3V3A" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3V3A" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3V3A\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3V3A_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3V3A_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3A" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -2378,31 +2378,6 @@
     )
   )
 
-  (symbol (lib_id "watch_symbols_lib:+3V3A") (at 124.46 160.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1c8e6ac4-8182-408d-af3c-4b52fd01cdb3)
-    (property "Reference" "#PWR01711" (at 124.46 163.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3A" (at 124.46 154.94 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 124.46 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 124.46 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d2163098-612b-4e0d-80c6-91b89d5438d9))
-    (instances
-      (project "watch_main"
-        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
-          (reference "#PWR01711") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_Small") (at 160.02 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b865c1d-8259-4f0d-aeaa-2279863d591a)
@@ -2569,6 +2544,34 @@
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "C1712") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 124.46 160.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3e6c01e8-9eaf-4ca6-9281-cf28c520cf92)
+    (property "Reference" "#PWR0226" (at 124.46 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 124.46 154.94 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 124.46 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 124.46 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d6b74515-8c9a-45ea-8797-3c74944ac701))
+    (instances
+      (project "watch_main"
+        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f996a8c-7777-4a55-b361-37cede76953f"
+          (reference "#PWR0226") (unit 1)
+        )
+        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
+          (reference "#PWR01711") (unit 1)
         )
       )
     )
@@ -3147,31 +3150,6 @@
     )
   )
 
-  (symbol (lib_id "watch_symbols_lib:+3V3A") (at 76.2 162.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 905c2332-8d7d-4ec7-b975-f37264a66189)
-    (property "Reference" "#PWR01706" (at 76.2 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3A" (at 76.2 157.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 76.2 162.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 76.2 162.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4372dcea-a473-42d1-a8aa-611a4efd31ab))
-    (instances
-      (project "watch_main"
-        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
-          (reference "#PWR01706") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 160.02 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93441ab1-0d78-43d0-9ab3-2dc47d519d40)
@@ -3477,6 +3455,34 @@
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01708") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 76.2 162.56 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b9762ac1-a7b3-4536-982e-1db6ded42d62)
+    (property "Reference" "#PWR0226" (at 76.2 166.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 76.2 157.48 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 76.2 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 76.2 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 987e2a5e-686e-4516-a923-ddba14e59eb8))
+    (instances
+      (project "watch_main"
+        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f996a8c-7777-4a55-b361-37cede76953f"
+          (reference "#PWR0226") (unit 1)
+        )
+        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
+          (reference "#PWR01706") (unit 1)
         )
       )
     )
