@@ -1397,8 +1397,8 @@
   )
 
   (bus_alias "UART" (members "TX" "RX"))
-  (bus_alias "QSPI" (members "SCK" "IO0" "IO1" "IO2" "IO3" "CS"))
   (bus_alias "DSI-2" (members "CKN" "CKP" "D0N" "D0P" "D1N" "D1P"))
+  (bus_alias "QSPI" (members "SCK" "IO0" "IO1" "IO2" "IO3" "CS"))
   (bus_alias "SPI" (members "SCK" "MISO" "MOSI" "CS"))
   (bus_alias "I2C" (members "SCL" "SDA"))
   (bus_alias "SDIO" (members "CK" "CKIN" "D0" "D1" "D2" "D3" "CMD"))

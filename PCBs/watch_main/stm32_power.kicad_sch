@@ -2269,7 +2269,7 @@
     (uuid f66327e6-1f63-49fc-8485-990c31eb28c9)
   )
 
-  (text "VDDIO2 is 3V3 to interface\nwith GNSS module" (at 93.98 66.04 0)
+  (text "VDDIO2 is 3V3 to interface\nwith touch sensor" (at 93.98 66.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0cf7a292-413c-49e0-9878-d0fbb9e026cb)
   )
