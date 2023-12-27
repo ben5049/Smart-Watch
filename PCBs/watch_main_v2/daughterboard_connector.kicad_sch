@@ -6,7 +6,7 @@
 
   (title_block
     (title "Watch Daughterboard Connector")
-    (rev "2")
+    (rev "1")
   )
 
   (lib_symbols

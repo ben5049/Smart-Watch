@@ -504,6 +504,23 @@
         "via_diameter": 0.3,
         "via_drill": 0.2,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.09,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90Ω MS D",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.3,
+        "via_drill": 0.2,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -538,7 +555,9 @@
       "/SDMMC1.D0": "50Ω MS SE",
       "/SDMMC1.D1": "50Ω MS SE",
       "/SDMMC1.D2": "50Ω MS SE",
-      "/SDMMC1.D3": "50Ω MS SE"
+      "/SDMMC1.D3": "50Ω MS SE",
+      "/USB.DN": "90Ω MS D",
+      "/USB.DP": "90Ω MS D"
     },
     "netclass_patterns": [
       {
@@ -754,7 +773,7 @@
       "STM32"
     ],
     [
-      "79cbc0a6-b22c-4240-8664-408cf0e62ea6",
+      "33d67b76-a42b-4d84-b0e4-612bd98397b4",
       "STM32 Power"
     ],
     [

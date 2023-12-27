@@ -6,7 +6,7 @@
 
   (title_block
     (title "Watch Button")
-    (rev "2")
+    (rev "1")
   )
 
   (lib_symbols
