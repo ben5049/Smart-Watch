@@ -1727,13 +1727,6 @@
       (effects (font (size 1.27 1.27) italic) (justify right) hide)
     )
   )
-  (hierarchical_label "SWD" (shape bidirectional) (at 266.7 43.18 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid f5252798-0232-4461-9294-80ad3bb9bec7)
-    (property "DSI" "DSI" (at 233.68 44.45 0)
-      (effects (font (size 1.27 1.27) italic) (justify right) hide)
-    )
-  )
 
   (netclass_flag "" (length 2.54) (shape round) (at 231.14 68.58 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))

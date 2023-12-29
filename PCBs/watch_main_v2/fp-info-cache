@@ -1,4 +1,4 @@
-21955026781410726
+21958436835343700
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91364,6 +91364,13 @@ YC248-JR-0733RL
 16
 16
 watch_footprints
+10-Pin Pogo Connector
+
+
+0
+10
+10
+watch_footprints
 105162-0001
 105162-0001
 Connector
@@ -91535,6 +91542,13 @@ watch_footprints
 MIPI10
 surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows
 Surface mounted pin header SMD 2x05 1.27mm double row
+0
+10
+10
+watch_footprints
+NCP45525IMNTWGH
+DFN8, 2x2 CASE 506CC
+Integrated Circuit
 0
 10
 10

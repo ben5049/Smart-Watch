@@ -1,0 +1,18 @@
+2023-12-29 00:18:23,536 [INFO] McuFinderGlobals:63 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-12-29 00:18:23,567 [INFO] MainUpdater:2873 - connection check result : 10
+2023-12-29 00:18:23,572 [INFO] MainUpdater:2873 - connection check result : 10
+2023-12-29 00:18:23,743 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-12-29 00:18:23,743 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2023-12-29 00:18:23,747 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2023-12-29 00:18:23,747 [INFO] ThirdParty:873 - entering critical section [close project]
+2023-12-29 00:18:23,747 [INFO] ThirdParty:883 - exiting critical section [close project]
+2023-12-29 00:18:23,749 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-12-29 00:18:23,751 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 543590952 Bytes (865075200)
+2023-12-29 00:18:23,754 [INFO] OpenFileManager:312 - Change cursor
+2023-12-29 00:18:23,788 [INFO] ThirdPartyDownloadManager:103 - Found SW packSTMicroelectronics.X-CUBE-ISPU.1.1.0up-to-date on disk
+2023-12-29 00:18:23,818 [INFO] ThirdPartyDownloadManager:103 - Found SW packSTMicroelectronics.X-CUBE-MEMS1.10.0.0up-to-date on disk
+2023-12-29 00:18:23,849 [INFO] ThirdPartyDownloadManager:103 - Found SW packSTMicroelectronics.X-CUBE-GNSS1.6.0.0up-to-date on disk
+2023-12-29 00:18:23,877 [INFO] ThirdPartyDownloadManager:103 - Found SW packSTMicroelectronics.X-CUBE-TOUCHGFX.4.23.0up-to-date on disk
+2023-12-29 00:18:23,911 [INFO] Mcu:2016 - Initializing MCU STM32U5A9NJHxQ STM32U5A9NJHxQ STM32U5A9NJH6Q
+2023-12-29 00:18:31,223 [INFO] ApiDbMcu:508 - Load IP Config File for STMicroelectronics.X-CUBE-ISPU.1.1.0
+2023-12-29 00:18:31,360 [INFO] ApiDbIP:1779 - IP STMicroelectronics.X-CUBE-MEMS1.10.0.0 10.0.0 refparameter STHS34PF80_ADDR is referenced in RefMode but not declared as Refparameter
