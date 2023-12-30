@@ -30,4 +30,5 @@
   (lib (name "AXG130144")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/AXG130144.kicad_sym")(options "")(descr ""))
   (lib (name "500913-0242")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/500913-0242.kicad_sym")(options "")(descr ""))
   (lib (name "NCP45525IMNTWG-H")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/NCP45525IMNTWG-H.kicad_sym")(options "")(descr ""))
+  (lib (name "M24256X-FCU6T_VF")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/M24256X-FCU6T_VF.kicad_sym")(options "")(descr ""))
 )

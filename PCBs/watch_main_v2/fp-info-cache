@@ -1,4 +1,4 @@
-21958437859934570
+21961845667451337
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91434,6 +91434,13 @@ B39162B4327P810
 5
 5
 watch_footprints
+BGA4C50P2X2_70X98X33
+M24256X-FCU6T/VF*3
+Integrated Circuit
+0
+4
+4
+watch_footprints
 BGA6C50P3X2_152X100X69
 6 UCSP
 Integrated Circuit
@@ -91680,6 +91687,13 @@ Watch Outline V1 SS
 0
 watch_footprints
 Watch Outline V2
+
+
+0
+0
+0
+watch_footprints
+Watch Outline V2 SS
 
 
 0

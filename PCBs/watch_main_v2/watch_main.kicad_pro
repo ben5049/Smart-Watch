@@ -800,6 +800,10 @@
     [
       "1c8b0926-eb17-4410-bb59-3e613143ea07",
       "Expansion Connector"
+    ],
+    [
+      "434974c9-9ae3-4a0d-b3ae-f641f264a503",
+      "EEPROM"
     ]
   ],
   "text_variables": {}
