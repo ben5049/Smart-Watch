@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7f374643-2d66-4cfc-a525-255f058de0be)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 121.92 66.04) (size 43.18 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a9cdb386-76ee-47d2-86a0-cb7dea8af18d)
+    (property "Sheetname" "RFID" (at 121.92 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "rfid.kicad_sch" (at 121.92 109.8046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

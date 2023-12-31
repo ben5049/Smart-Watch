@@ -2165,7 +2165,7 @@
   (symbol (lib_id "DMN21D2UFB-7B:DMN21D2UFB-7B") (at 152.4 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 080bb8a9-6b5f-4052-a937-7944b18f144b)
-    (property "Reference" "Q1704" (at 163.83 73.025 0)
+    (property "Reference" "Q204" (at 163.83 73.025 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DMN21D2UFB-7B" (at 163.83 75.565 0)
@@ -2196,6 +2196,11 @@
     (pin "2" (uuid 74682c79-135e-447f-a71b-a0538ce6ec3d))
     (pin "3" (uuid ec65c56b-d682-4efc-9835-2bae68caa8f4))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "Q204") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "Q1704") (unit 1)
@@ -2207,7 +2212,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 259.08 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f777db1-5101-45ec-8ce6-40d4da194747)
-    (property "Reference" "TP804" (at 260.35 126.365 0)
+    (property "Reference" "TP203" (at 260.35 126.365 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5mm" (at 260.35 128.905 0)
@@ -2221,6 +2226,11 @@
     )
     (pin "1" (uuid 5f890226-d42c-463f-a976-cc359d71eae3))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "TP203") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f147234-e39a-4c7c-8011-0af923cea553"
           (reference "TP804") (unit 1)
@@ -2235,7 +2245,7 @@
   (symbol (lib_id "power:GND") (at 119.38 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10a0f290-21da-4643-b5c2-904f5aefada4)
-    (property "Reference" "#PWR01710" (at 119.38 69.85 0)
+    (property "Reference" "#PWR0210" (at 119.38 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 68.58 0)
@@ -2249,6 +2259,11 @@
     )
     (pin "1" (uuid 6284fff6-7abe-4e81-8893-13d403dc9ad9))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0210") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01710") (unit 1)
@@ -2260,7 +2275,7 @@
   (symbol (lib_id "power:GND") (at 256.54 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 121e6680-9073-4bcc-be16-9cf8b9f52083)
-    (property "Reference" "#PWR01724" (at 256.54 153.67 0)
+    (property "Reference" "#PWR0224" (at 256.54 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 256.54 152.4 0)
@@ -2274,6 +2289,11 @@
     )
     (pin "1" (uuid 92199137-a222-4897-a5b0-c2cfb39bfeb9))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0224") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01724") (unit 1)
@@ -2285,7 +2305,7 @@
   (symbol (lib_id "Device:R_Small") (at 48.26 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14a55e4d-4ef3-45ad-a82a-2e264af21ca1)
-    (property "Reference" "R1703" (at 48.26 116.84 90)
+    (property "Reference" "R203" (at 48.26 116.84 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5k1" (at 48.26 119.38 90)
@@ -2300,6 +2320,11 @@
     (pin "1" (uuid ba21bb5a-3096-4a59-b1dc-dcf304b61858))
     (pin "2" (uuid 78d12dd6-7c28-4d2b-9ede-9f545a802713))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R203") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1703") (unit 1)
@@ -2311,7 +2336,7 @@
   (symbol (lib_id "DMN21D2UFB-7B:DMN21D2UFB-7B") (at 50.8 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17a7f845-01bc-4671-8934-533e4e9079eb)
-    (property "Reference" "Q1701" (at 60.96 76.2 0)
+    (property "Reference" "Q201" (at 60.96 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DMN21D2UFB-7B" (at 60.96 78.74 0)
@@ -2342,6 +2367,11 @@
     (pin "2" (uuid c6a2a25a-b3d3-47ac-8638-3420a7abcfe7))
     (pin "3" (uuid ff2c67ec-25a6-4b51-82cb-5621a0f6a5ce))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "Q201") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "Q1701") (unit 1)
@@ -2353,7 +2383,7 @@
   (symbol (lib_id "Device:C_Small") (at 198.12 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1968f580-4e90-4c61-a3b3-d4ecaef18f26)
-    (property "Reference" "C1710" (at 200.66 128.9113 0)
+    (property "Reference" "C210" (at 200.66 128.9113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4n7" (at 200.66 131.4513 0)
@@ -2368,6 +2398,11 @@
     (pin "1" (uuid e57e9560-2718-44de-87e5-18d5d9a558dd))
     (pin "2" (uuid 0930af11-65a4-4edd-921c-1e3770ad8486))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "C210") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "C1710") (unit 1)
@@ -2379,7 +2414,7 @@
   (symbol (lib_id "Device:R_Small") (at 160.02 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b865c1d-8259-4f0d-aeaa-2279863d591a)
-    (property "Reference" "R1716" (at 162.56 57.785 0)
+    (property "Reference" "R216" (at 162.56 57.785 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330" (at 162.56 60.325 0)
@@ -2394,6 +2429,11 @@
     (pin "1" (uuid 5fb8c13e-b525-414a-95b9-11d14cf8e0a1))
     (pin "2" (uuid c9ebd5be-1bb5-4570-9d80-779fb27fd80c))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R216") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1716") (unit 1)
@@ -2405,7 +2445,7 @@
   (symbol (lib_id "DMN21D2UFB-7B:DMN21D2UFB-7B") (at 71.12 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ccdd611-fdf7-47b6-b987-af489a682473)
-    (property "Reference" "Q1703" (at 82.55 70.485 0)
+    (property "Reference" "Q203" (at 82.55 70.485 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DMN21D2UFB-7B" (at 82.55 73.025 0)
@@ -2436,6 +2476,11 @@
     (pin "2" (uuid 41678fc6-f859-4289-a601-856ed7a27206))
     (pin "3" (uuid 47010b81-22fe-4592-97cc-60bfc2ffe0a3))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "Q203") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "Q1703") (unit 1)
@@ -2447,7 +2492,7 @@
   (symbol (lib_id "Device:R_Small") (at 35.56 78.74 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3344781c-2d20-4c17-9012-45314a783563)
-    (property "Reference" "R1701" (at 33.02 78.105 0)
+    (property "Reference" "R201" (at 33.02 78.105 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 33.02 80.645 0)
@@ -2462,6 +2507,11 @@
     (pin "1" (uuid 94416cf1-bbdf-4e7c-b094-a75c4f5f11d9))
     (pin "2" (uuid 65a88d60-1ac1-4827-aa9b-c4efcd4936a3))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R201") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1701") (unit 1)
@@ -2473,7 +2523,7 @@
   (symbol (lib_id "watch_symbols_lib:+1V65") (at 160.02 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ba511b8-59e2-445d-a686-95fa452bdc93)
-    (property "Reference" "#PWR01717" (at 160.02 158.75 0)
+    (property "Reference" "#PWR0217" (at 160.02 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V65" (at 160.02 151.13 0)
@@ -2487,6 +2537,11 @@
     )
     (pin "1" (uuid 94261922-4027-445e-b523-cb5c4e609707))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0217") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01717") (unit 1)
@@ -2498,7 +2553,7 @@
   (symbol (lib_id "Device:C_Small") (at 76.2 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3bf979e2-299a-4b10-9c2d-809edfef3d78)
-    (property "Reference" "C1703" (at 78.74 168.9163 0)
+    (property "Reference" "C203" (at 78.74 168.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 78.74 171.4563 0)
@@ -2513,6 +2568,11 @@
     (pin "1" (uuid 895a2930-769b-4194-bc13-2749fad6319e))
     (pin "2" (uuid 0adf08b8-4a7d-4b71-aecd-b17855fba02f))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "C203") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "C1703") (unit 1)
@@ -2524,7 +2584,7 @@
   (symbol (lib_id "Device:C_Small") (at 218.44 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3cf2d483-66b5-4dc5-974b-340bb1d12d22)
-    (property "Reference" "C1712" (at 220.98 113.6713 0)
+    (property "Reference" "C212" (at 220.98 113.6713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100p" (at 220.98 116.2113 0)
@@ -2539,6 +2599,11 @@
     (pin "1" (uuid c6c83fc3-a59a-4b13-a907-8266d3739b01))
     (pin "2" (uuid 195cbd55-0253-426f-8836-b67e63c4651d))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "C212") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "C1712") (unit 1)
@@ -2550,7 +2615,7 @@
   (symbol (lib_id "power:+3V3") (at 124.46 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e6c01e8-9eaf-4ca6-9281-cf28c520cf92)
-    (property "Reference" "#PWR0226" (at 124.46 163.83 0)
+    (property "Reference" "#PWR0211" (at 124.46 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 124.46 154.94 0)
@@ -2564,6 +2629,11 @@
     )
     (pin "1" (uuid d6b74515-8c9a-45ea-8797-3c74944ac701))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0211") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f996a8c-7777-4a55-b361-37cede76953f"
           (reference "#PWR0226") (unit 1)
@@ -2578,7 +2648,7 @@
   (symbol (lib_id "power:GND") (at 147.32 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fc1f596-db27-4c96-ab3e-710eb4511868)
-    (property "Reference" "#PWR01714" (at 147.32 69.85 0)
+    (property "Reference" "#PWR0214" (at 147.32 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 68.58 0)
@@ -2592,6 +2662,11 @@
     )
     (pin "1" (uuid 6aa439e2-5291-45f6-ae82-3e555bd229d7))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0214") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01714") (unit 1)
@@ -2603,7 +2678,7 @@
   (symbol (lib_id "power:GND") (at 58.42 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a54852f-0e17-4214-a085-5428edc07bff)
-    (property "Reference" "#PWR01704" (at 58.42 87.63 0)
+    (property "Reference" "#PWR0204" (at 58.42 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 58.42 86.36 0)
@@ -2617,6 +2692,11 @@
     )
     (pin "1" (uuid 2501844a-d9bc-4ca1-99e0-1fd4fb2b4284))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0204") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01704") (unit 1)
@@ -2628,7 +2708,7 @@
   (symbol (lib_id "Device:R_Small") (at 147.32 76.2 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c5f28fe-80db-472b-89aa-acfe51312a34)
-    (property "Reference" "R1715" (at 147.32 78.74 90)
+    (property "Reference" "R215" (at 147.32 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 147.32 81.28 90)
@@ -2643,6 +2723,11 @@
     (pin "1" (uuid 2ca9e0c8-8f96-45b0-b98b-bd3a14bd06ec))
     (pin "2" (uuid 3c71a9d3-b9c9-42c8-a031-da32f13d5b43))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R215") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1715") (unit 1)
@@ -2654,7 +2739,7 @@
   (symbol (lib_id "Device:R_Small") (at 40.64 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d7f3b13-daf1-4bac-b300-6268384e918f)
-    (property "Reference" "R1702" (at 40.64 68.58 90)
+    (property "Reference" "R202" (at 40.64 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 40.64 71.12 90)
@@ -2669,6 +2754,11 @@
     (pin "1" (uuid 7c6ec6f9-f746-447c-8d8f-212f0a930581))
     (pin "2" (uuid 0b08eec2-daea-4dc6-baa1-0b53fd17cbf6))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R202") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1702") (unit 1)
@@ -2680,7 +2770,7 @@
   (symbol (lib_id "Device:R_Small") (at 83.82 106.68 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56e5a51a-6638-4b4c-b9ca-e97b5334e5d3)
-    (property "Reference" "R1708" (at 83.82 109.22 90)
+    (property "Reference" "R208" (at 83.82 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 83.82 111.76 90)
@@ -2695,6 +2785,11 @@
     (pin "1" (uuid 3d18b1c4-324b-45a3-895b-572a1859c0f9))
     (pin "2" (uuid 93e1db75-26d4-42c7-a4af-18a52668e161))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R208") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1708") (unit 1)
@@ -2706,7 +2801,7 @@
   (symbol (lib_id "Device:R_Small") (at 256.54 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 58f92a74-bbd9-4f04-a4e4-87832e73ae68)
-    (property "Reference" "R1723" (at 259.08 139.065 0)
+    (property "Reference" "R223" (at 259.08 139.065 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20k" (at 259.08 141.605 0)
@@ -2721,6 +2816,11 @@
     (pin "1" (uuid ea5c7b5f-fdbd-4a51-a6f8-cf054b769781))
     (pin "2" (uuid d67a7caf-96fd-4df9-a4c9-b65261e9be7b))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R223") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1723") (unit 1)
@@ -2732,7 +2832,7 @@
   (symbol (lib_id "Device:C_Small") (at 63.5 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ce3eabe-509a-45a7-bfd7-88dc57e6eff9)
-    (property "Reference" "C1702" (at 63.5063 116.84 90)
+    (property "Reference" "C202" (at 63.5063 116.84 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220n" (at 63.5063 119.38 90)
@@ -2747,6 +2847,11 @@
     (pin "1" (uuid d6f8e663-403b-4d49-b32c-237fa09229e0))
     (pin "2" (uuid df34868a-e046-4334-9a3a-a8db03602a6a))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "C202") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "C1702") (unit 1)
@@ -2758,7 +2863,7 @@
   (symbol (lib_id "Device:C_Small") (at 152.4 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e0b2d37-2fbb-45de-ae93-c743bd91019e)
-    (property "Reference" "C1708" (at 154.94 111.1313 0)
+    (property "Reference" "C208" (at 154.94 111.1313 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100p" (at 154.94 113.6713 0)
@@ -2773,6 +2878,11 @@
     (pin "1" (uuid 87b524c4-00bf-45d6-9db7-fd54871d2912))
     (pin "2" (uuid 078bd665-7218-462b-980b-73b685742127))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "C208") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "C1708") (unit 1)
@@ -2784,7 +2894,7 @@
   (symbol (lib_id "Device:C_Small") (at 132.08 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62c77a21-bc47-4a80-9f92-9e592239a168)
-    (property "Reference" "C1706" (at 134.62 126.3713 0)
+    (property "Reference" "C206" (at 134.62 126.3713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4n7" (at 134.62 128.9113 0)
@@ -2799,6 +2909,11 @@
     (pin "1" (uuid 75ddc796-dab7-480b-b0e2-ba70699e7295))
     (pin "2" (uuid 192ed428-6f10-4a9d-9b13-735d2214354a))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "C206") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "C1706") (unit 1)
@@ -2810,7 +2925,7 @@
   (symbol (lib_id "Device:R_Small") (at 144.78 119.38 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6bea0282-e360-4cb3-9e52-9d8a9d8b5b4f)
-    (property "Reference" "R1714" (at 144.78 121.92 90)
+    (property "Reference" "R214" (at 144.78 121.92 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 144.78 124.46 90)
@@ -2825,6 +2940,11 @@
     (pin "1" (uuid 9012f1d2-977e-4254-ad41-7a10cfb97b56))
     (pin "2" (uuid 34c11ddb-8235-40d5-92cd-6497e40018bf))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R214") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1714") (unit 1)
@@ -2836,7 +2956,7 @@
   (symbol (lib_id "Device:C_Small") (at 210.82 58.42 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 73af7317-3d14-4da3-a8f7-845ae9c171aa)
-    (property "Reference" "C1711" (at 208.28 57.1563 0)
+    (property "Reference" "C211" (at 208.28 57.1563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 208.28 59.6963 0)
@@ -2851,6 +2971,11 @@
     (pin "1" (uuid 713fe781-22bc-4b97-b8d1-9db70b251027))
     (pin "2" (uuid 5785be43-245f-4f68-a415-0fb3d46eaea9))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "C211") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "C1711") (unit 1)
@@ -2862,7 +2987,7 @@
   (symbol (lib_id "Device:R_Small") (at 71.12 114.3 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73e9320d-b4df-4e87-b01a-bdfa38610a69)
-    (property "Reference" "R1705" (at 73.66 113.665 0)
+    (property "Reference" "R205" (at 73.66 113.665 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 73.66 116.205 0)
@@ -2877,6 +3002,11 @@
     (pin "1" (uuid 554ade9b-47e1-4b7d-9612-3cc9887030db))
     (pin "2" (uuid b76f7fcf-7b9b-4e7f-956e-fc53f5e22098))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R205") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1705") (unit 1)
@@ -2888,7 +3018,7 @@
   (symbol (lib_id "power:GND") (at 35.56 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e702dd3-c6db-4982-b770-c6656c28bf65)
-    (property "Reference" "#PWR01701" (at 35.56 90.17 0)
+    (property "Reference" "#PWR0201" (at 35.56 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 35.56 88.9 0)
@@ -2902,6 +3032,11 @@
     )
     (pin "1" (uuid 34649f4d-baf3-4899-a226-8a72e79da706))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0201") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01701") (unit 1)
@@ -2913,7 +3048,7 @@
   (symbol (lib_id "Device:R_Small") (at 58.42 38.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8421de75-97f6-41ce-b2b3-30fb0dadc7b4)
-    (property "Reference" "R1704" (at 60.96 37.465 0)
+    (property "Reference" "R204" (at 60.96 37.465 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 60.96 40.005 0)
@@ -2928,6 +3063,11 @@
     (pin "1" (uuid 0609ae64-232f-4ee3-9d5b-06989b35996a))
     (pin "2" (uuid 1ece46d4-6386-42b1-869d-8b8da00ae827))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R204") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1704") (unit 1)
@@ -2939,7 +3079,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 127 45.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8830794f-b44c-4c49-b207-48fec423b0a3)
-    (property "Reference" "TP804" (at 125.73 45.085 0)
+    (property "Reference" "TP201" (at 125.73 45.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5mm" (at 125.73 47.625 0)
@@ -2953,6 +3093,11 @@
     )
     (pin "1" (uuid 588df4a8-5308-4f2e-8544-caf903da3b47))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "TP201") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f147234-e39a-4c7c-8011-0af923cea553"
           (reference "TP804") (unit 1)
@@ -2967,7 +3112,7 @@
   (symbol (lib_id "Device:R_Small") (at 172.72 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 89e79caa-dcfe-4ce5-a2b2-127e2f65ff8d)
-    (property "Reference" "R1717" (at 175.26 57.785 0)
+    (property "Reference" "R217" (at 175.26 57.785 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330k" (at 175.26 60.325 0)
@@ -2982,6 +3127,11 @@
     (pin "1" (uuid be0077d6-6447-418a-adba-285f7b5b9cf6))
     (pin "2" (uuid a54df88d-72e5-4fda-af5c-64ef395834b4))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R217") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1717") (unit 1)
@@ -2993,7 +3143,7 @@
   (symbol (lib_id "Device:R_Small") (at 101.6 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b3285ce-df0c-400b-b23c-d0c5f34c6acd)
-    (property "Reference" "R1709" (at 101.6 101.6 90)
+    (property "Reference" "R209" (at 101.6 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4k7" (at 101.6 104.14 90)
@@ -3008,6 +3158,11 @@
     (pin "1" (uuid 18ce16fa-1b82-4fac-8089-ef6b4a61e564))
     (pin "2" (uuid 3ae6bfd4-cfe3-4028-869c-9d2d309f44e3))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R209") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1709") (unit 1)
@@ -3019,7 +3174,7 @@
   (symbol (lib_id "Device:R_Small") (at 124.46 119.38 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c459add-a10d-4a73-8cb3-bfecf17ff4d9)
-    (property "Reference" "R1710" (at 124.46 121.92 90)
+    (property "Reference" "R210" (at 124.46 121.92 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 124.46 124.46 90)
@@ -3034,6 +3189,11 @@
     (pin "1" (uuid bad4af80-b6a8-4c43-b1e1-21c0870bed22))
     (pin "2" (uuid a0407ed6-eda9-4844-8861-0b970472c2ba))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R210") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1710") (unit 1)
@@ -3045,7 +3205,7 @@
   (symbol (lib_id "Device:R_Small") (at 137.16 111.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d886216-7458-43ea-9fa5-3c51234403ab)
-    (property "Reference" "R1713" (at 134.62 111.125 0)
+    (property "Reference" "R213" (at 134.62 111.125 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 134.62 113.665 0)
@@ -3060,6 +3220,11 @@
     (pin "1" (uuid dc9c41c0-cf99-4dd8-a392-b05dae1f43eb))
     (pin "2" (uuid 320fca93-6288-442b-96a9-fa7ff7dff273))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R213") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1713") (unit 1)
@@ -3071,7 +3236,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 154.94 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8eb89f94-9952-4721-a9de-e99786ff6f4d)
-    (property "Reference" "TP804" (at 156.21 45.085 0)
+    (property "Reference" "TP202" (at 156.21 45.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5mm" (at 156.21 47.625 0)
@@ -3085,6 +3250,11 @@
     )
     (pin "1" (uuid 2beef3fc-43f7-464b-8ca6-08cbfb5287fa))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "TP202") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f147234-e39a-4c7c-8011-0af923cea553"
           (reference "TP804") (unit 1)
@@ -3099,7 +3269,7 @@
   (symbol (lib_id "Device:R_Small") (at 210.82 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ece6033-12bd-4a17-899d-34e92aa4a663)
-    (property "Reference" "R1721" (at 210.82 124.46 90)
+    (property "Reference" "R221" (at 210.82 124.46 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 210.82 127 90)
@@ -3114,6 +3284,11 @@
     (pin "1" (uuid d1903baf-7c35-4fe1-93b3-24408f8c87f2))
     (pin "2" (uuid 8eab0162-ffb0-4c40-91ee-2d3a8927cbbb))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R221") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1721") (unit 1)
@@ -3125,7 +3300,7 @@
   (symbol (lib_id "Device:R_Small") (at 203.2 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f48ab0c-413d-4741-9f4a-1d07dcc3ae67)
-    (property "Reference" "R1720" (at 205.74 113.665 0)
+    (property "Reference" "R220" (at 205.74 113.665 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 205.74 116.205 0)
@@ -3140,6 +3315,11 @@
     (pin "1" (uuid ee421bd4-97dc-4ef4-9e39-5c769c77e9b5))
     (pin "2" (uuid 24586e1f-f832-4076-84c5-1c4f6dc41ffe))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R220") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1720") (unit 1)
@@ -3151,7 +3331,7 @@
   (symbol (lib_id "power:GND") (at 160.02 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93441ab1-0d78-43d0-9ab3-2dc47d519d40)
-    (property "Reference" "#PWR01716" (at 160.02 90.17 0)
+    (property "Reference" "#PWR0216" (at 160.02 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 88.9 0)
@@ -3165,6 +3345,11 @@
     )
     (pin "1" (uuid 912cbc7a-36be-4bde-bd31-fbb576136e91))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0216") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01716") (unit 1)
@@ -3176,7 +3361,7 @@
   (symbol (lib_id "watch_symbols_lib:+1V65") (at 78.74 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9dd6c506-abec-4413-8fb9-aab351f0dd92)
-    (property "Reference" "#PWR01709" (at 78.74 107.95 0)
+    (property "Reference" "#PWR0209" (at 78.74 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V65" (at 78.74 100.33 0)
@@ -3190,6 +3375,11 @@
     )
     (pin "1" (uuid f5da9ff2-1e26-4383-98fa-ea8c19640365))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0209") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01709") (unit 1)
@@ -3201,7 +3391,7 @@
   (symbol (lib_id "Device:C_Small") (at 114.3 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9eedda3a-f959-42e9-a98c-6fd6f99d7c1c)
-    (property "Reference" "C1704" (at 116.84 177.1713 0)
+    (property "Reference" "C204" (at 116.84 177.1713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 116.84 179.7113 0)
@@ -3216,6 +3406,11 @@
     (pin "1" (uuid 9c9b4814-5fa1-44ed-9908-2b15c696b488))
     (pin "2" (uuid cdfe1aee-41bd-4ec5-a9ae-3ca2af390f0c))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "C204") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "C1704") (unit 1)
@@ -3227,7 +3422,7 @@
   (symbol (lib_id "Device:R_Small") (at 78.74 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0029c69-f018-4bcd-83fc-e12c48b9c36d)
-    (property "Reference" "R1707" (at 81.28 57.785 0)
+    (property "Reference" "R207" (at 81.28 57.785 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4R7" (at 81.28 60.325 0)
@@ -3242,6 +3437,11 @@
     (pin "1" (uuid 21ebeac9-bd14-413a-8b27-a14d7a4f46ee))
     (pin "2" (uuid 23400081-c5c9-4add-847b-065ef6775e2c))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R207") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1707") (unit 1)
@@ -3253,7 +3453,7 @@
   (symbol (lib_id "power:GND") (at 76.2 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1bbe88d-3ce6-4733-ab3f-c2bc3263b916)
-    (property "Reference" "#PWR01707" (at 76.2 186.69 0)
+    (property "Reference" "#PWR0207" (at 76.2 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 185.42 0)
@@ -3267,6 +3467,11 @@
     )
     (pin "1" (uuid 83e22806-d831-4a49-9a09-7b4c9377830c))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0207") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01707") (unit 1)
@@ -3278,7 +3483,7 @@
   (symbol (lib_id "Device:R_Small") (at 78.74 48.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7916dde-c9a7-4239-8bb3-849d3a044a5c)
-    (property "Reference" "R1706" (at 81.28 47.625 0)
+    (property "Reference" "R206" (at 81.28 47.625 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4R7" (at 81.28 50.165 0)
@@ -3293,6 +3498,11 @@
     (pin "1" (uuid 01907db8-c3a2-4481-afde-1fd5aa7cfedb))
     (pin "2" (uuid 514d5d60-4c5b-446e-b57d-6c427c3d8f3f))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R206") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1706") (unit 1)
@@ -3304,7 +3514,7 @@
   (symbol (lib_id "TLV9004SIRTER:TLV9004SIRTER") (at 101.6 119.38 0) (mirror x) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7bf2ae0-ad4a-4ada-9238-1deb5ee9a9de)
-    (property "Reference" "IC1701" (at 101.6 129.54 0)
+    (property "Reference" "IC201" (at 101.6 129.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLV9004SIRTER" (at 101.6 127 0)
@@ -3349,6 +3559,11 @@
     (pin "6" (uuid 5ec7fe25-d918-4b5f-8557-8be0958749c7))
     (pin "7" (uuid fcb0d4b9-42e2-418a-a4ee-96f1c4992f3a))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "IC201") (unit 3)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "IC1701") (unit 3)
@@ -3360,7 +3575,7 @@
   (symbol (lib_id "power:GND") (at 172.72 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa903d33-3279-4df6-9877-d504e6254829)
-    (property "Reference" "#PWR01718" (at 172.72 69.85 0)
+    (property "Reference" "#PWR0218" (at 172.72 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 172.72 68.58 0)
@@ -3374,6 +3589,11 @@
     )
     (pin "1" (uuid 8624cf3c-81d1-437b-aa26-a8d5ef643c34))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0218") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01718") (unit 1)
@@ -3385,7 +3605,7 @@
   (symbol (lib_id "power:GND") (at 124.46 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac9ec3a8-fddb-4961-839c-818c739cff4b)
-    (property "Reference" "#PWR01712" (at 124.46 191.77 0)
+    (property "Reference" "#PWR0212" (at 124.46 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 190.5 0)
@@ -3399,6 +3619,11 @@
     )
     (pin "1" (uuid 45d9e1fd-4963-417a-99de-afc98c9fdc6e))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0212") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01712") (unit 1)
@@ -3410,7 +3635,7 @@
   (symbol (lib_id "Device:R_Small") (at 246.38 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b804116c-e7ce-406f-b53d-d6c02ecd120c)
-    (property "Reference" "R1722" (at 248.92 128.905 0)
+    (property "Reference" "R222" (at 248.92 128.905 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 248.92 131.445 0)
@@ -3425,6 +3650,11 @@
     (pin "1" (uuid 5ea9f7a4-178d-4107-89be-a0584c2edd03))
     (pin "2" (uuid 16ff540d-650d-4577-b69e-cab295dca415))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R222") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1722") (unit 1)
@@ -3436,7 +3666,7 @@
   (symbol (lib_id "power:GND") (at 78.74 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b85a64fe-f18b-46c5-a470-195107bc17c6)
-    (property "Reference" "#PWR01708" (at 78.74 87.63 0)
+    (property "Reference" "#PWR0208" (at 78.74 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 86.36 0)
@@ -3450,6 +3680,11 @@
     )
     (pin "1" (uuid 3f5f3ec1-0c8f-43a1-ae77-68398062bf64))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0208") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01708") (unit 1)
@@ -3461,7 +3696,7 @@
   (symbol (lib_id "power:+3V3") (at 76.2 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9762ac1-a7b3-4536-982e-1db6ded42d62)
-    (property "Reference" "#PWR0226" (at 76.2 166.37 0)
+    (property "Reference" "#PWR0206" (at 76.2 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 76.2 157.48 0)
@@ -3475,6 +3710,11 @@
     )
     (pin "1" (uuid 987e2a5e-686e-4516-a923-ddba14e59eb8))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0206") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f996a8c-7777-4a55-b361-37cede76953f"
           (reference "#PWR0226") (unit 1)
@@ -3489,7 +3729,7 @@
   (symbol (lib_id "watch_symbols_lib:TR1102-0491J") (at 114.3 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b98a038b-dfb0-4b2d-aa52-0cf290f41eca)
-    (property "Reference" "L1701" (at 114.3 48.26 90)
+    (property "Reference" "L201" (at 114.3 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TR1102-0491J" (at 114.3 50.8 90)
@@ -3504,6 +3744,11 @@
     (pin "1" (uuid 7e0187e2-6a4e-4d72-8df1-f45d564f8c40))
     (pin "2" (uuid a24822a3-d260-40a3-bf77-3b55a0b8dd2b))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "L201") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "L1701") (unit 1)
@@ -3515,7 +3760,7 @@
   (symbol (lib_id "power:GND") (at 200.66 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9e2aaa2-9988-4190-8783-d1ca2c70f292)
-    (property "Reference" "#PWR01720" (at 200.66 72.39 0)
+    (property "Reference" "#PWR0220" (at 200.66 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.66 71.12 0)
@@ -3529,6 +3774,11 @@
     )
     (pin "1" (uuid 797e0299-8403-4bee-9221-54855f2381f8))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0220") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01720") (unit 1)
@@ -3540,7 +3790,7 @@
   (symbol (lib_id "watch_symbols_lib:ACDBQC0130L-HF") (at 140.97 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid befb93f8-210b-46f4-9677-1009b9c2c33b)
-    (property "Reference" "D1701" (at 141.2875 48.26 0)
+    (property "Reference" "D201" (at 141.2875 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ACDBQC0130L-HF" (at 141.2875 50.8 0)
@@ -3555,6 +3805,11 @@
     (pin "1" (uuid 5f9ba81e-b8b8-4da0-a12b-febcdb67b30a))
     (pin "2" (uuid 714c8021-4b55-4932-9c9d-4def001e8114))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "D201") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "D1701") (unit 1)
@@ -3566,7 +3821,7 @@
   (symbol (lib_id "TLV9004SIRTER:TLV9004SIRTER") (at 233.68 124.46 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf796bcd-6a98-4efe-9866-7d78e5d5853c)
-    (property "Reference" "IC1701" (at 233.68 134.62 0)
+    (property "Reference" "IC201" (at 233.68 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLV9004SIRTER" (at 233.68 132.08 0)
@@ -3611,6 +3866,11 @@
     (pin "6" (uuid 5ec7fe25-d918-4b5f-8557-8be0958749c8))
     (pin "7" (uuid fcb0d4b9-42e2-418a-a4ee-96f1c4992f3b))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "IC201") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "IC1701") (unit 1)
@@ -3622,7 +3882,7 @@
   (symbol (lib_id "watch_symbols_lib:+VSYS") (at 58.42 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfbe3e79-df40-4ff7-9b31-66642914bef7)
-    (property "Reference" "#PWR01703" (at 58.42 26.67 0)
+    (property "Reference" "#PWR0203" (at 58.42 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+VSYS" (at 58.42 19.05 0)
@@ -3636,6 +3896,11 @@
     )
     (pin "1" (uuid 083e5403-7e35-4064-a6f6-9c074b3fdc38))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0203") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01703") (unit 1)
@@ -3647,7 +3912,7 @@
   (symbol (lib_id "Device:C_Small") (at 119.38 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3e3cbc6-ac89-4803-a7e8-0aad602c7527)
-    (property "Reference" "C1705" (at 121.92 57.1563 0)
+    (property "Reference" "C205" (at 121.92 57.1563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330p" (at 121.92 59.6963 0)
@@ -3662,6 +3927,11 @@
     (pin "1" (uuid 02acb428-64d4-435b-9e4c-70e1ecf78b43))
     (pin "2" (uuid ee389cfa-9b57-4a4b-a0be-92884c21a3d6))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "C205") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "C1705") (unit 1)
@@ -3673,7 +3943,7 @@
   (symbol (lib_id "Device:R_Small") (at 124.46 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c48f4f19-0de1-4998-82a6-37f0bfb9ddad)
-    (property "Reference" "R1712" (at 127 177.165 0)
+    (property "Reference" "R212" (at 127 177.165 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33k" (at 127 179.705 0)
@@ -3688,6 +3958,11 @@
     (pin "1" (uuid 0c58dd3b-9743-4fa4-a91f-5df8e4c7f29d))
     (pin "2" (uuid 6f4eab4f-56e0-4892-85cb-3498467508df))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R212") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1712") (unit 1)
@@ -3699,7 +3974,7 @@
   (symbol (lib_id "power:GND") (at 198.12 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c55d2fe9-2599-44e3-9ca1-2b56acd334b3)
-    (property "Reference" "#PWR01719" (at 198.12 140.97 0)
+    (property "Reference" "#PWR0219" (at 198.12 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.12 139.7 0)
@@ -3713,6 +3988,11 @@
     )
     (pin "1" (uuid 4376376b-a5f2-4555-a96a-f8847d2997f2))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0219") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01719") (unit 1)
@@ -3724,7 +4004,7 @@
   (symbol (lib_id "power:GND") (at 256.54 71.12 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c60536d5-e668-4278-a2da-1eaac306baa5)
-    (property "Reference" "#PWR01723" (at 256.54 77.47 0)
+    (property "Reference" "#PWR0223" (at 256.54 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 256.54 76.2 0)
@@ -3738,6 +4018,11 @@
     )
     (pin "1" (uuid 9ef86006-0fbd-4b5a-8aff-284cc2169048))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0223") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01723") (unit 1)
@@ -3749,7 +4034,7 @@
   (symbol (lib_id "TLV9004SIRTER:TLV9004SIRTER") (at 167.64 121.92 0) (mirror x) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7232cbb-37b3-4a4f-a65b-fae2e02199e8)
-    (property "Reference" "IC1701" (at 167.64 132.08 0)
+    (property "Reference" "IC201" (at 167.64 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLV9004SIRTER" (at 167.64 129.54 0)
@@ -3794,6 +4079,11 @@
     (pin "6" (uuid 5ec7fe25-d918-4b5f-8557-8be0958749c6))
     (pin "7" (uuid fcb0d4b9-42e2-418a-a4ee-96f1c4992f39))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "IC201") (unit 4)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "IC1701") (unit 4)
@@ -3805,7 +4095,7 @@
   (symbol (lib_id "watch_symbols_lib:+1V65") (at 154.94 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c739c958-c583-4ad3-a2a8-13ac28eb4d26)
-    (property "Reference" "#PWR01715" (at 158.75 124.46 0)
+    (property "Reference" "#PWR0215" (at 158.75 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V65" (at 152.4 127 90)
@@ -3819,6 +4109,11 @@
     )
     (pin "1" (uuid b40e3992-f4ea-4ed3-9497-6f0e3547a664))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0215") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01715") (unit 1)
@@ -3830,7 +4125,7 @@
   (symbol (lib_id "Device:R_Small") (at 124.46 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7b68b0d-c24d-40fc-a55a-8c74a2fb7b72)
-    (property "Reference" "R1711" (at 127 164.465 0)
+    (property "Reference" "R211" (at 127 164.465 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33k" (at 127 167.005 0)
@@ -3845,6 +4140,11 @@
     (pin "1" (uuid 1eb87179-de8d-4efd-9c62-bc092045a6c3))
     (pin "2" (uuid 282bf5ff-23b9-4466-ad11-39bd922a01f8))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R211") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1711") (unit 1)
@@ -3856,7 +4156,7 @@
   (symbol (lib_id "MAX9027EBT+T:MAX9027EBT+T") (at 233.68 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca0a10c3-371a-4334-99cb-1932d6b10789)
-    (property "Reference" "IC1702" (at 233.68 41.91 0)
+    (property "Reference" "IC202" (at 233.68 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MAX9027EBT+T" (at 233.68 44.45 0)
@@ -3890,6 +4190,11 @@
     (pin "B2" (uuid 2afb689b-6eae-4580-86b8-ef5041255dc0))
     (pin "B3" (uuid da4c1731-e099-42fd-9c45-c2304b56b8a7))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "IC202") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "IC1702") (unit 1)
@@ -3901,7 +4206,7 @@
   (symbol (lib_id "Device:C_Small") (at 147.32 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cba4309a-6fec-463f-9b56-8f6d0493be40)
-    (property "Reference" "C1707" (at 149.86 57.1563 0)
+    (property "Reference" "C207" (at 149.86 57.1563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 149.86 59.6963 0)
@@ -3916,6 +4221,11 @@
     (pin "1" (uuid 73f4dfcc-acbf-4490-a480-3c63779a5583))
     (pin "2" (uuid ffd49f26-c78a-4b60-83b2-32383428a6cf))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "C207") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "C1707") (unit 1)
@@ -3927,7 +4237,7 @@
   (symbol (lib_id "power:GND") (at 132.08 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc7d5ed5-5597-4be4-ac3a-f77976cd2383)
-    (property "Reference" "#PWR01713" (at 132.08 138.43 0)
+    (property "Reference" "#PWR0213" (at 132.08 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 137.16 0)
@@ -3941,6 +4251,11 @@
     )
     (pin "1" (uuid 6868fcb2-a094-44de-bb1c-0c5bf46aebfb))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0213") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01713") (unit 1)
@@ -3952,7 +4267,7 @@
   (symbol (lib_id "power:GND") (at 55.88 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0c43eae-3c0b-43f4-8767-61d7570807e0)
-    (property "Reference" "#PWR01702" (at 55.88 140.97 0)
+    (property "Reference" "#PWR0202" (at 55.88 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 139.7 0)
@@ -3966,6 +4281,11 @@
     )
     (pin "1" (uuid de8bbd1f-43e1-4f11-bf51-8dc303c79004))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0202") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01702") (unit 1)
@@ -3977,7 +4297,7 @@
   (symbol (lib_id "Device:C_Small") (at 55.88 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7e8fc4d-5c87-486d-9bdc-6c77eb061136)
-    (property "Reference" "C1701" (at 58.42 128.9113 0)
+    (property "Reference" "C201" (at 58.42 128.9113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n" (at 58.42 131.4513 0)
@@ -3992,6 +4312,11 @@
     (pin "1" (uuid e6647aae-3c79-426d-84c9-f45137faf8f0))
     (pin "2" (uuid 4a55ca81-f59c-4fc5-9879-8909dd7fe302))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "C201") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "C1701") (unit 1)
@@ -4003,7 +4328,7 @@
   (symbol (lib_id "TLV9004SIRTER:TLV9004SIRTER") (at 60.96 167.64 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7f04eab-ae82-4d4d-8c8b-93644617ecdc)
-    (property "Reference" "IC1701" (at 60.96 157.48 0)
+    (property "Reference" "IC201" (at 60.96 157.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLV9004SIRTER" (at 60.96 160.02 0)
@@ -4048,6 +4373,11 @@
     (pin "6" (uuid 5ec7fe25-d918-4b5f-8557-8be0958749ca))
     (pin "7" (uuid fcb0d4b9-42e2-418a-a4ee-96f1c4992f3d))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "IC201") (unit 5)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "IC1701") (unit 5)
@@ -4059,7 +4389,7 @@
   (symbol (lib_id "DMP21D5UFB4-7B:DMP21D5UFB4-7B") (at 71.12 33.02 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8d4fec2-8217-49bc-94f8-eeadbe78fa61)
-    (property "Reference" "Q1702" (at 82.55 36.195 0)
+    (property "Reference" "Q202" (at 82.55 36.195 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DMP21D5UFB4-7B" (at 82.55 33.655 0)
@@ -4090,6 +4420,11 @@
     (pin "2" (uuid f9930e9e-d985-4211-aee8-3f9ea2030109))
     (pin "3" (uuid a6028b61-2a55-4c77-b8b8-7e12e4eb2054))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "Q202") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "Q1702") (unit 1)
@@ -4101,7 +4436,7 @@
   (symbol (lib_id "Device:C_Small") (at 195.58 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db6c1ef5-509b-48d2-a1b2-0e2c2d86200d)
-    (property "Reference" "C1709" (at 195.5863 48.26 90)
+    (property "Reference" "C209" (at 195.5863 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10n" (at 195.5863 50.8 90)
@@ -4116,6 +4451,11 @@
     (pin "1" (uuid 49ad51ce-2376-4c73-945b-476382f9b6d0))
     (pin "2" (uuid 4b94e16c-78d8-4ad7-b836-52691efca7d2))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "C209") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "C1709") (unit 1)
@@ -4127,7 +4467,7 @@
   (symbol (lib_id "Device:R_Small") (at 200.66 58.42 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de14565f-3ecd-4cdb-b875-27cf55afc67a)
-    (property "Reference" "R1719" (at 198.12 57.785 0)
+    (property "Reference" "R219" (at 198.12 57.785 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330k" (at 198.12 60.325 0)
@@ -4142,6 +4482,11 @@
     (pin "1" (uuid 9583d6cc-a8c4-485c-8ddd-fd5fefbb2671))
     (pin "2" (uuid 7a2f55dc-8bda-4b1e-98fb-d6b41fafd14e))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R219") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1719") (unit 1)
@@ -4153,7 +4498,7 @@
   (symbol (lib_id "Device:C_Small") (at 246.38 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e53cba85-8138-45bb-8dd0-1325d0f5ea3a)
-    (property "Reference" "C1713" (at 248.92 139.0713 0)
+    (property "Reference" "C213" (at 248.92 139.0713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100p" (at 248.92 141.6113 0)
@@ -4168,6 +4513,11 @@
     (pin "1" (uuid 595e9b30-6850-44a2-a2cb-d597046a167f))
     (pin "2" (uuid bbdeb5ef-732c-4d99-b18a-8ce5185fcdd7))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "C213") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "C1713") (unit 1)
@@ -4179,7 +4529,7 @@
   (symbol (lib_id "Device:R_Small") (at 190.5 121.92 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5b4a814-fbc3-4e40-9c5e-4a8a76f9b975)
-    (property "Reference" "R1718" (at 190.5 124.46 90)
+    (property "Reference" "R218" (at 190.5 124.46 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 190.5 127 90)
@@ -4194,6 +4544,11 @@
     (pin "1" (uuid 1ede0068-d98c-4d74-ae0c-d6fd34e60350))
     (pin "2" (uuid 018704ba-c874-4f32-aa6d-f4a519ae1592))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "R218") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1718") (unit 1)
@@ -4205,7 +4560,7 @@
   (symbol (lib_id "TLV9004SIRTER:TLV9004SIRTER") (at 147.32 167.64 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ebece4c2-c957-4c60-8674-2712a6114be8)
-    (property "Reference" "IC1701" (at 147.32 177.8 0)
+    (property "Reference" "IC201" (at 147.32 177.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLV9004SIRTER" (at 147.32 175.26 0)
@@ -4250,6 +4605,11 @@
     (pin "6" (uuid 5ec7fe25-d918-4b5f-8557-8be0958749c9))
     (pin "7" (uuid fcb0d4b9-42e2-418a-a4ee-96f1c4992f3c))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "IC201") (unit 2)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "IC1701") (unit 2)
@@ -4261,7 +4621,7 @@
   (symbol (lib_id "watch_symbols_lib:+1V65") (at 71.12 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f14602b6-7e56-4af8-a1ca-0031d4970c9d)
-    (property "Reference" "#PWR01705" (at 71.12 113.03 0)
+    (property "Reference" "#PWR0205" (at 71.12 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V65" (at 71.12 105.41 0)
@@ -4275,6 +4635,11 @@
     )
     (pin "1" (uuid 054f661f-0ab8-45ef-b42d-0ef2e6d291eb))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0205") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01705") (unit 1)
@@ -4286,7 +4651,7 @@
   (symbol (lib_id "watch_symbols_lib:+1V65") (at 220.98 127 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6f8f4ec-4040-4ae8-b5e8-de270675e27c)
-    (property "Reference" "#PWR01722" (at 224.79 127 0)
+    (property "Reference" "#PWR0222" (at 224.79 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V65" (at 218.44 129.54 90)
@@ -4300,6 +4665,11 @@
     )
     (pin "1" (uuid d259fc91-0671-41e1-a0dc-67570226665f))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0222") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01722") (unit 1)
@@ -4311,7 +4681,7 @@
   (symbol (lib_id "power:+1V8") (at 210.82 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fdabb4ff-afa4-4f10-99c1-50614beb12e1)
-    (property "Reference" "#PWR01721" (at 210.82 49.53 0)
+    (property "Reference" "#PWR0221" (at 210.82 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 210.82 41.91 0)
@@ -4325,6 +4695,11 @@
     )
     (pin "1" (uuid d3ecd3ba-91bd-4f43-a281-7b571bd57aeb))
     (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0221") (unit 1)
+        )
+      )
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "#PWR01721") (unit 1)

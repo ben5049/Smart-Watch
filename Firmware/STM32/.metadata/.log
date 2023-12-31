@@ -519,3 +519,24 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-12-30 03:11:21.760
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-12-30 23:39:10.034 -----------------------------------------------
+eclipse.buildId=Version 1.14.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-12-30 23:39:30.914
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-12-30 23:39:30.922
+!MESSAGE Log4j2 initialized with config file C:\Users\bens1\Documents\Other\Projects\Smart-Watch\Firmware\STM32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-12-30 23:39:48.348
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-31 00:14:56.651
+!MESSAGE Indexed 'rfid_module_default_configuration' (20 sources, 83 headers) in 8.15 sec: 4,589 declarations; 19,861 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0082%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-31 00:31:41.002
+!MESSAGE Indexed 'rfid_module_default_configuration' (20 sources, 83 headers) in 2.41 sec: 4,589 declarations; 19,861 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0082%)
