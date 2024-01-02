@@ -1,4 +1,4 @@
-21965253578697702
+21970367047380226
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91371,6 +91371,13 @@ watch_footprints
 10
 10
 watch_footprints
+10-Pin Pogo Connector Male
+
+
+0
+10
+10
+watch_footprints
 105162-0001
 105162-0001
 Connector
@@ -91440,6 +91447,13 @@ Integrated Circuit
 0
 4
 4
+watch_footprints
+BGA6C40P3X2_127X87X50
+N60N1+1S
+Integrated Circuit
+0
+6
+6
 watch_footprints
 BGA6C50P3X2_152X100X69
 6 UCSP
@@ -91678,6 +91692,13 @@ TYPE-C-31-M-12
 0
 16
 16
+watch_footprints
+Watch Module Outline V1
+
+
+0
+0
+0
 watch_footprints
 Watch Outline V1
 

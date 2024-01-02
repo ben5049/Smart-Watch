@@ -1,0 +1,144 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d37a0b00-acf2-4499-af5a-9e1daf93b8f4)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "watch_symbols_lib:Watch_Module_Outline_V1" (in_bom no) (on_board yes)
+      (property "Reference" "U" (at 0 7.62 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Watch_Module_Outline_V1" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "watch_footprints:Watch Module Outline V1" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Watch_Module_Outline_V1_0_1"
+        (polyline
+          (pts
+            (xy -5.08 2.54)
+            (xy -5.08 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 2.54)
+            (xy 5.08 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 2.54)
+            (xy 5.08 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 -2.54)
+            (xy -2.54 -2.54)
+            (xy 2.54 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Watch_Module_Outline_V1_1_1"
+        (rectangle (start -5.08 2.54) (end 2.54 -2.54)
+          (stroke (width -0.0001) (type default))
+          (fill (type background))
+        )
+        (arc (start 2.54 -2.54) (mid 4.3361 -1.7961) (end 5.08 0)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.54 0) (radius 2.54)
+          (stroke (width -0.0001) (type default))
+          (fill (type background))
+        )
+        (rectangle (start 2.54 2.54) (end 5.08 0)
+          (stroke (width -0.0001) (type default))
+          (fill (type background))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "watch_symbols_lib:Watch_Module_Outline_V1") (at 137.16 129.54 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 454a65e6-85f4-49f4-8643-707921037bc7)
+    (property "Reference" "U101" (at 143.51 128.905 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Watch_Module_Outline_V1" (at 143.51 131.445 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "watch_footprints:Watch Module Outline V1" (at 137.16 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 137.16 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be"
+          (reference "U101") (unit 1)
+        )
+      )
+      (project "lora_module"
+        (path "/d37a0b00-acf2-4499-af5a-9e1daf93b8f4"
+          (reference "U101") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet (at 76.2 76.2) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 58fcfb3a-5d9d-46b9-917e-b790fb9accbf)
+    (property "Sheetname" "Pogo Connector" (at 76.2 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pogo_connector.kicad_sch" (at 76.2 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "lora_module"
+        (path "/d37a0b00-acf2-4499-af5a-9e1daf93b8f4" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 127 76.2) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ff9c83af-ed17-4314-a8f9-8c17c9108194)
+    (property "Sheetname" "STM32WL55" (at 127 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "stm32wl55.kicad_sch" (at 127 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "lora_module"
+        (path "/d37a0b00-acf2-4499-af5a-9e1daf93b8f4" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

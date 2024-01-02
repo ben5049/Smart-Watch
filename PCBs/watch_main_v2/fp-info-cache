@@ -1,4 +1,4 @@
-21961845667451337
+21966958731199147
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91371,6 +91371,13 @@ watch_footprints
 10
 10
 watch_footprints
+10-Pin Pogo Connector Male
+
+
+0
+10
+10
+watch_footprints
 105162-0001
 105162-0001
 Connector
@@ -91602,6 +91609,13 @@ Pogo_Pin_8mm
 1
 1
 watch_footprints
+Pogo_Pin_8mm_SMD
+
+
+0
+1
+1
+watch_footprints
 QFN50P300X300X80-17N-D
 RTE  (S-PWQFN-N16)
 Integrated Circuit
@@ -91694,6 +91708,13 @@ Watch Outline V2
 0
 watch_footprints
 Watch Outline V2 SS
+
+
+0
+0
+0
+watch_footprints
+Watch Outline V2 SS Inverted
 
 
 0

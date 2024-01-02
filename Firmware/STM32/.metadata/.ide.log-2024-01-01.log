@@ -1,0 +1,8 @@
+2024-01-02 00:51:05,870 [INFO] CtxDoc:743 - title: TIM1; link: Datasheet 
+2024-01-02 00:51:11,862 [INFO] ServerAccessManage:473 - Download File DS12232.pdf
+2024-01-02 00:51:12,235 [INFO] LoadUrlFilesThread:156 - End of LoadUrlFiles Thread
+2024-01-02 00:51:12,236 [INFO] CtxDocViewerPdf:144 - Open pdf file: C:/Users/bens1/STM32Cube/Repository/\DS12232.pdf in chapter: Advanced control timer (TIM1)
+2024-01-02 00:51:12,435 [INFO] CtxDocViewerPdf:209 - item Advanced-control timer (TIM1) is on page 28
+2024-01-02 00:51:12,437 [INFO] CtxDocViewerPdf:239 - Opening file: C:/Users/bens1/STM32Cube/Repository/\DS12232.pdf at page: 28
+2024-01-02 00:51:14,006 [ERROR] CtxDocViewerPdf:308 - Can't open file: C:/Users/bens1/STM32Cube/Repository/\DS12232.pdf
+2024-01-02 02:03:38,133 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 448092120 Bytes (618659840)

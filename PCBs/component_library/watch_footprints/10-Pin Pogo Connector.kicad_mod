@@ -75,4 +75,9 @@
   (pad "C1" smd circle (at 2.2 -2.5) (size 1.5 1.5) (layers "F.Cu" "F.Mask") (tstamp cc4831bc-1a13-4063-9b9a-77a2195df8cf))
   (pad "C2" smd circle (at 2.2 0) (size 1.5 1.5) (layers "F.Cu" "F.Mask") (tstamp b247437a-64b1-4181-be4d-4675a383d766))
   (pad "C3" smd circle (at 2.2 2.5) (size 1.5 1.5) (layers "F.Cu" "F.Mask") (tstamp fd031b94-2d09-4e2d-8876-fc4066a51ab8))
+  (model "${KIPRJMOD}/../component_library/watch_models/10-Pin Pogo Connector Pads.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
