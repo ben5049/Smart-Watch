@@ -1,6 +1,6 @@
 (footprint "MAX30102EFD+T" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at -1.775 -3.625) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp 3ff01ad9-fcc7-46f3-8ad9-d44b0daef68c)

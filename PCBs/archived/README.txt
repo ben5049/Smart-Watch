@@ -1,0 +1,1 @@
+All libraries for projects in "archived/" are defined relative to the "PCBs" folder (../), and need to be moved there before opening to work properly.

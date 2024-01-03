@@ -5,8 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Watch RFID")
-    (rev "2")
+    (title "RFID Transmitter Receiver")
+    (date "2024-01-02")
+    (rev "1")
   )
 
   (lib_symbols
@@ -820,58 +821,6 @@
         (pin passive line (at -12.7 0 0) (length 5.08)
           (name "~{SHDN34}" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+1V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+1V8" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+1V8\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+1V8_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+1V8_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+1V8" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -3746,6 +3695,31 @@
     )
   )
 
+  (symbol (lib_id "power:+3V3") (at 210.82 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c2c44b17-457a-4598-aa5c-ba89eb5e256e)
+    (property "Reference" "#PWR0204" (at 210.82 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 210.82 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 210.82 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 210.82 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e67226c2-9313-47ae-9cc7-24e74495c0ce))
+    (instances
+      (project "rfid_module"
+        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
+          (reference "#PWR0204") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Small") (at 119.38 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3e3cbc6-ac89-4803-a7e8-0aad602c7527)
@@ -4597,36 +4571,6 @@
       (project "watch_main"
         (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
           (reference "R1701") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+1V8") (at 210.82 45.72 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fdabb4ff-afa4-4f10-99c1-50614beb12e1)
-    (property "Reference" "#PWR0221" (at 210.82 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+1V8" (at 210.82 41.91 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 210.82 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 210.82 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d3ecd3ba-91bd-4f43-a281-7b571bd57aeb))
-    (instances
-      (project "rfid_module"
-        (path "/7f374643-2d66-4cfc-a525-255f058de0be/a9cdb386-76ee-47d2-86a0-cb7dea8af18d"
-          (reference "#PWR0221") (unit 1)
-        )
-      )
-      (project "watch_main"
-        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/e805c593-17ac-4f08-b6e2-d497b0af0a05"
-          (reference "#PWR01721") (unit 1)
         )
       )
     )

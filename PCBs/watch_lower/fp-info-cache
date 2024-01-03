@@ -1,4 +1,4 @@
-21934574127823944
+21973780414455386
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91364,12 +91364,33 @@ YC248-JR-0733RL
 16
 16
 watch_footprints
+10-Pin Pogo Connector
+
+
+0
+10
+10
+watch_footprints
+10-Pin Pogo Connector Male
+
+
+0
+10
+10
+watch_footprints
 105162-0001
 105162-0001
 Connector
 0
 15
 15
+watch_footprints
+5009130242
+500913-0242-1
+Connector
+0
+28
+28
 watch_footprints
 ADP5360ACBZ1R7
 32-Ball Wafer Level Chip Scale Package [WLCSP] (CB-32-2)
@@ -91399,12 +91420,40 @@ Connector
 28
 28
 watch_footprints
+AXG130144
+AXG130144-2
+Connector
+0
+38
+38
+watch_footprints
 AXG220144
 AXG220144-1
 Connector
 0
 24
 24
+watch_footprints
+B39162B4327P810
+
+
+0
+5
+5
+watch_footprints
+BGA4C50P2X2_70X98X33
+M24256X-FCU6T/VF*3
+Integrated Circuit
+0
+4
+4
+watch_footprints
+BGA6C40P3X2_127X87X50
+N60N1+1S
+Integrated Circuit
+0
+6
+6
 watch_footprints
 BGA6C50P3X2_152X100X69
 6 UCSP
@@ -91448,6 +91497,13 @@ Integrated Circuit
 30
 30
 watch_footprints
+BGS12SN6E6327XTSA1
+TSNP-6-2
+Integrated Circuit
+0
+6
+6
+watch_footprints
 DMN21D2UFB7B
 X1-DFN1006-3_2021_1
 MOSFET (N-Channel)
@@ -91457,6 +91513,13 @@ MOSFET (N-Channel)
 watch_footprints
 DMP21D5UFB47B
 DMP21D5UFB4-7B-1
+MOSFET (P-Channel)
+0
+3
+3
+watch_footprints
+DMP2104LP7
+DFN1411-3
 MOSFET (P-Channel)
 0
 3
@@ -91497,6 +91560,20 @@ MAX30102EFD+T
 14
 14
 watch_footprints
+MIPI10
+surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x05 1.27mm double row
+0
+10
+10
+watch_footprints
+NCP45525IMNTWGH
+DFN8, 2x2 CASE 506CC
+Integrated Circuit
+0
+9
+9
+watch_footprints
 NRF5340-QKAA-R7
 
 
@@ -91509,7 +91586,7 @@ NRF5340-QKAA-R7_modified
 
 0
 131
-100
+99
 watch_footprints
 NVT4858HKZ
 NVT4858HKZ-2
@@ -91532,12 +91609,33 @@ Panasonic-EVP-AEJB2A-MFG
 5
 5
 watch_footprints
+Pogo_Pin_8mm
+
+
+0
+1
+1
+watch_footprints
+Pogo_Pin_8mm_SMD
+
+
+0
+1
+1
+watch_footprints
 QFN50P300X300X80-17N-D
 RTE  (S-PWQFN-N16)
 Integrated Circuit
 0
 17
 17
+watch_footprints
+RT4730WSC
+
+RT4730WSC 
+0
+16
+16
 watch_footprints
 SON50P250X250X80-11N-D
 TPS65631WDSKR
@@ -91553,7 +91651,14 @@ Integrated Circuit
 7
 7
 watch_footprints
-TESEOLIV4FTR
+STDC14
+surface-mounted straight pin header, 2x07, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x07 1.27mm double row
+0
+14
+14
+watch_footprints
+TESEOLIV3FL
 TESEO-LIV4FTR-1
 Integrated Circuit
 0
@@ -91581,7 +91686,63 @@ TR1102-0491J
 2
 2
 watch_footprints
+TYPE-C-31-M-12
+
+
+0
+16
+16
+watch_footprints
+Watch Lower Outline V1
+
+
+0
+0
+0
+watch_footprints
+Watch Module Outline V1
+
+
+0
+0
+0
+watch_footprints
+Watch Module Outline V1 SS
+
+
+0
+0
+0
+watch_footprints
 Watch Outline V1
+
+
+0
+0
+0
+watch_footprints
+Watch Outline V1 SS
+
+
+0
+0
+0
+watch_footprints
+Watch Outline V2
+
+
+0
+0
+0
+watch_footprints
+Watch Outline V2 SS
+
+
+0
+0
+0
+watch_footprints
+Watch Outline V2 SS Inverted
 
 
 0
