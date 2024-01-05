@@ -27,9 +27,9 @@
     (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp 08358a16-e871-4ede-8ec7-e412be55fed2))
   (fp_line (start 0.525 0.325) (end 0.525 -0.325)
     (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp b47e206f-f5a2-4399-8ff4-1dd8d9e24c76))
-  (pad "1" smd rect (at -0.35 0) (size 0.4 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cd90392d-00a7-497d-a932-dd44a3034b5d))
-  (pad "2" smd rect (at 0.35 0.225 90) (size 0.25 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 17b0494b-cf38-4aab-b457-839e635dc7c0))
-  (pad "3" smd rect (at 0.35 -0.225 90) (size 0.25 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 13cc226b-3336-448b-bb53-e0cd709ac09b))
+  (pad "1" smd roundrect (at -0.35 0) (size 0.4 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp cd90392d-00a7-497d-a932-dd44a3034b5d))
+  (pad "2" smd roundrect (at 0.35 0.225 90) (size 0.25 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 17b0494b-cf38-4aab-b457-839e635dc7c0))
+  (pad "3" smd roundrect (at 0.35 -0.225 90) (size 0.25 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 13cc226b-3336-448b-bb53-e0cd709ac09b))
   (model "${KIPRJMOD}/../component_library/watch_models/DMP21D5UFB4-7B.stp"
     (offset (xyz 0 0 0.04999999999))
     (scale (xyz 1 1 1))
