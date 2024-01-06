@@ -716,20 +716,20 @@
         )
       )
     )
-    (symbol "watch_symbols_lib:Watch_Module_Outline_V1_SS" (in_bom no) (on_board yes)
+    (symbol "watch_symbols_lib:Watch_Module_Outline_V2_SS" (in_bom no) (on_board yes)
       (property "Reference" "U" (at 0 7.62 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Watch_Module_Outline_V1_SS" (at 0 5.08 0)
+      (property "Value" "Watch_Module_Outline_V2_SS" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "watch_footprints:Watch Module Outline V1 SS" (at 0 -5.08 0)
+      (property "Footprint" "watch_footprints:Watch Module Outline V2 SS" (at 0 -5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Watch_Module_Outline_V1_SS_0_1"
+      (symbol "Watch_Module_Outline_V2_SS_0_1"
         (polyline
           (pts
             (xy -5.08 2.54)
@@ -764,7 +764,7 @@
           (fill (type none))
         )
       )
-      (symbol "Watch_Module_Outline_V1_SS_1_1"
+      (symbol "Watch_Module_Outline_V2_SS_1_1"
         (rectangle (start -5.08 2.54) (end 2.54 -2.54)
           (stroke (width -0.0001) (type default))
           (fill (type background))
@@ -1764,10 +1764,10 @@
     (property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" (at 68.58 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 24e5d05b-a50d-49bb-ae36-f437a8ceb0e2))
-    (pin "1" (uuid 24e5d05b-a50d-49bb-ae36-f437a8ceb0e2))
-    (pin "2" (uuid 62ffbc06-23b2-47b2-a7f0-bde6d6e56db3))
-    (pin "2" (uuid 62ffbc06-23b2-47b2-a7f0-bde6d6e56db3))
+    (pin "1" (uuid 24e5d05b-a50d-49bb-ae36-f437a8ceb0e3))
+    (pin "1" (uuid 24e5d05b-a50d-49bb-ae36-f437a8ceb0e3))
+    (pin "2" (uuid 62ffbc06-23b2-47b2-a7f0-bde6d6e56db4))
+    (pin "2" (uuid 62ffbc06-23b2-47b2-a7f0-bde6d6e56db4))
     (instances
       (project "module_test_rig"
         (path "/460a6e37-6448-4e43-91ab-1815b231001c"
@@ -2081,16 +2081,16 @@
     )
   )
 
-  (symbol (lib_id "watch_symbols_lib:Watch_Module_Outline_V1_SS") (at 223.52 48.26 0) (unit 1)
+  (symbol (lib_id "watch_symbols_lib:Watch_Module_Outline_V2_SS") (at 223.52 48.26 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f850f4aa-df3c-4555-a95a-99d6f667ef84)
     (property "Reference" "U101" (at 229.87 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Watch_Module_Outline_V1_SS" (at 229.87 50.165 0)
+    (property "Value" "Watch_Module_Outline_V2_SS" (at 229.87 50.165 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "watch_footprints:Watch Module Outline V1 SS" (at 223.52 53.34 0)
+    (property "Footprint" "watch_footprints:Watch Module Outline V2 SS" (at 223.52 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 223.52 48.26 0)

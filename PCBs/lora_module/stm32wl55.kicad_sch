@@ -48634,7 +48634,7 @@
     (pin "B1" (uuid 187f5c64-8410-41a4-a7a6-8c8d7e9cb3fa))
     (pin "B2" (uuid 798e00f3-94bc-462f-905d-9a1c7f1e8e56))
     (pin "C1" (uuid 813f0076-c0f9-4765-82d8-453fb1afa14d))
-    (pin "C2" (uuid 793ca9fe-5fce-48ea-99e6-76865603d482))
+    (pin "C2" (uuid 3bb81e5b-03a0-4437-b930-806608d0b020))
     (pin "C2" (uuid 3bb81e5b-03a0-4437-b930-806608d0b020))
     (pin "C3" (uuid c50e44ed-eb49-4dc0-86ff-fd1822098646))
     (instances

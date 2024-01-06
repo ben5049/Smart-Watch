@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 40,
+    "active_layer": 44,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -63,11 +63,11 @@
       36,
       40
     ],
-    "visible_layers": "ffcfd38_ffffffff",
+    "visible_layers": "ffcfd78_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "watch_test_rig.kicad_prl",
+    "filename": "module_test_rig.kicad_prl",
     "version": 3
   },
   "project": {

@@ -5,20 +5,20 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "watch_symbols_lib:Watch_Module_Outline_V1" (in_bom no) (on_board yes)
+    (symbol "watch_symbols_lib:Watch_Module_Outline_V2" (in_bom no) (on_board yes)
       (property "Reference" "U" (at 0 7.62 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Watch_Module_Outline_V1" (at 0 5.08 0)
+      (property "Value" "Watch_Module_Outline_V2" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "watch_footprints:Watch Module Outline V1" (at 0 -5.08 0)
+      (property "Footprint" "watch_footprints:Watch Module Outline V2" (at 0 -5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Watch_Module_Outline_V1_0_1"
+      (symbol "Watch_Module_Outline_V2_0_1"
         (polyline
           (pts
             (xy -5.08 2.54)
@@ -53,7 +53,7 @@
           (fill (type none))
         )
       )
-      (symbol "Watch_Module_Outline_V1_1_1"
+      (symbol "Watch_Module_Outline_V2_1_1"
         (rectangle (start -5.08 2.54) (end 2.54 -2.54)
           (stroke (width -0.0001) (type default))
           (fill (type background))
@@ -75,27 +75,22 @@
   )
 
 
-  (symbol (lib_id "watch_symbols_lib:Watch_Module_Outline_V1") (at 137.16 129.54 0) (unit 1)
+  (symbol (lib_id "watch_symbols_lib:Watch_Module_Outline_V2") (at 142.24 127 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 454a65e6-85f4-49f4-8643-707921037bc7)
-    (property "Reference" "U101" (at 143.51 128.905 0)
+    (uuid e968aa58-e691-435c-bbd6-a6cfd096d2b9)
+    (property "Reference" "U101" (at 148.59 126.365 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Watch_Module_Outline_V1" (at 143.51 131.445 0)
+    (property "Value" "Watch_Module_Outline_V2" (at 148.59 128.905 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "watch_footprints:Watch Module Outline V1" (at 137.16 134.62 0)
+    (property "Footprint" "watch_footprints:Watch Module Outline V2" (at 142.24 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 137.16 129.54 0)
+    (property "Datasheet" "" (at 142.24 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "rfid_module"
-        (path "/7f374643-2d66-4cfc-a525-255f058de0be"
-          (reference "U101") (unit 1)
-        )
-      )
       (project "lora_module"
         (path "/d37a0b00-acf2-4499-af5a-9e1daf93b8f4"
           (reference "U101") (unit 1)
