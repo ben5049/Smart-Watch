@@ -441,6 +441,17 @@
     (uuid ebf68d81-ffdf-44f4-bdd1-942e51a03ddf)
   )
 
+  (text "Boost converter to change RFID transmission power.\n"
+    (at 116.84 134.62 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1a38a16d-39c5-4a8f-86a1-cd248ac680d7)
+  )
+  (text "FB_OFFSET varying from 0 to 3v3\nchanges VRF from 16V to 5V5."
+    (at 172.72 106.68 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2eba3950-0162-4508-ab6b-3caca4d73c54)
+  )
+
   (label "FB" (at 160.02 96.52 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bd709852-a6f6-47d9-88b3-004ab0c870c2)

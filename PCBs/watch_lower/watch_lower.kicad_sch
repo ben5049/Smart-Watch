@@ -1315,6 +1315,10 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid f48ab8e9-0b57-45c8-a824-6e259611dea6)
   )
+  (text "4k7 I2C Pullup resistors to 1V8 on main board." (at 177.8 106.68 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fb68462d-5017-40d3-9c81-5d77228f0eda)
+  )
 
   (label "HR_INT" (at 33.02 58.42 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
