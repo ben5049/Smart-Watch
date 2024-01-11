@@ -1,0 +1,1237 @@
+16:48:16 **** Clean-only build of configuration Debug for project rfid_module_default_configuration ****
+make -j16 clean 
+rm -rf ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.cyclo ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.d ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.o ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.su ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.cyclo ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.d ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.o ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.su ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.cyclo ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.d ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.o ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.su ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.cyclo ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.d ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.o ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.su ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.cyclo ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.d ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.o ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.su ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.cyclo ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.d ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.o ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.su ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.cyclo ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.d ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.o ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.su ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.cyclo ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.d ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.o ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.su ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.cyclo ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.d ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.o ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.su ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.cyclo ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.d ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.o ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.su ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.cyclo ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.d ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.o ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.su ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.cyclo ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.d ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.o ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.su ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.cyclo ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.d ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.o ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.su ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.cyclo ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.d ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.o ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.su
+rm -rf ./Core/Startup/startup_stm32g071g8ux.d ./Core/Startup/startup_stm32g071g8ux.o
+rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32g0xx_hal_msp.cyclo ./Core/Src/stm32g0xx_hal_msp.d ./Core/Src/stm32g0xx_hal_msp.o ./Core/Src/stm32g0xx_hal_msp.su ./Core/Src/stm32g0xx_it.cyclo ./Core/Src/stm32g0xx_it.d ./Core/Src/stm32g0xx_it.o ./Core/Src/stm32g0xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32g0xx.cyclo ./Core/Src/system_stm32g0xx.d ./Core/Src/system_stm32g0xx.o ./Core/Src/system_stm32g0xx.su
+rm -rf default.size.stdout rfid_module_default_configuration.elf rfid_module_default_configuration.list rfid_module_default_configuration.map
+ 
+16:48:30 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_EnableCharging':
+../Core/Src/ADP5360.c:50:12: error: expected '(' before 'dev'
+   50 |         if dev
+      |            ^~~
+      |            (
+../Core/Src/ADP5360.c:50:12: warning: statement with no effect [-Wunused-value]
+   50 |         if dev
+      |            ^~~
+../Core/Src/ADP5360.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+   53 | }
+      | ^
+make: *** [Core/Src/subdir.mk:40: Core/Src/ADP5360.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:48:31 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+16:50:41 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_EnableCharging':
+../Core/Src/ADP5360.c:52:27: error: 'ENCHG_Port' undeclared (first use in this function)
+   52 |         HAL_GPIO_WritePin(ENCHG_Port, ENCHG_Pin, GPIO_PIN_SET);
+      |                           ^~~~~~~~~~
+../Core/Src/ADP5360.c:52:27: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/ADP5360.c:52:39: error: 'ENCHG_Pin' undeclared (first use in this function)
+   52 |         HAL_GPIO_WritePin(ENCHG_Port, ENCHG_Pin, GPIO_PIN_SET);
+      |                                       ^~~~~~~~~
+../Core/Src/ADP5360.c: In function 'ADP5360_DisableCharging':
+../Core/Src/ADP5360.c:61:27: error: 'ENCHG_Port' undeclared (first use in this function)
+   61 |         HAL_GPIO_WritePin(ENCHG_Port, ENCHG_Pin, GPIO_PIN_RESET);
+      |                           ^~~~~~~~~~
+../Core/Src/ADP5360.c:61:39: error: 'ENCHG_Pin' undeclared (first use in this function)
+   61 |         HAL_GPIO_WritePin(ENCHG_Port, ENCHG_Pin, GPIO_PIN_RESET);
+      |                                       ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/ADP5360.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:50:42 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+16:50:59 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+16:51:00 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+17:24:02 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_Init':
+../Core/Src/ADP5360.c:11:125: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   11 | ADP5360_StatusTypeDef ADP5360_Init(ADP5360 *dev, I2C_HandleTypeDef *i2cHandle, GPIO_TypeDef *ENCHG_Port, uint16_t ENCHG_Pin){
+      |                                                                                                                             ^
+../Core/Src/ADP5360.c:57:59: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   57 | ADP5360_StatusTypeDef ADP5360_EnableCharging(ADP5360 *dev){
+      |                                                           ^
+../Core/Src/ADP5360.c:90:60: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   90 | ADP5360_StatusTypeDef ADP5360_DisableCharging(ADP5360 *dev){
+      |                                                            ^
+../Core/Src/ADP5360.c:141:85: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  141 | ADP5360_StatusTypeDef ADP5360_ReadRegister(ADP5360 *dev, uint8_t reg, uint8_t *data){
+      |                                                                                     ^
+../Core/Src/ADP5360.c:146:86: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  146 | ADP5360_StatusTypeDef ADP5360_WriteRegister(ADP5360 *dev, uint8_t reg, uint8_t *data){
+      |                                                                                      ^
+In file included from ../Core/Src/ADP5360.c:8:
+../Core/Inc/ADP5360.h:120:23: error: old-style parameter declarations in prototyped function definition
+  120 | ADP5360_StatusTypeDef ADP5360_Init(ADP5360 *dev, I2C_HandleTypeDef *i2cHandle, GPIO_TypeDef *ENCHG_Port, uint16_t ENCHG_Pin)
+      |                       ^~~~~~~~~~~~
+../Core/Src/ADP5360.c:151: error: expected '{' at end of input
+../Core/Src/ADP5360.c:151: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [Core/Src/subdir.mk:40: Core/Src/ADP5360.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+17:24:03 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+17:24:23 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_Init':
+../Core/Src/ADP5360.c:11:125: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   11 | ADP5360_StatusTypeDef ADP5360_Init(ADP5360 *dev, I2C_HandleTypeDef *i2cHandle, GPIO_TypeDef *ENCHG_Port, uint16_t ENCHG_Pin){
+      |                                                                                                                             ^
+../Core/Src/ADP5360.c:57:59: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   57 | ADP5360_StatusTypeDef ADP5360_EnableCharging(ADP5360 *dev){
+      |                                                           ^
+../Core/Src/ADP5360.c:90:60: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   90 | ADP5360_StatusTypeDef ADP5360_DisableCharging(ADP5360 *dev){
+      |                                                            ^
+../Core/Src/ADP5360.c:139:85: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  139 | ADP5360_StatusTypeDef ADP5360_ReadRegister(ADP5360 *dev, uint8_t reg, uint8_t *data){
+      |                                                                                     ^
+../Core/Src/ADP5360.c:144:86: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  144 | ADP5360_StatusTypeDef ADP5360_WriteRegister(ADP5360 *dev, uint8_t reg, uint8_t *data){
+      |                                                                                      ^
+In file included from ../Core/Src/ADP5360.c:8:
+../Core/Inc/ADP5360.h:120:23: error: old-style parameter declarations in prototyped function definition
+  120 | ADP5360_StatusTypeDef ADP5360_Init(ADP5360 *dev, I2C_HandleTypeDef *i2cHandle, GPIO_TypeDef *ENCHG_Port, uint16_t ENCHG_Pin)
+      |                       ^~~~~~~~~~~~
+../Core/Src/ADP5360.c:149: error: expected '{' at end of input
+../Core/Src/ADP5360.c:149: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [Core/Src/subdir.mk:40: Core/Src/ADP5360.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+17:24:24 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+17:25:20 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_DisableCharging':
+../Core/Src/ADP5360.c:103:91: error: 'regData' undeclared (first use in this function)
+  103 |                 status = ADP5360_ReadRegister(dev, ADP5360_REG_CHARGER_FUNCTION_SETTING, &regData);
+      |                                                                                           ^~~~~~~
+../Core/Src/ADP5360.c:103:91: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:40: Core/Src/ADP5360.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+17:25:20 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+17:25:36 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+17:25:37 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+17:38:25 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_EnableCharging':
+../Core/Src/ADP5360.c:69:13: warning: suggest parentheses around operand of '!' or change '&' to '&&' or '!' to '~' [-Wparentheses]
+   69 |         if (!regData & ADP5360_BIT_VBUS_OV){
+      |             ^~~~~~~~
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+17:38:26 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+18:08:12 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_EnableCharging':
+../Core/Src/ADP5360.c:69:13: warning: suggest parentheses around operand of '!' or change '&' to '&&' or '!' to '~' [-Wparentheses]
+   69 |         if (!regData & ADP5360_BIT_VBUS_OV){
+      |             ^~~~~~~~
+../Core/Src/ADP5360.c: In function 'ADP5360_GetChargingStatus':
+../Core/Src/ADP5360.c:146:22: warning: assignment to 'ADP5360_CHG_STATUS *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  146 |         chargeStatus = regData & ADP5360_BITS_CHARGER_STATUS;
+      |                      ^
+../Core/Src/ADP5360.c: In function 'ADP5360_GetBatteryChargerStatus':
+../Core/Src/ADP5360.c:163:30: warning: assignment to 'ADP5360_BAT_CHG_STATUS *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  163 |         batteryChargerStatus = regData & ADP5360_BITS_BAT_CHG_STATUS;
+      |                              ^
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+18:08:13 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+18:20:07 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_EnableCharging':
+../Core/Src/ADP5360.c:69:13: warning: suggest parentheses around operand of '!' or change '&' to '&&' or '!' to '~' [-Wparentheses]
+   69 |         if (!regData & ADP5360_BIT_VBUS_OV){
+      |             ^~~~~~~~
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+18:20:08 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+18:21:36 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+18:21:38 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+18:39:44 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+In file included from ../Core/Src/ADP5360.c:8:
+../Core/Inc/ADP5360.h:151:69: error: unknown type name 'string'
+  151 | ADP5360_StatusTypeDef ADP5360_GetChargingStatusString(ADP5360 *dev, string chargeStatusString);
+      |                                                                     ^~~~~~
+../Core/Inc/ADP5360.h:152:1: error: unknown type name 'string'
+  152 | string ADP5360_GetBatteryChargerStatus(ADP5360 *dev, ADP5360_BAT_CHG_STATUS *batteryChargerStatus);
+      | ^~~~~~
+../Core/Src/ADP5360.c:151:23: error: conflicting types for 'ADP5360_GetBatteryChargerStatus'; have 'ADP5360_StatusTypeDef(ADP5360 *, ADP5360_BAT_CHG_STATUS *)'
+  151 | ADP5360_StatusTypeDef ADP5360_GetBatteryChargerStatus(ADP5360 *dev, ADP5360_BAT_CHG_STATUS *batteryChargerStatus){
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Src/ADP5360.c:8:
+../Core/Inc/ADP5360.h:152:8: note: previous declaration of 'ADP5360_GetBatteryChargerStatus' with type 'int(ADP5360 *, ADP5360_BAT_CHG_STATUS *)'
+  152 | string ADP5360_GetBatteryChargerStatus(ADP5360 *dev, ADP5360_BAT_CHG_STATUS *batteryChargerStatus);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/ADP5360.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+18:39:44 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+18:39:54 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+In file included from ../Core/Src/ADP5360.c:8:
+../Core/Inc/ADP5360.h:151:69: error: unknown type name 'string'
+  151 | ADP5360_StatusTypeDef ADP5360_GetChargingStatusString(ADP5360 *dev, string chargeStatusString);
+      |                                                                     ^~~~~~
+../Core/Inc/ADP5360.h:152:1: error: unknown type name 'string'
+  152 | string ADP5360_GetBatteryChargerStatus(ADP5360 *dev);
+      | ^~~~~~
+../Core/Src/ADP5360.c:151:23: error: conflicting types for 'ADP5360_GetBatteryChargerStatus'; have 'ADP5360_StatusTypeDef(ADP5360 *, ADP5360_BAT_CHG_STATUS *)'
+  151 | ADP5360_StatusTypeDef ADP5360_GetBatteryChargerStatus(ADP5360 *dev, ADP5360_BAT_CHG_STATUS *batteryChargerStatus){
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Src/ADP5360.c:8:
+../Core/Inc/ADP5360.h:152:8: note: previous declaration of 'ADP5360_GetBatteryChargerStatus' with type 'int(ADP5360 *)'
+  152 | string ADP5360_GetBatteryChargerStatus(ADP5360 *dev);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/ADP5360.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+18:39:54 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+18:40:20 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+In file included from ../Core/Src/ADP5360.c:8:
+../Core/Inc/ADP5360.h:151:1: error: unknown type name 'string'
+  151 | string ADP5360_GetChargingStatusString(ADP5360 *dev);
+      | ^~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/ADP5360.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+18:40:21 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+18:40:34 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+In file included from ../Core/Src/ADP5360.c:8:
+../Core/Inc/ADP5360.h:151:1: error: unknown type name 'string'
+  151 | string ADP5360_GetChargingStatusString(ADP5360 *dev);
+      | ^~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/ADP5360.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+18:40:34 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+18:41:20 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+18:41:22 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+18:45:42 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_GetChargingStatusString':
+../Core/Src/ADP5360.c:164:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  164 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:161:9: warning: enumeration value 'ADP5360_CHG_TRICKLE' not handled in switch [-Wswitch]
+  161 |         switch (chargeStatus){
+      |         ^~~~~~
+../Core/Src/ADP5360.c:161:9: warning: enumeration value 'ADP5360_CHG_FAST_CC' not handled in switch [-Wswitch]
+../Core/Src/ADP5360.c:161:9: warning: enumeration value 'ADP5360_CHG_FAST_CV' not handled in switch [-Wswitch]
+../Core/Src/ADP5360.c:161:9: warning: enumeration value 'ADP5360_CHG_DONE' not handled in switch [-Wswitch]
+../Core/Src/ADP5360.c:161:9: warning: enumeration value 'ADP5360_CHG_LDO' not handled in switch [-Wswitch]
+../Core/Src/ADP5360.c:161:9: warning: enumeration value 'ADP5360_CHG_TIME_OUT' not handled in switch [-Wswitch]
+../Core/Src/ADP5360.c:161:9: warning: enumeration value 'ADP5360_CHG_DET' not handled in switch [-Wswitch]
+../Core/Src/ADP5360.c:167:1: warning: control reaches end of non-void function [-Wreturn-type]
+  167 | }
+      | ^
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+18:45:44 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+18:48:48 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_GetChargingStatusString':
+../Core/Src/ADP5360.c:164:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  164 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:168:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  168 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:172:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  172 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:176:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  176 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:180:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  180 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:184:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  184 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:188:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  188 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:192:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  192 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:196:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  196 |                 *chargeStatusString = "ADP5360 Charger status unknown";
+      |                                     ^
+../Core/Src/ADP5360.c:198:1: warning: control reaches end of non-void function [-Wreturn-type]
+  198 | }
+      | ^
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+18:48:50 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+18:49:00 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_GetChargingStatusString':
+../Core/Src/ADP5360.c:168:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  168 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:172:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  172 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:176:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  176 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:180:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  180 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:184:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  184 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:188:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  188 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:192:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  192 |                 *chargeStatusString = "ADP5360 Charger off";
+      |                                     ^
+../Core/Src/ADP5360.c:196:37: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  196 |                 *chargeStatusString = "ADP5360 Charger status unknown";
+      |                                     ^
+../Core/Src/ADP5360.c:198:1: warning: control reaches end of non-void function [-Wreturn-type]
+  198 | }
+      | ^
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+18:49:01 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+18:49:11 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_GetChargingStatusString':
+../Core/Src/ADP5360.c:198:1: warning: control reaches end of non-void function [-Wreturn-type]
+  198 | }
+      | ^
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+18:49:12 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+18:53:11 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+18:53:12 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+19:11:07 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+19:11:08 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+19:13:10 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_Init':
+../Core/Src/ADP5360.c:22:13: error: 'ENCHG_Port' undeclared (first use in this function); did you mean 'ENCHG_GPIO_Port'?
+   22 |         if (ENCHG_Port != NULL){
+      |             ^~~~~~~~~~
+      |             ENCHG_GPIO_Port
+../Core/Src/ADP5360.c:22:13: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:40: Core/Src/ADP5360.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+19:13:11 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+19:13:22 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+19:13:23 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+19:28:19 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_GetBatteryCharge':
+../Core/Src/ADP5360.c:251:75: error: 'regData' undeclared (first use in this function)
+  251 |         status = ADP5360_WriteRegister(dev, ADP5360_REG_CHARGER_STATUS2, &regData);
+      |                                                                           ^~~~~~~
+../Core/Src/ADP5360.c:251:75: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:40: Core/Src/ADP5360.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+19:28:20 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+19:29:10 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+19:29:11 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+20:59:53 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_Init':
+../Core/Src/ADP5360.c:54:18: error: too many arguments to function 'ADP5360_SetBatteryCapacity'
+   54 |         status = ADP5360_SetBatteryCapacity(dev, originalBatteryCapacity, batterySOCACMOverflows);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Src/ADP5360.c:8:
+../Core/Inc/ADP5360.h:170:23: note: declared here
+  170 | ADP5360_StatusTypeDef ADP5360_SetBatteryCapacity(ADP5360 *dev, uint16_t capacity); /* Capacity in mAh */
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/ADP5360.c: At top level:
+../Core/Src/ADP5360.c:235:23: error: conflicting types for 'ADP5360_SetBatteryCapacity'; have 'ADP5360_StatusTypeDef(ADP5360 *, uint16_t,  uint8_t)' {aka 'ADP5360_StatusTypeDef(ADP5360 *, short unsigned int,  unsigned char)'}
+  235 | ADP5360_StatusTypeDef ADP5360_SetBatteryCapacity(ADP5360 *dev, uint16_t originalBatteryCapacity, uint8_t batterySOCACMOverflows){
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Src/ADP5360.c:8:
+../Core/Inc/ADP5360.h:170:23: note: previous declaration of 'ADP5360_SetBatteryCapacity' with type 'ADP5360_StatusTypeDef(ADP5360 *, uint16_t)' {aka 'ADP5360_StatusTypeDef(ADP5360 *, short unsigned int)'}
+  170 | ADP5360_StatusTypeDef ADP5360_SetBatteryCapacity(ADP5360 *dev, uint16_t capacity); /* Capacity in mAh */
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/ADP5360.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+20:59:54 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+21:00:13 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_SetBatteryCapacity':
+../Core/Src/ADP5360.c:11:201: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   11 | ADP5360_StatusTypeDef ADP5360_Init(ADP5360 *dev, I2C_HandleTypeDef *i2cHandle, GPIO_TypeDef *ENCHG_GPIO_Port, uint16_t ENCHG_GPIO_Pin, uint16_t originalBatteryCapacity, uint8_t batterySOCACMOverflows){
+      |                                                                                                                                                                                                         ^
+../Core/Src/ADP5360.c:70:59: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   70 | ADP5360_StatusTypeDef ADP5360_EnableCharging(ADP5360 *dev){
+      |                                                           ^
+../Core/Src/ADP5360.c:115:60: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  115 | ADP5360_StatusTypeDef ADP5360_DisableCharging(ADP5360 *dev){
+      |                                                            ^
+../Core/Src/ADP5360.c:147:62: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  147 | ADP5360_StatusTypeDef ADP5360_GetChargingStatus(ADP5360 *dev){
+      |                                                              ^
+../Core/Src/ADP5360.c:164:94: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  164 | ADP5360_StatusTypeDef ADP5360_GetChargingStatusString(ADP5360 *dev, char *chargeStatusString){
+      |                                                                                              ^
+../Core/Src/ADP5360.c:217:68: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  217 | ADP5360_StatusTypeDef ADP5360_GetBatteryChargerStatus(ADP5360 *dev){
+      |                                                                    ^
+../Core/Src/ADP5360.c:235:129: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  235 | ADP5360_StatusTypeDef ADP5360_SetBatteryCapacity(ADP5360 *dev, uint16_t originalBatteryCapacity, uint8_t batterySOCACMOverflows){
+      |                                                                                                                                 ^
+../Core/Src/ADP5360.c:257:61: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  257 | ADP5360_StatusTypeDef ADP5360_GetBatteryCharge(ADP5360 *dev){
+      |                                                             ^
+../Core/Src/ADP5360.c:290:85: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  290 | ADP5360_StatusTypeDef ADP5360_ReadRegister(ADP5360 *dev, uint8_t reg, uint8_t *data){
+      |                                                                                     ^
+../Core/Src/ADP5360.c:295:86: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  295 | ADP5360_StatusTypeDef ADP5360_WriteRegister(ADP5360 *dev, uint8_t reg, uint8_t *data){
+      |                                                                                      ^
+In file included from ../Core/Src/ADP5360.c:8:
+../Core/Inc/ADP5360.h:170:23: error: old-style parameter declarations in prototyped function definition
+  170 | ADP5360_StatusTypeDef ADP5360_SetBatteryCapacity(ADP5360 *dev, uint16_t originalBatteryCapacity, uint8_t batterySOCACMOverflows) /* Capacity in mAh */
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/ADP5360.c:300: error: expected '{' at end of input
+../Core/Src/ADP5360.c:300: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [Core/Src/subdir.mk:40: Core/Src/ADP5360.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+21:00:14 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+21:00:31 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+21:00:32 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+21:04:09 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+21:04:10 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+21:12:53 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+21:12:54 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+21:43:42 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+21:43:43 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+22:02:29 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+22:02:30 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+22:24:06 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_DisableInterrupts':
+../Core/Src/ADP5360.c:11:111: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   11 | ADP5360_StatusTypeDef ADP5360_Init(ADP5360 *dev, I2C_HandleTypeDef *i2cHandle, uint8_t batterySOCACMOverflows){
+      |                                                                                                               ^
+../Core/Src/ADP5360.c:71:59: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   71 | ADP5360_StatusTypeDef ADP5360_EnableCharging(ADP5360 *dev){
+      |                                                           ^
+../Core/Src/ADP5360.c:107:60: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  107 | ADP5360_StatusTypeDef ADP5360_DisableCharging(ADP5360 *dev){
+      |                                                            ^
+../Core/Src/ADP5360.c:130:62: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  130 | ADP5360_StatusTypeDef ADP5360_GetChargingStatus(ADP5360 *dev){
+      |                                                              ^
+../Core/Src/ADP5360.c:147:94: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  147 | ADP5360_StatusTypeDef ADP5360_GetChargingStatusString(ADP5360 *dev, char *chargeStatusString){
+      |                                                                                              ^
+../Core/Src/ADP5360.c:200:68: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  200 | ADP5360_StatusTypeDef ADP5360_GetBatteryChargerStatus(ADP5360 *dev){
+      |                                                                    ^
+../Core/Src/ADP5360.c:218:129: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  218 | ADP5360_StatusTypeDef ADP5360_SetBatteryCapacity(ADP5360 *dev, uint16_t originalBatteryCapacity, uint8_t batterySOCACMOverflows){
+      |                                                                                                                                 ^
+../Core/Src/ADP5360.c:239:61: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  239 | ADP5360_StatusTypeDef ADP5360_GetBatteryCharge(ADP5360 *dev){
+      |                                                             ^
+../Core/Src/ADP5360.c:256:62: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  256 | ADP5360_StatusTypeDef ADP5360_GetBatteryVoltage(ADP5360 *dev){
+      |                                                              ^
+../Core/Src/ADP5360.c:283:60: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  283 | ADP5360_StatusTypeDef ADP5360_EnableBuckBoost(ADP5360 *dev){
+      |                                                            ^
+../Core/Src/ADP5360.c:309:61: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  309 | ADP5360_StatusTypeDef ADP5360_DisableBuckBoost(ADP5360 *dev){
+      |                                                             ^
+../Core/Src/ADP5360.c:335:61: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  335 | ADP5360_StatusTypeDef ADP5360_EnableInterrupts(ADP5360 *dev){
+      |                                                             ^
+../Core/Src/ADP5360.c:362:62: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  362 | ADP5360_StatusTypeDef ADP5360_DisableInterrupts(ADP5360 *dev){
+      |                                                              ^
+../Core/Src/ADP5360.c:400:85: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  400 | ADP5360_StatusTypeDef ADP5360_ReadRegister(ADP5360 *dev, uint8_t reg, uint8_t *data){
+      |                                                                                     ^
+../Core/Src/ADP5360.c:405:86: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  405 | ADP5360_StatusTypeDef ADP5360_WriteRegister(ADP5360 *dev, uint8_t reg, uint8_t *data){
+      |                                                                                      ^
+In file included from ../Core/Src/ADP5360.c:8:
+../Core/Inc/ADP5360.h:193:23: error: old-style parameter declarations in prototyped function definition
+  193 | ADP5360_StatusTypeDef ADP5360_DisableInterrupts(ADP5360 *dev)
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/ADP5360.c:410: error: expected '{' at end of input
+../Core/Src/ADP5360.c:410: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [Core/Src/subdir.mk:40: Core/Src/ADP5360.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+22:24:07 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+22:24:16 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+22:24:17 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+22:59:41 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+22:59:43 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+23:36:38 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+../Core/Src/ADP5360.c: In function 'ADP5360_Interrupt':
+../Core/Src/ADP5360.c:419:17: warning: unused variable 'regData' [-Wunused-variable]
+  419 |         uint8_t regData;
+      |                 ^~~~~~~
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+23:36:39 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+23:37:07 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+23:37:09 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration
+23:49:23 **** Clean-only build of configuration Debug for project ADP5360_demo ****
+make -j16 clean 
+rm -rf ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc_ex.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc_ex.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc_ex.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc_ex.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dcache.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dcache.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dcache.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dcache.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma2d.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma2d.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma2d.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma2d.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dsi.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dsi.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dsi.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dsi.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gfxmmu.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gfxmmu.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gfxmmu.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gfxmmu.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpu2d.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpu2d.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpu2d.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpu2d.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc_ex.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc_ex.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc_ex.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc_ex.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_mdf.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_mdf.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_mdf.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_mdf.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ospi.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ospi.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ospi.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ospi.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.o
+rm -rf ./Core/Startup/startup_stm32u5a9njhxq.d ./Core/Startup/startup_stm32u5a9njhxq.o
+rm -rf ./Core/Src/ADP5360.cyclo ./Core/Src/ADP5360.d ./Core/Src/ADP5360.o ./Core/Src/ADP5360.su ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32u5xx_hal_msp.cyclo ./Core/Src/stm32u5xx_hal_msp.d ./Core/Src/stm32u5xx_hal_msp.o ./Core/Src/stm32u5xx_hal_msp.su ./Core/Src/stm32u5xx_hal_timebase_tim.cyclo ./Core/Src/stm32u5xx_hal_timebase_tim.d ./Core/Src/stm32u5xx_hal_timebase_tim.o ./Core/Src/stm32u5xx_hal_timebase_tim.su ./Core/Src/stm32u5xx_it.cyclo ./Core/Src/stm32u5xx_it.d ./Core/Src/stm32u5xx_it.o ./Core/Src/stm32u5xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32u5xx.cyclo ./Core/Src/system_stm32u5xx.d ./Core/Src/system_stm32u5xx.o ./Core/Src/system_stm32u5xx.su
+rm -rf ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc_ex.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc_ex.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc_ex.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc_ex.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd_ex.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd_ex.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd_ex.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd_ex.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dlyb.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dlyb.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dlyb.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dlyb.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_sdmmc.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_sdmmc.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_sdmmc.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_sdmmc.su ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.cyclo ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.o ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.su
+rm -rf ADP5360_demo.elf ADP5360_demo.list ADP5360_demo.map default.size.stdout
+ 
+23:49:23 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_crc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dcache.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dcache.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dcache.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dcache.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma2d.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma2d.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma2d.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma2d.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dsi.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dsi.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dsi.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dsi.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gfxmmu.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gfxmmu.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gfxmmu.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gfxmmu.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpu2d.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpu2d.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpu2d.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpu2d.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ltdc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_mdf.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_mdf.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_mdf.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_mdf.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ospi.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ospi.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ospi.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ospi.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_sd_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dlyb.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dlyb.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dlyb.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dlyb.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_sdmmc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_sdmmc.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_sdmmc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_sdmmc.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.o"
+arm-none-eabi-gcc -mcpu=cortex-m33 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32u5a9njhxq.d" -MT"Core/Startup/startup_stm32u5a9njhxq.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32u5a9njhxq.o" "../Core/Startup/startup_stm32u5a9njhxq.s"
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32u5xx_hal_msp.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32u5xx_hal_msp.d" -MT"Core/Src/stm32u5xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32u5xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32u5xx_hal_timebase_tim.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32u5xx_hal_timebase_tim.d" -MT"Core/Src/stm32u5xx_hal_timebase_tim.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32u5xx_hal_timebase_tim.o"
+arm-none-eabi-gcc "../Core/Src/stm32u5xx_it.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32u5xx_it.d" -MT"Core/Src/stm32u5xx_it.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32u5xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32u5xx.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32u5xx.d" -MT"Core/Src/system_stm32u5xx.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32u5xx.o"
+arm-none-eabi-g++ -o "ADP5360_demo.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\ADP5360_demo\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADP5360_demo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: ADP5360_demo.elf
+ 
+arm-none-eabi-size  ADP5360_demo.elf 
+arm-none-eabi-objdump -h -S ADP5360_demo.elf  > "ADP5360_demo.list"
+   text	   data	    bss	    dec	    hex	filename
+  62320	     17	   4964	  67301	  106e5	ADP5360_demo.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADP5360_demo.list
+ 
+
+**** Build of configuration Debug for project rfid_module_default_configuration ****
+
+Nothing to build for project rfid_module_default_configuration

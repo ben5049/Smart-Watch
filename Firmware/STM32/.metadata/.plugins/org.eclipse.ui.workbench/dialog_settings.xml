@@ -2,4 +2,9 @@
 <section name="Workbench">
 	<section name="ImportExportAction">
 	</section>
+	<section name="EditorSelectionDialog">
+		<item key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION" value=".part"/>
+		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="true"/>
+		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="TouchGFX 4.23.0 Designer project"/>
+	</section>
 </section>

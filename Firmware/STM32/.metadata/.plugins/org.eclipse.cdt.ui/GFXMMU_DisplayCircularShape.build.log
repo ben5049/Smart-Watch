@@ -1,0 +1,10 @@
+23:37:09 **** Incremental Build of configuration Debug for project GFXMMU_DisplayCircularShape ****
+make -j16 all 
+arm-none-eabi-size  GFXMMU_DisplayCircularShape.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 949296	   3928	  19896	 973120	  ed940	GFXMMU_DisplayCircularShape.elf
+Finished building: default.size.stdout
+ 
+
+23:37:09 Build Finished. 0 errors, 0 warnings. (took 236ms)
+
