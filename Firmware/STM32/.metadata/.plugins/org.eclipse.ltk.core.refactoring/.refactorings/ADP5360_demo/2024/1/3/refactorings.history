@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;ADP5360.c&apos; to &apos;ADP5360_demo&apos;" description="Move &apos;ADP5360.c&apos; to &apos;ADP5360_demo&apos;" destination="/ADP5360_demo" element1="/libraries/Src/ADP5360.c" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1705528259734" updateReferences="true"/>
+</session>
