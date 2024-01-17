@@ -8,7 +8,7 @@
 #include "ADP5360.h"
 
 
-ADP5360_StatusTypeDef ADP5360_Init(ADP5360 *dev, I2C_HandleTypeDef *i2cHandle, uint8_t batterySOCACMOverflows){
+ADP5360_StatusTypeDef ADP5360_Init(ADP5360_HandleTypeDef *dev, I2C_HandleTypeDef *i2cHandle, uint8_t batterySOCACMOverflows){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 	uint8_t regData;
@@ -74,7 +74,7 @@ ADP5360_StatusTypeDef ADP5360_Init(ADP5360 *dev, I2C_HandleTypeDef *i2cHandle, u
 	return status;
 }
 
-ADP5360_StatusTypeDef ADP5360_EnableCharging(ADP5360 *dev){
+ADP5360_StatusTypeDef ADP5360_EnableCharging(ADP5360_HandleTypeDef *dev){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 	uint8_t regData;
@@ -101,7 +101,7 @@ ADP5360_StatusTypeDef ADP5360_EnableCharging(ADP5360 *dev){
 }
 
 
-ADP5360_StatusTypeDef ADP5360_DisableCharging(ADP5360 *dev){
+ADP5360_StatusTypeDef ADP5360_DisableCharging(ADP5360_HandleTypeDef *dev){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 	uint8_t regData;
@@ -127,7 +127,7 @@ ADP5360_StatusTypeDef ADP5360_DisableCharging(ADP5360 *dev){
 	return status;
 }
 
-ADP5360_StatusTypeDef ADP5360_UpdateCharging(ADP5360 *dev){
+ADP5360_StatusTypeDef ADP5360_UpdateCharging(ADP5360_HandleTypeDef *dev){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 	uint8_t regData;
@@ -160,7 +160,7 @@ ADP5360_StatusTypeDef ADP5360_UpdateCharging(ADP5360 *dev){
 	return status;
 }
 
-ADP5360_StatusTypeDef ADP5360_GetChargingStatus(ADP5360 *dev){
+ADP5360_StatusTypeDef ADP5360_GetChargingStatus(ADP5360_HandleTypeDef *dev){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 	uint8_t regData;
@@ -177,7 +177,7 @@ ADP5360_StatusTypeDef ADP5360_GetChargingStatus(ADP5360 *dev){
 	return status;
 }
 
-ADP5360_StatusTypeDef ADP5360_GetChargingStatusString(ADP5360 *dev, char *chargeStatusString){
+ADP5360_StatusTypeDef ADP5360_GetChargingStatusString(ADP5360_HandleTypeDef *dev, char *chargeStatusString){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 
@@ -230,7 +230,7 @@ ADP5360_StatusTypeDef ADP5360_GetChargingStatusString(ADP5360 *dev, char *charge
 }
 
 
-ADP5360_StatusTypeDef ADP5360_GetBatteryChargerStatus(ADP5360 *dev){
+ADP5360_StatusTypeDef ADP5360_GetBatteryChargerStatus(ADP5360_HandleTypeDef *dev){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 	uint8_t regData;
@@ -248,7 +248,7 @@ ADP5360_StatusTypeDef ADP5360_GetBatteryChargerStatus(ADP5360 *dev){
 }
 
 
-ADP5360_StatusTypeDef ADP5360_SetBatteryCapacity(ADP5360 *dev, uint16_t originalBatteryCapacity, uint8_t batterySOCACMOverflows){
+ADP5360_StatusTypeDef ADP5360_SetBatteryCapacity(ADP5360_HandleTypeDef *dev, uint16_t originalBatteryCapacity, uint8_t batterySOCACMOverflows){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 
@@ -269,7 +269,7 @@ ADP5360_StatusTypeDef ADP5360_SetBatteryCapacity(ADP5360 *dev, uint16_t original
 	return status;
 }
 
-ADP5360_StatusTypeDef ADP5360_GetBatteryCharge(ADP5360 *dev){
+ADP5360_StatusTypeDef ADP5360_GetBatteryCharge(ADP5360_HandleTypeDef *dev){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 	uint8_t regData;
@@ -286,7 +286,7 @@ ADP5360_StatusTypeDef ADP5360_GetBatteryCharge(ADP5360 *dev){
 	return status;
 }
 
-ADP5360_StatusTypeDef ADP5360_GetBatteryVoltage(ADP5360 *dev){
+ADP5360_StatusTypeDef ADP5360_GetBatteryVoltage(ADP5360_HandleTypeDef *dev){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 	uint8_t regData;
@@ -313,7 +313,7 @@ ADP5360_StatusTypeDef ADP5360_GetBatteryVoltage(ADP5360 *dev){
 }
 
 
-ADP5360_StatusTypeDef ADP5360_EnableBuckBoost(ADP5360 *dev){
+ADP5360_StatusTypeDef ADP5360_EnableBuckBoost(ADP5360_HandleTypeDef *dev){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 	uint8_t regData;
@@ -339,7 +339,7 @@ ADP5360_StatusTypeDef ADP5360_EnableBuckBoost(ADP5360 *dev){
 	return status;
 }
 
-ADP5360_StatusTypeDef ADP5360_DisableBuckBoost(ADP5360 *dev){
+ADP5360_StatusTypeDef ADP5360_DisableBuckBoost(ADP5360_HandleTypeDef *dev){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 	uint8_t regData;
@@ -365,7 +365,7 @@ ADP5360_StatusTypeDef ADP5360_DisableBuckBoost(ADP5360 *dev){
 	return status;
 }
 
-ADP5360_StatusTypeDef ADP5360_EnableInterrupts(ADP5360 *dev){
+ADP5360_StatusTypeDef ADP5360_EnableInterrupts(ADP5360_HandleTypeDef *dev){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 	uint8_t regData = 0x00;
@@ -392,7 +392,7 @@ ADP5360_StatusTypeDef ADP5360_EnableInterrupts(ADP5360 *dev){
 	return status;
 }
 
-ADP5360_StatusTypeDef ADP5360_DisableInterrupts(ADP5360 *dev){
+ADP5360_StatusTypeDef ADP5360_DisableInterrupts(ADP5360_HandleTypeDef *dev){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 	uint8_t regData = 0x00;
@@ -412,7 +412,7 @@ ADP5360_StatusTypeDef ADP5360_DisableInterrupts(ADP5360 *dev){
 	return status;
 }
 
-ADP5360_StatusTypeDef ADP5360_Interrupt(ADP5360 *dev){
+ADP5360_StatusTypeDef ADP5360_Interrupt(ADP5360_HandleTypeDef *dev){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 	uint8_t regData;
@@ -472,7 +472,7 @@ ADP5360_StatusTypeDef ADP5360_Interrupt(ADP5360 *dev){
 	return status;
 }
 
-ADP5360_StatusTypeDef ADP5360_EnterShipmentMode(ADP5360 *dev){
+ADP5360_StatusTypeDef ADP5360_EnterShipmentMode(ADP5360_HandleTypeDef *dev){
 
 	ADP5360_StatusTypeDef status = ADP5360_OK;
 	uint8_t regData = 0xFF;
@@ -486,12 +486,12 @@ ADP5360_StatusTypeDef ADP5360_EnterShipmentMode(ADP5360 *dev){
 	return status;
 }
 
-ADP5360_StatusTypeDef ADP5360_ReadRegister(ADP5360 *dev, uint8_t reg, uint8_t *data){
+ADP5360_StatusTypeDef ADP5360_ReadRegister(ADP5360_HandleTypeDef *dev, uint8_t reg, uint8_t *data){
 
 	return HAL_I2C_Mem_Read(dev->i2cHandle, ADP5360_I2C_ADDR, reg, I2C_MEMADD_SIZE_8BIT, data, 1, HAL_MAX_DELAY);
 }
 
-ADP5360_StatusTypeDef ADP5360_WriteRegister(ADP5360 *dev, uint8_t reg, uint8_t *data){
+ADP5360_StatusTypeDef ADP5360_WriteRegister(ADP5360_HandleTypeDef *dev, uint8_t reg, uint8_t *data){
 
 	return HAL_I2C_Mem_Write(dev->i2cHandle, ADP5360_I2C_ADDR, reg, I2C_MEMADD_SIZE_8BIT, data, 1, HAL_MAX_DELAY);
 }

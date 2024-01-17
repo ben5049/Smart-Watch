@@ -160,37 +160,37 @@ typedef struct {
 	bool buckEnabled;
 	bool buckBoostEnabled;
 
-} ADP5360;
+} ADP5360_HandleTypeDef;
 
 
 /* Initialisation */
-ADP5360_StatusTypeDef ADP5360_Init(ADP5360 *dev, I2C_HandleTypeDef *i2cHandle, uint8_t batterySOCACMOverflows);
+ADP5360_StatusTypeDef ADP5360_Init(ADP5360_HandleTypeDef *dev, I2C_HandleTypeDef *i2cHandle, uint8_t batterySOCACMOverflows);
 
 /* User Functions */
-ADP5360_StatusTypeDef ADP5360_UpdateCharging(ADP5360 *dev); /* If VBUS present: enable charging, if VBUS absent: disable charging */
-ADP5360_StatusTypeDef ADP5360_GetBatteryCharge(ADP5360 *dev);
-ADP5360_StatusTypeDef ADP5360_EnableBuckBoost(ADP5360 *dev);
-ADP5360_StatusTypeDef ADP5360_DisableBuckBoost(ADP5360 *dev);
-ADP5360_StatusTypeDef ADP5360_Interrupt(ADP5360 *dev); /* Run this function whenever an interrupt occurs */
-ADP5360_StatusTypeDef ADP5360_EnterShipmentMode(ADP5360 *dev);
+ADP5360_StatusTypeDef ADP5360_UpdateCharging(ADP5360_HandleTypeDef *dev); /* If VBUS present: enable charging, if VBUS absent: disable charging */
+ADP5360_StatusTypeDef ADP5360_GetBatteryCharge(ADP5360_HandleTypeDef *dev);
+ADP5360_StatusTypeDef ADP5360_EnableBuckBoost(ADP5360_HandleTypeDef *dev);
+ADP5360_StatusTypeDef ADP5360_DisableBuckBoost(ADP5360_HandleTypeDef *dev);
+ADP5360_StatusTypeDef ADP5360_Interrupt(ADP5360_HandleTypeDef *dev); /* Run this function whenever an interrupt occurs */
+ADP5360_StatusTypeDef ADP5360_EnterShipmentMode(ADP5360_HandleTypeDef *dev);
 
 /* Internal/debug Functions */
-ADP5360_StatusTypeDef ADP5360_EnableCharging(ADP5360 *dev);
-ADP5360_StatusTypeDef ADP5360_DisableCharging(ADP5360 *dev);
-ADP5360_StatusTypeDef ADP5360_SetVBUSCurrentLimit(ADP5360 *dev, uint16_t current); /* Current in mA */
-ADP5360_StatusTypeDef ADP5360_GetChargingStatus(ADP5360 *dev);
-ADP5360_StatusTypeDef ADP5360_GetChargingStatusString(ADP5360 *dev, char *chargeStatusString);
-ADP5360_StatusTypeDef ADP5360_SetBatteryCapacity(ADP5360 *dev, uint16_t originalBatteryCapacity, uint8_t batterySOCACMOverflows); /* Capacity in mAh */
-ADP5360_StatusTypeDef ADP5360_GetBatteryChargerStatus(ADP5360 *dev);
-ADP5360_StatusTypeDef ADP5360_GetBatteryVoltage(ADP5360 *dev);
-ADP5360_StatusTypeDef ADP5360_EnableInterrupts(ADP5360 *dev);
-ADP5360_StatusTypeDef ADP5360_DisableInterrupts(ADP5360 *dev);
+ADP5360_StatusTypeDef ADP5360_EnableCharging(ADP5360_HandleTypeDef *dev);
+ADP5360_StatusTypeDef ADP5360_DisableCharging(ADP5360_HandleTypeDef *dev);
+ADP5360_StatusTypeDef ADP5360_SetVBUSCurrentLimit(ADP5360_HandleTypeDef *dev, uint16_t current); /* Current in mA */
+ADP5360_StatusTypeDef ADP5360_GetChargingStatus(ADP5360_HandleTypeDef *dev);
+ADP5360_StatusTypeDef ADP5360_GetChargingStatusString(ADP5360_HandleTypeDef *dev, char *chargeStatusString);
+ADP5360_StatusTypeDef ADP5360_SetBatteryCapacity(ADP5360_HandleTypeDef *dev, uint16_t originalBatteryCapacity, uint8_t batterySOCACMOverflows); /* Capacity in mAh */
+ADP5360_StatusTypeDef ADP5360_GetBatteryChargerStatus(ADP5360_HandleTypeDef *dev);
+ADP5360_StatusTypeDef ADP5360_GetBatteryVoltage(ADP5360_HandleTypeDef *dev);
+ADP5360_StatusTypeDef ADP5360_EnableInterrupts(ADP5360_HandleTypeDef *dev);
+ADP5360_StatusTypeDef ADP5360_DisableInterrupts(ADP5360_HandleTypeDef *dev);
 /* TODO: Set VBUS current */
 /* TODO: Set charging currents */
 
 /* Low-Level Functions */
-ADP5360_StatusTypeDef ADP5360_ReadRegister(ADP5360 *dev, uint8_t reg, uint8_t *data);
-ADP5360_StatusTypeDef ADP5360_WriteRegister(ADP5360 *dev, uint8_t reg, uint8_t *data);
+ADP5360_StatusTypeDef ADP5360_ReadRegister(ADP5360_HandleTypeDef *dev, uint8_t reg, uint8_t *data);
+ADP5360_StatusTypeDef ADP5360_WriteRegister(ADP5360_HandleTypeDef *dev, uint8_t reg, uint8_t *data);
 
 
 #endif /* INC_ADP5360_H_ */

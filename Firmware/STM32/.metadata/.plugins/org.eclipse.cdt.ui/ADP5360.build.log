@@ -1,0 +1,19 @@
+11:08:03 **** Incremental Build of configuration Debug for project ADP5360 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/ADP5360.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADP5360.d" -MT"Core/Src/ADP5360.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/ADP5360.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U5A9xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:117:14: error: expected declaration specifiers or '...' before '&' token
+  117 | ADP5360_Init(&hapd5360, &hi2c2, (uint8_t) 0);
+      |              ^
+../Core/Src/main.c:117:25: error: expected declaration specifiers or '...' before '&' token
+  117 | ADP5360_Init(&hapd5360, &hi2c2, (uint8_t) 0);
+      |                         ^
+../Core/Src/main.c:117:33: error: expected declaration specifiers or '...' before '(' token
+  117 | ADP5360_Init(&hapd5360, &hi2c2, (uint8_t) 0);
+      |                                 ^
+make: *** [Core/Src/subdir.mk:40: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+11:08:04 Build Failed. 5 errors, 0 warnings. (took 792ms)
+
