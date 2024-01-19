@@ -595,11 +595,11 @@
     (uuid fd9e8bc0-5e77-4d37-b9e9-ba493dac9e0a)
   )
 
-  (text "HR sensors address = 0x57" (at 109.22 132.08 0)
+  (text "HR sensors address = 0x57 (1010 111x = AE/AF)" (at 109.22 132.08 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 43c31e64-5222-47cd-9521-1da50c14da5d)
   )
-  (text "LRA driver address = 0x5A" (at 109.22 134.62 0)
+  (text "LRA driver address  = 0x5A (1011 010x = B4/B5)" (at 109.22 134.62 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ff0f3fa5-1ece-4f45-be1d-e5169af8f962)
   )

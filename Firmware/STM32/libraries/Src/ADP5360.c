@@ -37,6 +37,12 @@ ADP5360_StatusTypeDef ADP5360_Init(ADP5360_HandleTypeDef *dev, I2C_HandleTypeDef
 		return status;
 	}
 
+	/* Turn off the buck boost converter */
+	status = ADP5360_DisableBuckBoost(dev);
+	if (status != ADP5360_OK){
+		return status;
+	}
+
 	/* Write the battery capacity */
 	status = ADP5360_SetBatteryCapacity(dev, dev->originalBatteryCapacity);
 	if (status != ADP5360_OK){

@@ -7,4 +7,6 @@
 		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="true"/>
 		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="TouchGFX 4.23.0 Designer project"/>
 	</section>
+	<section name="FileSystemImportWizard">
+	</section>
 </section>

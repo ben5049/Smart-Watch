@@ -1,0 +1,3 @@
+../Core/Src/M24256X.c:10:23:M24256X_Init	1
+../Core/Src/M24256X.c:19:23:M24256X_ReadMemoryByte	3
+../Core/Src/M24256X.c:38:23:M24256X_WriteMemoryByte	3

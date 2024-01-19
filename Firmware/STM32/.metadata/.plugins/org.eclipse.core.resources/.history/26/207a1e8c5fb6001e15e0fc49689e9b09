@@ -1,0 +1,47 @@
+/*
+ * M24256X.h
+ *
+ *  Created on: Jan 18, 2024
+ *      Author: bens1
+ */
+
+#ifndef INC_M24256X_H_
+#define INC_M24256X_H_
+
+/* Includes*/
+#include "stm32u5xx_hal.h" /* Needed for I2C */
+
+
+/* Defines*/
+#define M24256X_DEFAULT_I2C_ADDR (0x00) /* */
+
+
+
+
+/* M24256X Status typedef */
+typedef enum {
+	M24256X_OK 				= 0x00,
+	M24256X_ERROR    		= 0x01,
+	M24256X_BUSY    		= 0x02,
+	M24256X_TIMEOUT 		= 0x03,
+} M24256X_StatusTypeDef;
+
+/* M24256X Device Struct */
+typedef struct {
+	/* I2C Handle*/
+	I2C_HandleTypeDef *i2cHandle;
+} M24256X_HandleTypeDef;
+
+
+
+/* Initialisation */
+M24256X_StatusTypeDef ADP5360_Init(M24256X_HandleTypeDef *dev, I2C_HandleTypeDef *i2cHandle);
+
+/* User Functions */
+
+/* Internal/debug Functions */
+
+/* Low-Level Functions */
+
+
+#endif /* INC_M24256X_H_ */
