@@ -75,9 +75,6 @@ ADP5360_StatusTypeDef ADP5360_Init(ADP5360_HandleTypeDef *dev, I2C_HandleTypeDef
 
 	/* Read the battery charger status/mode */
 	status = ADP5360_GetBatteryChargerStatus(dev);
-	if (status != ADP5360_OK){
-		return status;
-	}
 
 	return status;
 }
@@ -409,9 +406,6 @@ ADP5360_StatusTypeDef ADP5360_EnableInterrupts(ADP5360_HandleTypeDef *dev){
 
 	/* Write the "ADP5360_REG_INTERRUPT_ENABLE2" register */
 	status = ADP5360_WriteRegister(dev, ADP5360_REG_INTERRUPT_ENABLE2, &regData);
-	if (status != ADP5360_OK){
-		return status;
-	}
 
 	return status;
 }
@@ -429,9 +423,6 @@ ADP5360_StatusTypeDef ADP5360_DisableInterrupts(ADP5360_HandleTypeDef *dev){
 
 	/* Write the "ADP5360_REG_INTERRUPT_ENABLE2" register */
 	status = ADP5360_WriteRegister(dev, ADP5360_REG_INTERRUPT_ENABLE2, &regData);
-	if (status != ADP5360_OK){
-		return status;
-	}
 
 	return status;
 }
@@ -503,9 +494,6 @@ ADP5360_StatusTypeDef ADP5360_EnterShipmentMode(ADP5360_HandleTypeDef *dev){
 
 	/* Write the "ADP5360_REG_SHIPMODE" register */
 	status = ADP5360_WriteRegister(dev, ADP5360_REG_SHIPMODE, &regData);
-	if (status != ADP5360_OK){
-		return status;
-	}
 
 	return status;
 }
@@ -526,9 +514,6 @@ ADP5360_StatusTypeDef ADP5360_EnableMRShipmentMode(ADP5360_HandleTypeDef *dev){
 
 	/* Write the "ADP5360_REG_SUPERVISORY_SETTING" register */
 	status = ADP5360_WriteRegister(dev, ADP5360_REG_SUPERVISORY_SETTING, &regData);
-	if (status != ADP5360_OK){
-		return status;
-	}
 
 	return status;
 }

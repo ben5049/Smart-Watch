@@ -84,8 +84,8 @@ all: main-build
 main-build: blink.elf secondary-outputs
 
 # Tool invocations
-blink.elf blink.map: $(OBJS) $(USER_OBJS) C:\Users\bens1\Documents\Other\Projects\Smart-Watch\Firmware\STM32\main_board_v2\blink\STM32U5A9NJHXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "blink.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\Users\bens1\Documents\Other\Projects\Smart-Watch\Firmware\STM32\main_board_v2\blink\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+blink.elf blink.map: $(OBJS) $(USER_OBJS) C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\main_board_v2\blink\STM32U5A9NJHXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "blink.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\main_board_v2\blink\STM32U5A9NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

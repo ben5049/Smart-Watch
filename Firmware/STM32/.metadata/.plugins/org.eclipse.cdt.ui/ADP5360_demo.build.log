@@ -1,10 +1,10 @@
-15:20:10 **** Incremental Build of configuration Debug for project ADP5360_demo ****
+02:27:31 **** Incremental Build of configuration Debug for project ADP5360_demo ****
 make -j16 all 
 arm-none-eabi-size  ADP5360_demo.elf 
    text	   data	    bss	    dec	    hex	filename
-  58344	     17	   3660	  62021	   f245	ADP5360_demo.elf
+  58316	     17	   3660	  61993	   f229	ADP5360_demo.elf
 Finished building: default.size.stdout
  
 
-15:20:11 Build Finished. 0 errors, 0 warnings. (took 529ms)
+02:27:31 Build Finished. 0 errors, 0 warnings. (took 246ms)
 

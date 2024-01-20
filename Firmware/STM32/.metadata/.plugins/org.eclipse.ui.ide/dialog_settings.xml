@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\main_board_v2"/>
 			<item value="C:\Users\bens1\Documents\Other\Projects\Smart-Watch\Firmware\STM32\main_board_v2"/>
 			<item value="C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\libraries"/>
 			<item value="C:\Users\bens1\Documents\Other\Projects\Smart-Watch\Firmware\STM32"/>
