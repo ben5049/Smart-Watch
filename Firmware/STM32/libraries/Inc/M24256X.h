@@ -8,9 +8,6 @@
 #ifndef INC_M24256X_H_
 #define INC_M24256X_H_
 
-/* Includes*/
-#include "stm32u5xx_hal.h" /* Needed for I2C */
-
 /* Defines*/
 
 /* Device Address (p.11) */
@@ -35,35 +32,5 @@
 #define M24256X_WP_DEV_ADDR_SECOND_BYTE_ADDR	0x00
 
 #define M24256X_MAX_ATTEMPTS 100 /* Maximum access attempts (in case M24256X is busy writing) */
-
-/* M24256X Status typedef */
-typedef enum {
-	M24256X_OK 				= 0x00,
-	M24256X_ERROR    		= 0x01,
-	M24256X_BUSY    		= 0x02,
-	M24256X_TIMEOUT 		= 0x03,
-} M24256X_StatusTypeDef;
-
-/* M24256X Device Struct */
-typedef struct {
-	/* I2C Handle*/
-	I2C_HandleTypeDef *i2cHandle;
-} M24256X_HandleTypeDef;
-
-
-
-/* Initialisation */
-M24256X_StatusTypeDef M24256X_Init(M24256X_HandleTypeDef *dev, I2C_HandleTypeDef *i2cHandle);
-
-/* User Functions */
-M24256X_StatusTypeDef M24256X_WriteMemoryByte(M24256X_HandleTypeDef *dev, uint16_t address, uint8_t *data);
-M24256X_StatusTypeDef M24256X_WriteMemoryByte(M24256X_HandleTypeDef *dev, uint16_t address, uint8_t *data);
-
-/* Internal/debug Functions */
-M24256X_StatusTypeDef M24256X_SetChipEnableAddress(M24256X_HandleTypeDef *dev, uint8_t address); /* Address between 0x00 and 0x07 */
-M24256X_StatusTypeDef M24256X_LockChipEnableAddress(M24256X_HandleTypeDef *dev); /* THIS IS PERMANENT */
-
-/* Low-Level Functions */
-
 
 #endif /* INC_M24256X_H_ */

@@ -1,0 +1,12 @@
+/*
+ * EEPROM.c
+ *
+ *  Created on: Jan 20, 2024
+ *      Author: bens1
+ */
+
+#include "EEPROM.h"
+
+#ifdef M24256X
+#include "M24256X.h"
+#endif

@@ -1,0 +1,18 @@
+/*
+ * EEPROM.h
+ *
+ *  Created on: Jan 20, 2024
+ *      Author: bens1
+ */
+
+#ifndef INC_EEPROM_H_
+#define INC_EEPROM_H_
+
+#include "EEPROM_Addresses.h"
+
+/* Define which EEPROM to use */
+#define M24256X
+
+
+
+#endif /* INC_EEPROM_H_ */

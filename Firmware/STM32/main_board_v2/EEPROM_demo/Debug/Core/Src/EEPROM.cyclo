@@ -1,0 +1,3 @@
+C:/Users/bens1/Documents/Other/Projects/Smart-Watch/Firmware/STM32/libraries/Src/EEPROM.c:14:22:EEPROM_Init	1
+C:/Users/bens1/Documents/Other/Projects/Smart-Watch/Firmware/STM32/libraries/Src/EEPROM.c:24:22:EEPROM_ReadMemoryByte	3
+C:/Users/bens1/Documents/Other/Projects/Smart-Watch/Firmware/STM32/libraries/Src/EEPROM.c:48:22:EEPROM_WriteMemoryByte	3

@@ -1,10 +1,10 @@
-15:20:10 **** Incremental Build of configuration Debug for project hyperflash_demo ****
+19:35:45 **** Incremental Build of configuration Debug for project hyperflash_demo ****
 make -j16 all 
 arm-none-eabi-size  hyperflash_demo.elf 
    text	   data	    bss	    dec	    hex	filename
-  58344	   3345	   3468	  65157	   fe85	hyperflash_demo.elf
+  58324	   3345	   3468	  65137	   fe71	hyperflash_demo.elf
 Finished building: default.size.stdout
  
 
-15:20:10 Build Finished. 0 errors, 0 warnings. (took 584ms)
+19:35:45 Build Finished. 0 errors, 0 warnings. (took 356ms)
 
