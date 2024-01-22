@@ -4586,3 +4586,18 @@ java.lang.Exception: The project description file (.project) for 'ADP5360_demo' 
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-01-19 20:31:17.009
 !MESSAGE Indexed 'DRV2605_demo' (43 sources, 234 headers) in 4.87 sec: 33,392 declarations; 175,219 references; 1 unresolved inclusions; 120 syntax errors; 1,576 unresolved names (0.75%)
+!SESSION 2024-01-21 23:32:55.526 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-01-21 23:33:06.155
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-01-21 23:33:06.159
+!MESSAGE Log4j2 initialized with config file C:\Users\bens1\OneDrive\Documents\Projects\Smart-Watch\Firmware\STM32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-01-21 23:33:12.242
+!MESSAGE Started RMI Server, listening on port 41337
