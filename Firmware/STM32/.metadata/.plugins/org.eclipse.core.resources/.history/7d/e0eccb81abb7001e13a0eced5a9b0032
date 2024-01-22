@@ -1,0 +1,26 @@
+/*
+ * EEPROM.c
+ *
+ *  Created on: Jan 20, 2024
+ *      Author: bens1
+ */
+
+#include "EEPROM.h"
+
+#ifdef M24256X
+#include "M24256X.h"
+#endif
+
+EEPROM_StatusTypeDef EEPROM_WriteMemoryByte(EEPROM_HandleTypeDef *dev, uint16_t address, uint8_t *data){
+
+#ifdef M24256X
+	return M24256X_WriteMemoryByte(dev, address, data);
+#endif
+}
+
+EEPROM_StatusTypeDef EEPROM_WriteMemoryByte(EEPROM_HandleTypeDef *dev, uint16_t address, uint8_t *data){
+
+	#ifdef M24256X
+	M24256X_ReadMemoryByte(dev, address, data);
+#endif
+}
