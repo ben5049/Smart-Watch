@@ -5214,3 +5214,35 @@ java.io.FileNotFoundException: C:\Users\bens1\Documents\Other\Projects\Smart-Wat
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-01-22 17:06:42.064
 !MESSAGE Indexed 'MAX30102_demo' (45 sources, 236 headers) in 8.07 sec: 33,392 declarations; 175,220 references; 2 unresolved inclusions; 120 syntax errors; 1,576 unresolved names (0.75%)
+!SESSION 2024-01-24 14:33:04.952 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-01-24 14:33:19.545
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-01-24 14:33:19.552
+!MESSAGE Log4j2 initialized with config file C:\Users\bens1\Documents\Other\Projects\Smart-Watch\Firmware\STM32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-01-24 14:33:29.888
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-01-24 14:33:30.250
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.runtime.preferences.IPreferencesService.getRootNode()" because "preferencesService" is null
+	at org.eclipse.core.resources.ProjectScope.getNode(ProjectScope.java:70)
+	at org.eclipse.cdt.core.CCorePreferenceConstants.getPreferenceNode(CCorePreferenceConstants.java:427)
+	at org.eclipse.cdt.core.CCorePreferenceConstants.getPreferenceNode(CCorePreferenceConstants.java:412)
+	at org.eclipse.cdt.core.CCorePreferenceConstants.getPreference(CCorePreferenceConstants.java:482)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.getIncludeExportPatterns(PDOMIndexerTask.java:221)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1033)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:909)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:96)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
