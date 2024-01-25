@@ -1,10 +1,10 @@
 ## PCBs
 ### Main PCB
-* Move touch connector slot down by 1-2mm (measure)
-* Move top alignment slots further apart
-* Use NRF in QFN package (instead of aQFN) (NRF52840 or NRF54 if released)
-* Use STM32U5G9 in UFBGA-144 package (instead of STM32U5A9 in TFBGA-216)
-* Move NRF53 inductors further apart / fix footprint
+* ~~Move touch connector slot down by 1-2mm (measure)~~
+* ~~Move top alignment slots further apart~~
+* ~~Use NRF in QFN package (instead of aQFN) (NRF52840 or NRF54 if released)~~
+* ~~Use STM32U5G9 in UFBGA-144 package (instead of STM32U5A9 in TFBGA-216)~~
+* ~~Move NRF53 inductors further apart / fix footprint~~
 
 ### Lower Flex PCB
 * Increase board name silkscreen size
