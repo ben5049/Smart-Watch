@@ -193,4 +193,9 @@
   (pad "M10" smd circle (at 2.8 4.4) (size 0.4 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dd16afc5-f7a3-41b1-b8d4-8d72a28d0357))
   (pad "M11" smd circle (at 3.6 4.4) (size 0.4 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 418eb28f-321a-44a7-a021-79f176b5938b))
   (pad "M12" smd circle (at 4.4 4.4) (size 0.4 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b5471319-1dec-4182-a0f4-6c728245704a))
+  (model "${KIPRJMOD}/../component_library/watch_models/STM32U5G9ZJJ.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -191,7 +191,7 @@
     (thermal_bridge_angle 45) (tstamp 0b6479d3-9024-4101-b27a-3d63eaf61e73))
   (pad "77" smd rect (at 0 0 180) (size 0.3 0.45) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp 2b0e156c-3b11-4ed5-8b4c-cf8e9aa8324e))
-  (model "C:/Users/bens1/OneDrive/Documents/Projects/Smart-Watch/PCBs/component_library/watch_models/LBEE5PK2AE-564.stp"
+  (model "${KIPRJMOD}/../component_library/watch_models/LBEE5PK2AE-564.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
