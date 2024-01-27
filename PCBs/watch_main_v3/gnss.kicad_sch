@@ -871,7 +871,7 @@
       (effects (font (size 1.27 1.27) italic) (justify right) hide)
     )
   )
-  (hierarchical_label "RF_1.575G" (shape input) (at 53.34 81.28 180) (fields_autoplaced)
+  (hierarchical_label "RF" (shape input) (at 53.34 81.28 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 57a11dfc-2aca-4f42-845f-b7af42719fbb)
   )
