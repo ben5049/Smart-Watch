@@ -303,10 +303,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4212d1fa-0da2-48b5-bad0-d5f687a990ff)
   )
-  (text "CHECK PINS 8 AND 9" (at 68.58 50.8 0)
-    (effects (font (size 10 10)) (justify left bottom))
-    (uuid 88cc7587-0093-4861-9b34-346b2eaf419e)
-  )
 
   (label "I2C{I2C}" (at 104.14 76.2 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
