@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;M24256X_demo/Core/Src/M24256X&apos; to &apos;M24256X.c&apos;" description="Rename resource &apos;M24256X&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/M24256X" name="M24256X.c" stamp="1705621845155" updateReferences="true"/>
-</session>

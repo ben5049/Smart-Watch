@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete 9 resources" deleteContents="false" description="Delete 9 resources" element1="/ADP5360_demo" element2="/M24256X_demo" element3="/DRV2605_demo" element4="/blink" element5="/default_configuration_v2" element6="/hyperflash_demo" element7="/default_configuration_v3" element8="/main_board_v2" element9="/main_board_v3" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="9" stamp="1705930400789"/>
-</session>
