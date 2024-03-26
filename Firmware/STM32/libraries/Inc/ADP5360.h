@@ -11,7 +11,11 @@
 
 /* Includes*/
 #include "stm32u5xx_hal.h" /* Needed for I2C */
-#include "stdbool.h"
+
+typedef enum{
+	false = 0x00,
+	true = 0x01
+} bool;
 
 /* Defines*/
 #define ADP5360_I2C_ADDR (0x46 << 1) /* p. 58*/

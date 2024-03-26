@@ -66,6 +66,12 @@
     "visible_layers": "ffc3f30_fffffff9",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "rfid_module.kicad_prl",
     "version": 3

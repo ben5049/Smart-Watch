@@ -1,43 +1,23 @@
 Circuit: * C:\Users\bens1\Documents\Other\Projects\Smart-Watch\Simulations\Draft1.asc
 
+Limiting rise time of source v2 to 1
+Limiting fall time of source v2 to 1
 Direct Newton iteration for .op point succeeded.
-Semiconductor Device Operating Points:
-                        --- Diodes ---
-Name:      d1
-Model:   1n5817
-Id:     -3.17e-05
-Vd:     -8.64e-01
-Req:     9.76e+11
-CAP:     1.58e-10
 
-                        --- VDMOSFET Transistors ---
-Name:          m1
-Model:        bss84
-Id:          8.64e-01
-Vgs:        -8.64e-01
-Vds:         2.83e+00
-Vth:        -2.10e+00
-Gm:          2.46e-01
-Gds:         0.00e+00
-Cgs:         2.00e-11
-Cgd:         4.00e-11
-Cbody:       1.68e-11
-
-
-
-Date: Sat Jan 06 00:23:52 2024
-Total elapsed time: 0.069 seconds.
+Date: Wed Feb 14 01:52:41 2024
+Total elapsed time: 0.049 seconds.
 
 tnom = 27
 temp = 27
-method = trap
-totiter = 12
-traniter = 0
-tranpoints = 0
-accept = 0
-rejected = 0
-matrix size = 12
-fillins = 8
+method = modified trap
+totiter = 2229
+traniter = 2226
+tranpoints = 1088
+accept = 1075
+rejected = 13
+matrix size = 6
+fillins = 0
 solver = Normal
-Matrix Compiler1: 1.02 KB object code size
-Matrix Compiler2: 1.03 KB object code size
+Matrix Compiler1: 146 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+

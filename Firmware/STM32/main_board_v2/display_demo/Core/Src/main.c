@@ -184,12 +184,30 @@ int main(void)
   HAL_GPIO_WritePin(DISPLAY_RST_GPIO_Port, DISPLAY_RST_Pin, SET);
   HAL_Delay(10);
 
-  HAL_DSI_Read(&hdsi, ChannelNbr, 1, 1, DSI_DCS_SHORT_PKT_READ, DCSCmd, ParametersTable)
+  uint8_t payload = 69;
+
+  HAL_UART_Transmit(&huart6, &payload, 1, HAL_MAX_DELAY);
+  HAL_UART_Transmit(&huart6, &payload, 1, HAL_MAX_DELAY);
+
+  for (uint8_t address = 0; address < 128; address++)
+  {
+      HAL_StatusTypeDef status = HAL_I2C_IsDeviceReady(&hi2c6, address << 1, 1, 10);
+      if (status == HAL_OK)
+      {
+    	  HAL_UART_Transmit(&huart6, &address, 1, HAL_MAX_DELAY);
+      }
+  }
+
+  HAL_UART_Transmit(&huart6, &payload, 1, HAL_MAX_DELAY);
+  HAL_UART_Transmit(&huart6, &payload, 1, HAL_MAX_DELAY);
+
 
   /*start the DSI host. This will enable DSI host and Wrapper. This must be done after the LTDC has been enabled*/
 //  HAL_DSI_Start(&hdsi);
 
 //  HAL_DSI_Refresh(&hdsi);
+
+  //  HAL_DSI_Read(&hdsi, 0, payload, 1, DSI_GEN_SHORT_PKT_READ_P0, 0, 0);
 
   /* USER CODE END 2 */
 

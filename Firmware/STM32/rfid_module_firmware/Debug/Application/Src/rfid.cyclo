@@ -1,0 +1,4 @@
+../Application/Src/rfid.c:12:6:RFID_Init	1
+../Application/Src/rfid.c:23:6:RFID_ChangeMode	1
+../Application/Src/rfid.c:27:6:RFID_Transmit	1
+../Application/Src/rfid.c:31:6:RFID_Receive	1

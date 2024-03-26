@@ -1,482 +1,1344 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 660eefbe-646e-4f67-ac58-e0f48869394c)
-
-  (paper "A4")
-
-  (title_block
-    (title "Watch Button")
-    (rev "1")
-  )
-
-  (lib_symbols
-    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.254 1.778 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C_Small" (at 0.254 -2.032 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "capacitor cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_Small_0_1"
-        (polyline
-          (pts
-            (xy -1.524 -0.508)
-            (xy 1.524 -0.508)
-          )
-          (stroke (width 0.3302) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 0.508)
-            (xy 1.524 0.508)
-          )
-          (stroke (width 0.3048) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "EVP-AEJB2A:EVP-AEJB2A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "EVP-AEJB2A" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "watch_footprints:Panasonic-EVP-AEJB2A-MFG" (at 0 12.7 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2437" (at 0 15.24 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "automotive" "No" (at 0 17.78 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "category" "Switch" (at 0 20.32 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "contact current rating" "20mA" (at 0 22.86 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "contact resistance" "1000mΩ" (at 0 25.4 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "device class L1" "Electromechanical" (at 0 27.94 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "device class L2" "Switches" (at 0 30.48 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "device class L3" "Tactile Switches" (at 0 33.02 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "digikey description" "SWITCH TACTILE SPST-NO 0.02A 15V" (at 0 35.56 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "digikey part number" "P17697CT-ND" (at 0 38.1 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "electromechanical life" "200000Cycles" (at 0 40.64 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "height" "1mm" (at 0 43.18 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "lead free" "Yes" (at 0 45.72 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "library id" "2ebf83bacfa5cdcd" (at 0 48.26 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "manufacturer" "Panasonic" (at 0 50.8 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "mount" "Surface Mount" (at 0 53.34 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "mouser description" "Tactile Switches 4.5x2.2mm 3.5N 0.15mm Travel IP67" (at 0 55.88 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "mouser part number" "667-EVP-AEJB2A" (at 0 58.42 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "operating force" "3.5N" (at 0 60.96 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "package" "SMT_SW_4MM8_2MM6" (at 0 63.5 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "rohs" "Yes" (at 0 66.04 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "temperature range high" "+85°C" (at 0 68.58 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "temperature range low" "-40°C" (at 0 71.12 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "throw configuration" "SPST-NO" (at 0 73.66 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "voltage rating DC" "15V" (at 0 76.2 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (symbol "EVP-AEJB2A_1_1"
-        (polyline
-          (pts
-            (xy 7.62 -2.54)
-            (xy 7.62 2.54)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 0)
-            (xy 10.16 0)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 11.43 0.254)
-            (xy 13.97 1.778)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (rectangle (start 5.08 5.08) (end 20.32 -12.7)
-          (stroke (width 0) (type solid))
-          (fill (type background))
-        )
-        (circle (center 10.922 0) (radius 0.508)
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (circle (center 14.478 0) (radius 0.508)
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (pin passive line (at 2.54 2.54 0) (length 5.08)
-          (name "1" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at 2.54 -2.54 0) (length 5.08)
-          (name "1'" (effects (font (size 0 0))))
-          (number "1'" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at 22.86 0 180) (length 7.62)
-          (name "2" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at 22.86 -7.62 180) (length 2.54)
-          (name "MNT_1" (effects (font (size 1.016 1.016))))
-          (number "3" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at 22.86 -10.16 180) (length 2.54)
-          (name "MNT_2" (effects (font (size 1.016 1.016))))
-          (number "4" (effects (font (size 1.016 1.016))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 152.4 93.98) (diameter 0) (color 0 0 0 0)
-    (uuid 60f15e47-bc44-4bdf-b1b3-1e19e42f932a)
-  )
-  (junction (at 124.46 96.52) (diameter 0) (color 0 0 0 0)
-    (uuid 7e0c6ea1-ab17-481b-9818-64d82cbc38f1)
-  )
-
-  (no_connect (at 147.32 104.14) (uuid 4bbf5a27-dd3f-4b70-a924-198ef2d3ea69))
-  (no_connect (at 147.32 101.6) (uuid f6a51cf9-a3f9-4af0-9f94-b13ad632e76c))
-
-  (wire (pts (xy 152.4 93.98) (xy 152.4 96.52))
-    (stroke (width 0) (type default))
-    (uuid 071d4171-da3f-47a0-9550-074fd2c9791a)
-  )
-  (wire (pts (xy 152.4 104.14) (xy 152.4 101.6))
-    (stroke (width 0) (type default))
-    (uuid 180f68d8-adb7-4fc5-a586-6aff91fd0e60)
-  )
-  (wire (pts (xy 124.46 91.44) (xy 127 91.44))
-    (stroke (width 0) (type default))
-    (uuid 1840d595-60e2-494a-9fee-124ab4ab4e22)
-  )
-  (wire (pts (xy 124.46 99.06) (xy 124.46 96.52))
-    (stroke (width 0) (type default))
-    (uuid 238289af-109f-4874-9824-cef038a5cc60)
-  )
-  (wire (pts (xy 152.4 93.98) (xy 147.32 93.98))
-    (stroke (width 0) (type default))
-    (uuid 4ffddd67-be6f-4d42-b679-19bc5337f296)
-  )
-  (wire (pts (xy 124.46 96.52) (xy 127 96.52))
-    (stroke (width 0) (type default))
-    (uuid 670b3f02-0b56-4d7e-832e-70ecacf70e4e)
-  )
-  (wire (pts (xy 124.46 96.52) (xy 124.46 91.44))
-    (stroke (width 0) (type default))
-    (uuid cd1ad8ab-4558-47df-8fa8-a708796907af)
-  )
-  (wire (pts (xy 157.48 93.98) (xy 152.4 93.98))
-    (stroke (width 0) (type default))
-    (uuid ede2fb60-9fcb-49fc-868a-de38a4a6c102)
-  )
-
-  (text "Pullup resistor on\npower supply sheet" (at 170.18 99.06 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom) (href "#2"))
-    (uuid e16e85b9-8111-4427-8138-331e69150abe)
-  )
-
-  (hierarchical_label "BTN" (shape output) (at 157.48 93.98 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 03566440-6b4c-480a-a59a-60ccdf2f2a69)
-  )
-
-  (symbol (lib_id "EVP-AEJB2A:EVP-AEJB2A") (at 124.46 93.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 014c6a27-a6a0-4c51-820c-ea7db77c3cb1)
-    (property "Reference" "SW1501" (at 137.16 83.82 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "EVP-AEJB2A" (at 137.16 86.36 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "watch_footprints:Panasonic-EVP-AEJB2A-MFG" (at 124.46 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2437" (at 124.46 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "automotive" "No" (at 124.46 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "category" "Switch" (at 124.46 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "contact current rating" "20mA" (at 124.46 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "contact resistance" "1000mΩ" (at 124.46 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "device class L1" "Electromechanical" (at 124.46 66.04 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "device class L2" "Switches" (at 124.46 63.5 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "device class L3" "Tactile Switches" (at 124.46 60.96 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "digikey description" "SWITCH TACTILE SPST-NO 0.02A 15V" (at 124.46 58.42 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "digikey part number" "P17697CT-ND" (at 124.46 55.88 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "electromechanical life" "200000Cycles" (at 124.46 53.34 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "height" "1mm" (at 124.46 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "lead free" "Yes" (at 124.46 48.26 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "library id" "2ebf83bacfa5cdcd" (at 124.46 45.72 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "manufacturer" "Panasonic" (at 124.46 43.18 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "mount" "Surface Mount" (at 124.46 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "mouser description" "Tactile Switches 4.5x2.2mm 3.5N 0.15mm Travel IP67" (at 124.46 38.1 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "mouser part number" "667-EVP-AEJB2A" (at 124.46 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "operating force" "3.5N" (at 124.46 33.02 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "package" "SMT_SW_4MM8_2MM6" (at 124.46 30.48 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "rohs" "Yes" (at 124.46 27.94 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "temperature range high" "+85°C" (at 124.46 25.4 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "temperature range low" "-40°C" (at 124.46 22.86 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "throw configuration" "SPST-NO" (at 124.46 20.32 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "voltage rating DC" "15V" (at 124.46 17.78 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 688f7d03-4c5d-484d-b9ab-9222bed11e10))
-    (pin "1'" (uuid aca47e21-44b7-4d84-af91-ce7f819da159))
-    (pin "2" (uuid a257a68e-bb1b-4b62-9d72-2f3b393bf53b))
-    (pin "3" (uuid 95f605f5-3011-41d4-ab26-c3166f2af05d))
-    (pin "4" (uuid 66788d19-6799-4abc-bc5c-465bf14d091a))
-    (instances
-      (project "watch_main"
-        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/007c56e9-a012-43a8-8c47-a9871f01caa0"
-          (reference "SW1501") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 152.4 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4292ea2c-14cf-4543-b0ad-1c1c2202e14c)
-    (property "Reference" "#PWR01502" (at 152.4 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 152.4 109.22 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 152.4 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 152.4 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 52917e41-ca5d-4607-ad47-2f1c19ec0a15))
-    (instances
-      (project "watch_main"
-        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/007c56e9-a012-43a8-8c47-a9871f01caa0"
-          (reference "#PWR01502") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 124.46 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4df70f02-5f66-4a2c-9184-a04215077606)
-    (property "Reference" "#PWR01501" (at 124.46 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 124.46 104.14 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 124.46 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 124.46 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1ce544d5-1950-48ca-bac9-e416073b997b))
-    (instances
-      (project "watch_main"
-        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/007c56e9-a012-43a8-8c47-a9871f01caa0"
-          (reference "#PWR01501") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 152.4 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid dbea72e8-a270-4387-bfdf-899b4aa957e2)
-    (property "Reference" "C210" (at 154.94 97.7963 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10n" (at 154.94 100.3363 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 152.4 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 152.4 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1188fb1d-bc63-47b6-a6e5-6b02801ae8a3))
-    (pin "2" (uuid 5242811d-a046-4675-af3c-f04d0a97e24b))
-    (instances
-      (project "watch_main"
-        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/8f996a8c-7777-4a55-b361-37cede76953f"
-          (reference "C210") (unit 1)
-        )
-        (path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/007c56e9-a012-43a8-8c47-a9871f01caa0"
-          (reference "C1501") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "660eefbe-646e-4f67-ac58-e0f48869394c")
+	(paper "A4")
+	(title_block
+		(title "Watch Button")
+		(rev "1")
+	)
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EVP-AEJB2A:EVP-AEJB2A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "EVP-AEJB2A"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "watch_footprints:Panasonic-EVP-AEJB2A-MFG"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2437"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "automotive" "No"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "category" "Switch"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "contact current rating" "20mA"
+				(at 0 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "contact resistance" "1000mΩ"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "device class L1" "Electromechanical"
+				(at 0 27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "device class L2" "Switches"
+				(at 0 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "device class L3" "Tactile Switches"
+				(at 0 33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "digikey description" "SWITCH TACTILE SPST-NO 0.02A 15V"
+				(at 0 35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "digikey part number" "P17697CT-ND"
+				(at 0 38.1 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "electromechanical life" "200000Cycles"
+				(at 0 40.64 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "height" "1mm"
+				(at 0 43.18 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "lead free" "Yes"
+				(at 0 45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "library id" "2ebf83bacfa5cdcd"
+				(at 0 48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "manufacturer" "Panasonic"
+				(at 0 50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "mount" "Surface Mount"
+				(at 0 53.34 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "mouser description" "Tactile Switches 4.5x2.2mm 3.5N 0.15mm Travel IP67"
+				(at 0 55.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "mouser part number" "667-EVP-AEJB2A"
+				(at 0 58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "operating force" "3.5N"
+				(at 0 60.96 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "package" "SMT_SW_4MM8_2MM6"
+				(at 0 63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "rohs" "Yes"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "temperature range high" "+85°C"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "temperature range low" "-40°C"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "throw configuration" "SPST-NO"
+				(at 0 73.66 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "voltage rating DC" "15V"
+				(at 0 76.2 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "EVP-AEJB2A_1_1"
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 0.254) (xy 13.97 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end 20.32 -12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 10.922 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 14.478 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 0)
+					(length 5.08)
+					(name "1'"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1'"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 2.54)
+					(name "MNT_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 2.54)
+					(name "MNT_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 152.4 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60f15e47-bc44-4bdf-b1b3-1e19e42f932a")
+	)
+	(junction
+		(at 124.46 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e0c6ea1-ab17-481b-9818-64d82cbc38f1")
+	)
+	(no_connect
+		(at 147.32 104.14)
+		(uuid "4bbf5a27-dd3f-4b70-a924-198ef2d3ea69")
+	)
+	(no_connect
+		(at 147.32 101.6)
+		(uuid "f6a51cf9-a3f9-4af0-9f94-b13ad632e76c")
+	)
+	(wire
+		(pts
+			(xy 152.4 93.98) (xy 152.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071d4171-da3f-47a0-9550-074fd2c9791a")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180f68d8-adb7-4fc5-a586-6aff91fd0e60")
+	)
+	(wire
+		(pts
+			(xy 124.46 91.44) (xy 127 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1840d595-60e2-494a-9fee-124ab4ab4e22")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.06) (xy 124.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238289af-109f-4874-9824-cef038a5cc60")
+	)
+	(wire
+		(pts
+			(xy 152.4 93.98) (xy 147.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ffddd67-be6f-4d42-b679-19bc5337f296")
+	)
+	(wire
+		(pts
+			(xy 124.46 96.52) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670b3f02-0b56-4d7e-832e-70ecacf70e4e")
+	)
+	(wire
+		(pts
+			(xy 124.46 96.52) (xy 124.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1ad8ab-4558-47df-8fa8-a708796907af")
+	)
+	(wire
+		(pts
+			(xy 157.48 93.98) (xy 152.4 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede2fb60-9fcb-49fc-868a-de38a4a6c102")
+	)
+	(text "Pullup resistor on\npower supply sheet"
+		(exclude_from_sim no)
+		(at 170.18 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+			(href "#2")
+		)
+		(uuid "e16e85b9-8111-4427-8138-331e69150abe")
+	)
+	(hierarchical_label "BTN"
+		(shape output)
+		(at 157.48 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03566440-6b4c-480a-a59a-60ccdf2f2a69")
+	)
+	(symbol
+		(lib_id "EVP-AEJB2A:EVP-AEJB2A")
+		(at 124.46 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "014c6a27-a6a0-4c51-820c-ea7db77c3cb1")
+		(property "Reference" "SW1501"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVP-AEJB2A"
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "watch_footprints:Panasonic-EVP-AEJB2A-MFG"
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2437"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "automotive" "No"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "category" "Switch"
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "contact current rating" "20mA"
+			(at 124.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "contact resistance" "1000mΩ"
+			(at 124.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "device class L1" "Electromechanical"
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "device class L2" "Switches"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "device class L3" "Tactile Switches"
+			(at 124.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "digikey description" "SWITCH TACTILE SPST-NO 0.02A 15V"
+			(at 124.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "digikey part number" "P17697CT-ND"
+			(at 124.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "electromechanical life" "200000Cycles"
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "height" "1mm"
+			(at 124.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "lead free" "Yes"
+			(at 124.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "library id" "2ebf83bacfa5cdcd"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "Panasonic"
+			(at 124.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "mount" "Surface Mount"
+			(at 124.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "mouser description" "Tactile Switches 4.5x2.2mm 3.5N 0.15mm Travel IP67"
+			(at 124.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "mouser part number" "667-EVP-AEJB2A"
+			(at 124.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "operating force" "3.5N"
+			(at 124.46 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "package" "SMT_SW_4MM8_2MM6"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "rohs" "Yes"
+			(at 124.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "temperature range high" "+85°C"
+			(at 124.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "temperature range low" "-40°C"
+			(at 124.46 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "throw configuration" "SPST-NO"
+			(at 124.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "voltage rating DC" "15V"
+			(at 124.46 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "688f7d03-4c5d-484d-b9ab-9222bed11e10")
+		)
+		(pin "1'"
+			(uuid "aca47e21-44b7-4d84-af91-ce7f819da159")
+		)
+		(pin "2"
+			(uuid "a257a68e-bb1b-4b62-9d72-2f3b393bf53b")
+		)
+		(pin "3"
+			(uuid "95f605f5-3011-41d4-ab26-c3166f2af05d")
+		)
+		(pin "4"
+			(uuid "66788d19-6799-4abc-bc5c-465bf14d091a")
+		)
+		(instances
+			(project "watch_main"
+				(path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/007c56e9-a012-43a8-8c47-a9871f01caa0"
+					(reference "SW1501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4292ea2c-14cf-4543-b0ad-1c1c2202e14c")
+		(property "Reference" "#PWR01502"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52917e41-ca5d-4607-ad47-2f1c19ec0a15")
+		)
+		(instances
+			(project "watch_main"
+				(path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/007c56e9-a012-43a8-8c47-a9871f01caa0"
+					(reference "#PWR01502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4df70f02-5f66-4a2c-9184-a04215077606")
+		(property "Reference" "#PWR01501"
+			(at 124.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ce544d5-1950-48ca-bac9-e416073b997b")
+		)
+		(instances
+			(project "watch_main"
+				(path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/007c56e9-a012-43a8-8c47-a9871f01caa0"
+					(reference "#PWR01501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 152.4 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbea72e8-a270-4387-bfdf-899b4aa957e2")
+		(property "Reference" "C1501"
+			(at 154.94 97.7963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 154.94 100.3363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1188fb1d-bc63-47b6-a6e5-6b02801ae8a3")
+		)
+		(pin "2"
+			(uuid "5242811d-a046-4675-af3c-f04d0a97e24b")
+		)
+		(instances
+			(project "watch_main"
+				(path "/b008648a-c7cf-4e14-8a0a-b9314d757b4a/007c56e9-a012-43a8-8c47-a9871f01caa0"
+					(reference "C1501")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
