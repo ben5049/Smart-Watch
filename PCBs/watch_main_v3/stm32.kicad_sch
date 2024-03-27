@@ -9034,7 +9034,7 @@
 		)
 		(uuid "c546abdc-b83b-4273-ac12-24ba5e8ee8c6")
 	)
-	(label "VBUS_ADC"
+	(label "ISYS"
 		(at 132.08 121.92 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9552,7 +9552,7 @@
 			)
 		)
 	)
-	(hierarchical_label "VBUS_ADC"
+	(hierarchical_label "ISYS"
 		(shape input)
 		(at 129.54 121.92 180)
 		(fields_autoplaced yes)

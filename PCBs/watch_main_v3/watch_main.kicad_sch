@@ -1202,6 +1202,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 149.86) (xy 96.52 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb5edcb-bf2d-435d-a2bd-8f3dabe89ca5")
+	)
+	(wire
+		(pts
 			(xy 200.66 157.48) (xy 109.22 157.48)
 		)
 		(stroke
@@ -1472,6 +1482,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 147.32) (xy 129.54 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3221ed-6b7d-4a3d-a067-218f996e1ad6")
+	)
+	(wire
+		(pts
 			(xy 109.22 96.52) (xy 129.54 96.52)
 		)
 		(stroke
@@ -1559,16 +1579,6 @@
 			(type default)
 		)
 		(uuid "b7371ef1-f156-46ce-b715-12c58f04c75e")
-	)
-	(wire
-		(pts
-			(xy 165.1 142.24) (xy 231.14 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7b21396-30a7-4d11-90c7-1034c0129a6c")
 	)
 	(wire
 		(pts
@@ -1828,6 +1838,17 @@
 			(justify left bottom)
 		)
 		(uuid "0d206cf8-d08d-463e-a5c0-36df3fe927d1")
+	)
+	(text "CHANGE VBUS ADC TO VSYS CURRENT SENSE\n(MAX9938, KDV04DR050ET)"
+		(exclude_from_sim no)
+		(at 180.34 172.72 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "3a49eb98-8bef-4348-be70-748b80592b3c")
 	)
 	(text "Circuits & ICs"
 		(exclude_from_sim no)
@@ -2280,8 +2301,8 @@
 		)
 		(uuid "ab80c101-05e2-4650-bad5-2717c8fc912a")
 	)
-	(label "VBUS_ADC"
-		(at 193.04 142.24 0)
+	(label "ISYS"
+		(at 106.68 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3819,7 +3840,7 @@
 	)
 	(sheet
 		(at 129.54 22.86)
-		(size 35.56 124.46)
+		(size 35.56 127)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.3048)
@@ -3840,7 +3861,7 @@
 			)
 		)
 		(property "Sheetfile" "stm32.kicad_sch"
-			(at 129.54 147.9808 0)
+			(at 129.54 150.5208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,16 +4389,6 @@
 			)
 			(uuid "9f5e5c66-53ee-4546-a32c-21ec392c54e4")
 		)
-		(pin "VBUS_ADC" input
-			(at 165.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9d949ccd-c8a6-4cd9-92f1-2736f4aef6df")
-		)
 		(pin "AVDD_ADC" input
 			(at 129.54 55.88 180)
 			(effects
@@ -4417,6 +4428,16 @@
 				(justify right)
 			)
 			(uuid "59cd5564-cde8-412d-9263-17db9e751040")
+		)
+		(pin "ISYS" input
+			(at 129.54 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8c65586-bdac-4560-b615-0b1d6ebc79f2")
 		)
 		(instances
 			(project "watch_main"
@@ -4546,6 +4567,16 @@
 				(justify right)
 			)
 			(uuid "43c7bc4e-5555-4160-88fc-d5beaa77086c")
+		)
+		(pin "ISYS" output
+			(at 96.52 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7c5b6580-fad4-4856-a112-7ed2d0680d7c")
 		)
 		(instances
 			(project "watch_main"
@@ -4694,16 +4725,6 @@
 				(justify left)
 			)
 			(uuid "8c86a41b-e398-4ad2-9fea-adb3f0a5bc5c")
-		)
-		(pin "VBUS_ADC" output
-			(at 231.14 142.24 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "69231fc7-688c-4e25-be3c-066ca91c2827")
 		)
 		(instances
 			(project "watch_main"

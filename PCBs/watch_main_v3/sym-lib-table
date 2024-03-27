@@ -35,4 +35,5 @@
   (lib (name "LBEE5PK2AE_564")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/LBEE5PK2AE_564.kicad_sym")(options "")(descr ""))
   (lib (name "LQ05041QCS6")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/LQ05041QCS6.kicad_sym")(options "")(descr ""))
   (lib (name "STM32U5G9ZJJ6Q")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/STM32U5G9ZJJ6Q.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX9938TEBS+TG45")(type "KiCad")(uri "${KIPRJMOD}/../component_library/watch_symbols/MAX9938TEBS+TG45.kicad_sym")(options "")(descr ""))
 )
