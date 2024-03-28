@@ -1839,7 +1839,7 @@
 		)
 		(uuid "0d206cf8-d08d-463e-a5c0-36df3fe927d1")
 	)
-	(text "CHANGE VBUS ADC TO VSYS CURRENT SENSE\n(MAX9938, KDV04DR050ET)"
+	(text "ADD LEDs"
 		(exclude_from_sim no)
 		(at 180.34 172.72 0)
 		(effects
