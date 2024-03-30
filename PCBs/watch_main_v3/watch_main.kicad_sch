@@ -1839,17 +1839,6 @@
 		)
 		(uuid "0d206cf8-d08d-463e-a5c0-36df3fe927d1")
 	)
-	(text "ADD LEDs"
-		(exclude_from_sim no)
-		(at 180.34 172.72 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "3a49eb98-8bef-4348-be70-748b80592b3c")
-	)
 	(text "Circuits & ICs"
 		(exclude_from_sim no)
 		(at 238.76 33.02 0)
