@@ -53,3 +53,4 @@ dkms.conf
 
 
 Firmware/STM32/.metadata/*
+.cyclo
