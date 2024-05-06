@@ -1,0 +1,8 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_hci_tx_task.c:59:22:cybt_get_hci_tx_status	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_hci_tx_task.c:64:6:cybt_lock_hci_tx	5
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_hci_tx_task.c:81:6:cybt_check_and_resume_hci_tx	14
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_hci_tx_task.c:150:15:cybt_send_msg_to_hci_tx_task	5
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_hci_tx_task.c:178:6:handle_hci_tx_command	6
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_hci_tx_task.c:207:6:handle_hci_tx_acl	6
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_hci_tx_task.c:238:6:handle_hci_tx_sco	6
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_hci_tx_task.c:269:6:cybt_hci_tx_task	13

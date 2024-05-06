@@ -1,0 +1,5 @@
+../NetXDuo/App/app_netxduo.c:86:18:test_connect_ap	4
+../NetXDuo/App/app_netxduo.c:161:18:test_ping	2
+../NetXDuo/App/app_netxduo.c:194:18:test_run_udp_server	4
+../NetXDuo/App/app_netxduo.c:261:6:MX_NetXDuo_Init	3
+../NetXDuo/App/app_netxduo.c:297:6:application_start	4

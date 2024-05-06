@@ -1,0 +1,5 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_proto.h:59:21:whd_proto_get_iovar_buffer	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_proto.h:77:28:whd_proto_set_iovar	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_proto.h:83:28:whd_proto_get_iovar	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_clm.c:44:1:whd_download_wifi_clm_image	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_clm.c:70:14:whd_process_clm_data	15

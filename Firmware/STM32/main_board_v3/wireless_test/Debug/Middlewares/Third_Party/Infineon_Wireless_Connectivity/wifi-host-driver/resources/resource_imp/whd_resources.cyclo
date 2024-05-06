@@ -1,0 +1,6 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/resources/resource_imp/whd_resources.c:94:19:resource_read	3
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/resources/resource_imp/whd_resources.c:168:10:host_platform_resource_size	3
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/resources/resource_imp/whd_resources.c:214:10:host_get_resource_block	7
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/resources/resource_imp/whd_resources.c:306:10:host_get_resource_block_size	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/resources/resource_imp/whd_resources.c:312:10:host_get_resource_no_of_blocks	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/resources/resource_imp/whd_resources.c:326:10:host_resource_read	5

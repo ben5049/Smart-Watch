@@ -1,0 +1,11 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_proto.h:59:21:whd_proto_get_iovar_buffer	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_proto.h:77:28:whd_proto_set_iovar	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_events.c:61:16:whd_find_number_of_events	3
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_events.c:100:14:whd_management_set_event_handler_locally	11
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_events.c:191:14:whd_set_error_handler_locally	10
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_events.c:255:17:whd_management_alloc_event_msgs_buffer	9
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_events.c:348:14:whd_management_set_event_handler	17
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_events.c:442:14:whd_wifi_set_event_handler	17
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_events.c:557:14:whd_wifi_set_error_handler	6
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_events.c:596:10:whd_wifi_deregister_event_handler	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_events.c:627:10:whd_wifi_deregister_error_handler	4

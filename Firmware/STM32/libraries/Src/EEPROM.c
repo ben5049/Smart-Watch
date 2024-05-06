@@ -6,10 +6,7 @@
  */
 
 #include "EEPROM.h"
-
-#ifdef M24256X
 #include "M24256X.h"
-#endif
 
 EEPROM_StatusTypeDef EEPROM_Init(EEPROM_HandleTypeDef *dev, I2C_HandleTypeDef *i2cHandle){
 
@@ -24,9 +21,6 @@ EEPROM_StatusTypeDef EEPROM_Init(EEPROM_HandleTypeDef *dev, I2C_HandleTypeDef *i
 EEPROM_StatusTypeDef EEPROM_ReadMemoryByte(EEPROM_HandleTypeDef *dev, uint16_t address, uint8_t *data){
 
 	EEPROM_StatusTypeDef status = EEPROM_OK;
-
-#ifdef M24256X
-
 	uint8_t attempts_remaining = M24256X_MAX_ATTEMPTS;
 
 	while (attempts_remaining > 0){
@@ -40,17 +34,12 @@ EEPROM_StatusTypeDef EEPROM_ReadMemoryByte(EEPROM_HandleTypeDef *dev, uint16_t a
 		}
 	}
 
-#endif
-
 	return status;
 }
 
 EEPROM_StatusTypeDef EEPROM_WriteMemoryByte(EEPROM_HandleTypeDef *dev, uint16_t address, uint8_t *data){
 
 	EEPROM_StatusTypeDef status = EEPROM_OK;
-
-#ifdef M24256X
-
 	uint8_t attempts_remaining = M24256X_MAX_ATTEMPTS;
 
 	while (attempts_remaining > 0){
@@ -63,8 +52,6 @@ EEPROM_StatusTypeDef EEPROM_WriteMemoryByte(EEPROM_HandleTypeDef *dev, uint16_t 
 			attempts_remaining--;
 		}
 	}
-
-#endif
 
 	return status;
 }

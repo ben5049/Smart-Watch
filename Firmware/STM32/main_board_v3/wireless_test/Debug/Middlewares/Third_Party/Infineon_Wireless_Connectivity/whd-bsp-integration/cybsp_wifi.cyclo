@@ -1,0 +1,12 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/cybsp_wifi.c:240:13:_cybsp_wifi_reset_wifi_chip	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/cybsp_wifi.c:258:18:_cybsp_wifi_sdio_try_send_cmd	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/cybsp_wifi.c:282:17:_cybsp_wifi_create_cmd_52_arg	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/cybsp_wifi.c:298:18:_cybsp_wifi_sdio_card_init	15
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/cybsp_wifi.c:482:18:_cybsp_wifi_sdio_init_bus2	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/cybsp_wifi.c:514:18:_cybsp_wifi_sdio_init_bus	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/cybsp_wifi.c:600:25:_cybsp_wifi_bus_init	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/cybsp_wifi.c:618:20:_cybsp_wifi_bus_detach	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/cybsp_wifi.c:633:11:cybsp_wifi_init_primary_extended	11
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/cybsp_wifi.c:701:11:cybsp_wifi_init_secondary	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/cybsp_wifi.c:710:11:cybsp_wifi_deinit	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/cybsp_wifi.c:738:14:cybsp_get_wifi_driver	1

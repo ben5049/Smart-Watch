@@ -1,0 +1,15 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_proto.h:54:21:whd_proto_get_ioctl_buffer	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_proto.h:59:21:whd_proto_get_iovar_buffer	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_proto.h:65:28:whd_proto_set_ioctl	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_proto.h:77:28:whd_proto_set_iovar	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_proto.h:83:28:whd_proto_get_iovar	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_ap.c:73:6:whd_ap_info_init	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_ap.c:79:6:whd_wifi_set_ap_is_up	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_ap.c:87:12:whd_wifi_get_ap_is_up	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_ap.c:92:14:whd_wifi_set_block_ack_window_size_common	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_ap.c:115:14:whd_wifi_set_ampdu_parameters_common	5
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_ap.c:133:14:whd_wifi_set_ampdu_parameters	6
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_ap.c:157:14:whd_handle_apsta_event	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_ap.c:184:10:whd_wifi_init_ap	110
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_ap.c:568:10:whd_wifi_start_ap	7
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_ap.c:606:10:whd_wifi_stop_ap	26

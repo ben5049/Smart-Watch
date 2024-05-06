@@ -1,0 +1,2 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_proto.c:54:10:whd_proto_attach	3
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_proto.c:87:10:whd_proto_detach	2

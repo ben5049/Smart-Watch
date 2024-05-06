@@ -8,7 +8,7 @@
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:720:18:virtual void touchgfx::HAL::setFrameBufferStartAddresses(void*, void*, void*)	1
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:737:18:virtual void touchgfx::HAL::setAnimationStorage(void*)	1
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:876:30:virtual touchgfx::FlashDataReader* touchgfx::HAL::getFlashDataReader() const	1
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:958:10:bool touchgfx::HAL::setFrameRefreshStrategy(touchgfx::HAL::FrameRefreshStrategy)	8
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:958:10:bool touchgfx::HAL::setFrameRefreshStrategy(FrameRefreshStrategy)	8
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:1009:10:void touchgfx::HAL::registerTaskDelayFunction(void (*)(uint16_t))	1
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:1025:18:virtual void touchgfx::HAL::taskDelay(uint16_t)	2
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:1063:21:virtual touchgfx::DMAType touchgfx::HAL::getDMAType()	1

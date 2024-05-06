@@ -1,0 +1,6 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_patchram_download.c:93:6:bt_start_fw_download	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_patchram_download.c:131:6:bt_update_platform_baudrate	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_patchram_download.c:142:6:bt_update_controller_baudrate	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_patchram_download.c:164:6:bt_baudrate_updated_cback	7
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_patchram_download.c:197:6:bt_fw_download_complete_cback	9
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_patchram_download.c:255:6:bt_post_reset_cback	7

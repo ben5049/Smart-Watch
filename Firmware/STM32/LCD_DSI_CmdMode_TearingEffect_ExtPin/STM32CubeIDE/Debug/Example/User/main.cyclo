@@ -1,0 +1,10 @@
+C:/Users/bens1/Documents/Other/Projects/Smart-Watch/Firmware/STM32/LCD_DSI_CmdMode_TearingEffect_ExtPin/Src/main.c:94:13:OnError_Handler	2
+C:/Users/bens1/Documents/Other/Projects/Smart-Watch/Firmware/STM32/LCD_DSI_CmdMode_TearingEffect_ExtPin/Src/main.c:108:5:main	3
+C:/Users/bens1/Documents/Other/Projects/Smart-Watch/Firmware/STM32/LCD_DSI_CmdMode_TearingEffect_ExtPin/Src/main.c:184:6:HAL_DSI_TearingEffectCallback	1
+C:/Users/bens1/Documents/Other/Projects/Smart-Watch/Firmware/STM32/LCD_DSI_CmdMode_TearingEffect_ExtPin/Src/main.c:199:6:HAL_DSI_EndOfRefreshCallback	5
+C:/Users/bens1/Documents/Other/Projects/Smart-Watch/Firmware/STM32/LCD_DSI_CmdMode_TearingEffect_ExtPin/Src/main.c:257:13:SystemClock_Config	4
+C:/Users/bens1/Documents/Other/Projects/Smart-Watch/Firmware/STM32/LCD_DSI_CmdMode_TearingEffect_ExtPin/Src/main.c:323:16:LCD_Init	1
+C:/Users/bens1/Documents/Other/Projects/Smart-Watch/Firmware/STM32/LCD_DSI_CmdMode_TearingEffect_ExtPin/Src/main.c:463:6:LTDC_Init	1
+C:/Users/bens1/Documents/Other/Projects/Smart-Watch/Firmware/STM32/LCD_DSI_CmdMode_TearingEffect_ExtPin/Src/main.c:501:6:LCD_LayertInit	1
+C:/Users/bens1/Documents/Other/Projects/Smart-Watch/Firmware/STM32/LCD_DSI_CmdMode_TearingEffect_ExtPin/Src/main.c:531:13:LCD_BriefDisplay	1
+C:/Users/bens1/Documents/Other/Projects/Smart-Watch/Firmware/STM32/LCD_DSI_CmdMode_TearingEffect_ExtPin/Src/main.c:554:13:CopyPicture	4

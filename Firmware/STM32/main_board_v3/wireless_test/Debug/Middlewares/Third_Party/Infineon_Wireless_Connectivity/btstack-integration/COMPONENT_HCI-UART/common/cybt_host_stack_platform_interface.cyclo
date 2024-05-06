@@ -1,0 +1,11 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_host_stack_platform_interface.c:56:6:host_stack_exception_handler	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_host_stack_platform_interface.c:61:6:host_stack_mutex_lock	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_host_stack_platform_interface.c:66:6:host_stack_mutex_unlock	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_host_stack_platform_interface.c:71:10:host_stack_get_acl_to_lower_buffer	9
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_host_stack_platform_interface.c:133:16:host_stack_send_acl_to_lower	11
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_host_stack_platform_interface.c:195:16:host_stack_send_cmd_to_lower	9
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_host_stack_platform_interface.c:256:10:host_stack_get_sco_to_lower_buffer	9
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_host_stack_platform_interface.c:318:16:host_stack_send_sco_to_lower	11
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_host_stack_platform_interface.c:373:6:host_stack_print_trace_log	11
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_host_stack_platform_interface.c:407:6:host_stack_platform_interface_init	3
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_host_stack_platform_interface.c:449:6:host_stack_platform_interface_deinit	3

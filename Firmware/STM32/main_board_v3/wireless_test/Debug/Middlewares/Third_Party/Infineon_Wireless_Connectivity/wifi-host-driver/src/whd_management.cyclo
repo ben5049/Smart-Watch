@@ -1,0 +1,14 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_proto.h:54:21:whd_proto_get_ioctl_buffer	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_proto.h:59:21:whd_proto_get_iovar_buffer	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_proto.h:65:28:whd_proto_set_ioctl	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_proto.h:77:28:whd_proto_set_iovar	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_management.c:61:17:whd_get_primary_interface	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_management.c:70:17:whd_get_interface	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_management.c:79:14:whd_add_interface	7
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_management.c:132:14:whd_add_primary_interface	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_management.c:137:10:whd_add_secondary_interface	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_management.c:142:10:whd_init	9
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_management.c:188:10:whd_deinit	8
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_management.c:245:14:whd_management_wifi_platform_init	5
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_management.c:294:10:whd_wifi_on	27
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_management.c:513:10:whd_wifi_off	5

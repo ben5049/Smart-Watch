@@ -1,0 +1,11 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_sdpcm.c:232:14:whd_sdpcm_init	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_sdpcm.c:263:6:whd_sdpcm_bus_vars_init	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_sdpcm.c:277:6:whd_sdpcm_quit	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_sdpcm.c:302:6:whd_sdpcm_update_credit	3
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_sdpcm.c:334:6:whd_sdpcm_process_rx_packet	18
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_sdpcm.c:466:12:whd_sdpcm_has_tx_packet	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_sdpcm.c:476:14:whd_sdpcm_get_packet_to_send	13
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_sdpcm.c:554:9:whd_sdpcm_get_available_credits	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_sdpcm.c:577:14:whd_send_to_bus	14
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_sdpcm.c:669:21:whd_sdpcm_get_next_buffer_in_queue	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_sdpcm.c:684:13:whd_sdpcm_set_next_buffer_in_queue	1

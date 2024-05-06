@@ -1,0 +1,15 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_cdc_bdc.c:94:16:whd_map_dscp_to_priority	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_cdc_bdc.c:101:21:whd_cdc_set_ioctl	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_cdc_bdc.c:108:21:whd_cdc_get_ioctl	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_cdc_bdc.c:115:21:whd_cdc_set_iovar	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_cdc_bdc.c:122:21:whd_cdc_get_iovar	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_cdc_bdc.c:149:14:whd_cdc_send_ioctl	26
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_cdc_bdc.c:304:14:whd_cdc_send_iovar	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_cdc_bdc.c:326:7:whd_cdc_get_iovar_buffer	3
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_cdc_bdc.c:359:7:whd_cdc_get_ioctl_buffer	3
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_cdc_bdc.c:392:14:whd_cdc_tx_queue_data	14
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_cdc_bdc.c:466:6:whd_cdc_bdc_info_deinit	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_cdc_bdc.c:487:14:whd_cdc_bdc_info_init	9
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_cdc_bdc.c:565:6:whd_process_cdc	8
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_cdc_bdc.c:622:6:whd_process_bdc	5
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_cdc_bdc.c:673:6:whd_process_bdc_event	23

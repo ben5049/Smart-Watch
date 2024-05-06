@@ -1,0 +1,2 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_wifi_p2p.c:35:12:whd_wifi_p2p_is_go_up	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_wifi_p2p.c:40:6:whd_wifi_p2p_set_go_is_up	2

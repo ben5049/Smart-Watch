@@ -1,0 +1,9 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/pal/core-lib/include/cy_utils.h:48:20:CY_HALT	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/COMPONENT_NETXDUO/cy_network_buffer_netxduo.c:57:14:cy_buffer_pool_init	5
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/COMPONENT_NETXDUO/cy_network_buffer_netxduo.c:87:19:cy_buffer_allocate_dynamic_packet	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/COMPONENT_NETXDUO/cy_network_buffer_netxduo.c:134:14:cy_host_buffer_get	8
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/COMPONENT_NETXDUO/cy_network_buffer_netxduo.c:185:6:cy_buffer_release	8
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/COMPONENT_NETXDUO/cy_network_buffer_netxduo.c:242:10:cy_buffer_get_current_piece_data_pointer	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/COMPONENT_NETXDUO/cy_network_buffer_netxduo.c:254:10:cy_buffer_get_current_piece_size	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/COMPONENT_NETXDUO/cy_network_buffer_netxduo.c:266:14:cy_buffer_set_size	3
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/whd-bsp-integration/COMPONENT_NETXDUO/cy_network_buffer_netxduo.c:285:14:cy_buffer_add_remove_at_front	5

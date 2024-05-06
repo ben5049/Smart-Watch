@@ -1,0 +1,13 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_task.c:75:15:cybt_platform_task_init	11
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_task.c:157:15:cybt_platform_task_deinit	6
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_task.c:180:15:cybt_platform_task_mempool_init	5
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_task.c:215:7:cybt_platform_task_tx_mempool_alloc	3
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_task.c:236:7:cybt_platform_task_get_tx_cmd_mem	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_task.c:241:7:cybt_platform_task_get_rx_mem	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_task.c:246:6:cybt_platform_task_mempool_free	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_task.c:255:6:cybt_platform_task_mempool_deinit	5
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_task.c:278:9:cybt_platform_task_get_queue_utilization	6
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_task.c:307:9:cybt_platform_task_get_heap_utilization	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_task.c:333:9:cybt_platform_task_get_tx_heap_utilization	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_task.c:338:6:cybt_platform_terminate_hci_tx_thread	3
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_task.c:350:6:cybt_platform_terminate_hci_rx_thread	3

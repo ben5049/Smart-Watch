@@ -1,0 +1,3 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_proto.h:89:28:whd_proto_tx_queue_data	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_network_if.c:72:14:whd_network_process_ethernet_data	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_network_if.c:94:14:whd_network_send_ethernet_data	1

@@ -2094,6 +2094,16 @@
 		)
 		(uuid "9e601290-b126-4517-b0f6-9848a08dfc34")
 	)
+	(text "100k\n47k"
+		(exclude_from_sim no)
+		(at 180.34 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5a3be7f-f525-4a8c-bcae-9f2ea2436b41")
+	)
 	(label "LX2"
 		(at 119.38 78.74 0)
 		(fields_autoplaced yes)

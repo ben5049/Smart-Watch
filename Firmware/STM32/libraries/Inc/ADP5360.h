@@ -118,7 +118,7 @@ typedef enum {
 	ADP5360_BUSY    		= 0x02,
 	ADP5360_TIMEOUT 		= 0x03,
 	ADP5360_ERROR_WRONG_ID 	= 0x04,
-	ADP5360_ERROR_NO_VBUS 	= 0x05,
+	ADP5360_ERROR_NO_VBUS 	= 0x05
 } ADP5360_StatusTypeDef;
 
 /* ADP5360 Charge status typedef */

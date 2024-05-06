@@ -1,0 +1,16 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:85:12:whd_bus_is_up	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:90:6:whd_bus_set_state	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:95:14:whd_bus_set_flow_control	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:108:12:whd_bus_is_flow_controlled	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:113:14:whd_bus_set_backplane_window	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:119:6:whd_bus_common_info_init	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:144:6:whd_bus_common_info_deinit	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:153:6:whd_delayed_bus_release_schedule_update	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:159:10:whd_bus_handle_delayed_release	12
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:224:12:whd_bus_platform_mcu_power_save_deep_sleep_enabled	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:229:6:whd_bus_init_backplane_window	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:234:14:whd_bus_write_wifi_firmware_image	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:279:6:whd_bus_set_resource_download_halt	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:285:14:whd_bus_resume_after_deep_sleep	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:291:14:whd_bus_mem_bytes	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/bus_protocols/whd_bus_common.c:299:14:whd_bus_transfer_backplane_bytes	14

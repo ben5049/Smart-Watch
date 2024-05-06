@@ -1,0 +1,11 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_commonring.c:25:6:whd_commonring_register_cb	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_commonring.c:40:6:whd_commonring_config	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_commonring.c:60:14:whd_commonring_lock	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_commonring.c:68:6:whd_commonring_unlock	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_commonring.c:76:6:whd_commonring_write_available	9
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_commonring.c:119:7:whd_commonring_reserve_for_write	6
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_commonring.c:161:1:whd_commonring_reserve_for_write_multiple	7
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_commonring.c:200:5:whd_commonring_write_complete	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_commonring.c:215:6:whd_commonring_write_cancel	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_commonring.c:224:7:whd_commonring_get_read_ptr	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_commonring.c:241:5:whd_commonring_read_complete	3

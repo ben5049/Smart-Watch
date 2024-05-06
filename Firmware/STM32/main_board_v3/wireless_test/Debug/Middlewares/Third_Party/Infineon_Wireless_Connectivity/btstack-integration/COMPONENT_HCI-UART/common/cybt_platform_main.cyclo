@@ -1,0 +1,13 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_main.c:84:6:bt_sleep_status_cback	3
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_main.c:100:6:bt_enable_sleep_mode	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_main.c:137:6:wiced_post_stack_init_cback	8
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_main.c:170:14:wiced_stack_event_handler_cback	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_main.c:176:23:init_layers	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_main.c:183:45:app_initialize_btstack_modules	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_main.c:196:16:cybt_core_management_cback	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_main.c:220:6:cybt_core_stack_init	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_main.c:229:16:wiced_bt_stack_init	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_main.c:251:16:wiced_bt_stack_deinit	6
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_main.c:297:6:cybt_platform_config_init	2
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_main.c:304:6:cybt_platform_get_sleep_mode_status	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/btstack-integration/COMPONENT_HCI-UART/common/cybt_platform_main.c:309:31:cybt_platform_get_config	1

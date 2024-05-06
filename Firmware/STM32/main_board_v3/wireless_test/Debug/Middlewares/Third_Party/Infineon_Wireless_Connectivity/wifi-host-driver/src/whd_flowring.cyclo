@@ -1,0 +1,11 @@
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/include/whd_flowring.h:40:19:is_multicast_ether_addr	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_flowring.c:43:16:whd_flowring_is_tdls_mac	3
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_flowring.c:59:10:whd_flowring_lookup	13
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_flowring.c:107:10:whd_flowring_create	14
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_flowring.c:183:6:whd_flowring_delete	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_flowring.c:213:9:whd_flowring_tid	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_flowring.c:222:10:whd_flowring_qlen	3
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_flowring.c:236:9:whd_flowring_ifidx_get	1
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_flowring.c:247:6:whd_flowring_detach	4
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_flowring.c:271:22:whd_flowring_attach	5
+../Middlewares/Third_Party/Infineon_Wireless_Connectivity/wifi-host-driver/src/whd_flowring.c:301:6:whd_flowring_open	2
