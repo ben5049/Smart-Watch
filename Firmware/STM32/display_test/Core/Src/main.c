@@ -179,13 +179,11 @@ int main(void)
 	HAL_Delay(50);
 
 	HAL_StatusTypeDef status = HAL_OK;
+	UNUSED(status);
 
 	//	float a = 0;
 	//	float old_a = 0;
 	//	uint32_t count = 0;
-
-	uint8_t parametersTable[3] = {0x00, 0x01, 0x02};
-	uint8_t array[3] = {};
 
 
 	// Exit sleep
@@ -200,13 +198,15 @@ int main(void)
 //	status = HAL_DSI_ShortWrite(&hdsi, 0, DSI_DCS_SHORT_PKT_WRITE_P0, 0x23, 0x00);
 //	HAL_Delay(100);
 
-	status = HAL_DSI_ShortWrite(&hdsi, 0, DSI_DCS_SHORT_PKT_WRITE_P1, 0x2A, 0x00);
+	uint8_t caset_data[4] = {0x00, 0x1E, 0x01, 0xBD};
+	status = HAL_DSI_LongWrite(&hdsi, 0, DSI_DCS_LONG_PKT_WRITE, 4, 0x2A, caset_data);
+
+//	status = HAL_DSI_ShortWrite(&hdsi, 0, DSI_DCS_SHORT_PKT_WRITE_P1, 0x2A, 0x00);
 	HAL_Delay(100);
 
 	status = HAL_DSI_ShortWrite(&hdsi, 0, DSI_DCS_SHORT_PKT_WRITE_P1, 0x2B, 0x00);
 	HAL_Delay(100);
 
-	uint8_t pixels[10] = {0xFF,0xF0,0xFF,0xFF,0x0F,0xFF,0xFF,0xFF,0xFF,0xFF};
 
 //	// Write pixels
 //	for (uint8_t i = 0; i< 100; i++){
