@@ -53,5 +53,9 @@ dkms.conf
 
 
 Firmware/STM32/.metadata/*
-.cyclo
-.args
+*.cyclo
+*.args
+*.s
+*.S
+*.temp
+Firmware/STM32/display_test/Core/Inc/image.h

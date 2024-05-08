@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "image.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -45,8 +45,7 @@ DMA_NodeTypeDef Node_GPDMA1_Channel0;
 DMA_QListTypeDef List_GPDMA1_Channel0;
 DMA_HandleTypeDef handle_GPDMA1_Channel0;
 
-DCACHE_HandleTypeDef hdcache1;
-DCACHE_HandleTypeDef hdcache2;
+CRC_HandleTypeDef hcrc;
 
 DSI_HandleTypeDef hdsi;
 
@@ -60,6 +59,7 @@ UART_HandleTypeDef huart4;
 
 /* USER CODE BEGIN PV */
 uint32_t adc_value;
+uint32_t framebuf[416*416] = {};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -67,15 +67,14 @@ void SystemClock_Config(void);
 static void SystemPower_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_GPDMA1_Init(void);
-static void MX_DCACHE2_Init(void);
 static void MX_DSIHOST_DSI_Init(void);
 static void MX_ICACHE_Init(void);
 static void MX_LTDC_Init(void);
 static void MX_I2C5_Init(void);
 static void MX_RTC_Init(void);
-static void MX_DCACHE1_Init(void);
 static void MX_ADC1_Init(void);
 static void MX_UART4_Init(void);
+static void MX_CRC_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -130,15 +129,14 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_GPDMA1_Init();
-  MX_DCACHE2_Init();
   MX_DSIHOST_DSI_Init();
   MX_ICACHE_Init();
   MX_LTDC_Init();
   MX_I2C5_Init();
   MX_RTC_Init();
-  MX_DCACHE1_Init();
   MX_ADC1_Init();
   MX_UART4_Init();
+  MX_CRC_Init();
   /* USER CODE BEGIN 2 */
 
 	HAL_DSI_Start(&hdsi);
@@ -239,8 +237,13 @@ int main(void)
 
 	// Inversion off
 	status = HAL_DSI_ShortWrite(&hdsi, 0, DSI_DCS_SHORT_PKT_WRITE_P0, 0x20, 0x00);
-	HAL_Delay(100);
+	HAL_Delay(1000);
 
+//	status = HAL_LTDC_SetAddress(&hltdc, framebuf, 0);
+//
+	uint32_t *images[4] = {image1, image2, image3, image4};
+
+	uint8_t current = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -249,14 +252,22 @@ int main(void)
 	while (1)
 	{
 
-		GPIO_PinState pinState = HAL_GPIO_ReadPin(SWIRE_IN_GPIO_Port, SWIRE_IN_Pin);
-		if (pinState == GPIO_PIN_SET){
-			HAL_GPIO_WritePin(GPIO1_GPIO_Port, GPIO1_Pin, SET);
+		GPIO_PinState pinState = HAL_GPIO_ReadPin(BTN_GPIO_Port, BTN_Pin);
+		if (pinState == GPIO_PIN_RESET){
+			current++;
+			if (current >= 4){
+				current = 0;
+			}
 		}
 
-		else {
-			HAL_GPIO_WritePin(GPIO1_GPIO_Port, GPIO1_Pin, RESET);
+
+		for (uint32_t i = 0; i< 416*416; i++){
+	//		framebuf[i] = 0xFF000000 | (i*1000);
+			framebuf[i] = 0xFF000000 | (images[current][i] >> 8);
 		}
+
+		status = HAL_DSI_Refresh(&hdsi);
+		HAL_Delay(500);
 		//		for (uint16_t i = 0; i < 160; i++){
 		//			__NOP();
 		//		}
@@ -437,58 +448,33 @@ static void MX_ADC1_Init(void)
 }
 
 /**
-  * @brief DCACHE1 Initialization Function
+  * @brief CRC Initialization Function
   * @param None
   * @retval None
   */
-static void MX_DCACHE1_Init(void)
+static void MX_CRC_Init(void)
 {
 
-  /* USER CODE BEGIN DCACHE1_Init 0 */
+  /* USER CODE BEGIN CRC_Init 0 */
 
-  /* USER CODE END DCACHE1_Init 0 */
+  /* USER CODE END CRC_Init 0 */
 
-  /* USER CODE BEGIN DCACHE1_Init 1 */
+  /* USER CODE BEGIN CRC_Init 1 */
 
-  /* USER CODE END DCACHE1_Init 1 */
-  hdcache1.Instance = DCACHE1;
-  hdcache1.Init.ReadBurstType = DCACHE_READ_BURST_WRAP;
-  if (HAL_DCACHE_Init(&hdcache1) != HAL_OK)
+  /* USER CODE END CRC_Init 1 */
+  hcrc.Instance = CRC;
+  hcrc.Init.DefaultPolynomialUse = DEFAULT_POLYNOMIAL_ENABLE;
+  hcrc.Init.DefaultInitValueUse = DEFAULT_INIT_VALUE_ENABLE;
+  hcrc.Init.InputDataInversionMode = CRC_INPUTDATA_INVERSION_NONE;
+  hcrc.Init.OutputDataInversionMode = CRC_OUTPUTDATA_INVERSION_DISABLE;
+  hcrc.InputDataFormat = CRC_INPUTDATA_FORMAT_BYTES;
+  if (HAL_CRC_Init(&hcrc) != HAL_OK)
   {
     Error_Handler();
   }
-  /* USER CODE BEGIN DCACHE1_Init 2 */
+  /* USER CODE BEGIN CRC_Init 2 */
 
-  /* USER CODE END DCACHE1_Init 2 */
-
-}
-
-/**
-  * @brief DCACHE2 Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_DCACHE2_Init(void)
-{
-
-  /* USER CODE BEGIN DCACHE2_Init 0 */
-
-  /* USER CODE END DCACHE2_Init 0 */
-
-  /* USER CODE BEGIN DCACHE2_Init 1 */
-
-  /* USER CODE END DCACHE2_Init 1 */
-  hdcache2.Instance = DCACHE2;
-  hdcache2.Init.ReadBurstType = DCACHE_READ_BURST_WRAP;
-  if (HAL_DCACHE_Init(&hdcache2) != HAL_OK)
-  {
-    Error_Handler();
-  }
-   __HAL_RCC_SYSCFG_CLK_ENABLE();
-   HAL_SYSCFG_DisableSRAMCached();
-  /* USER CODE BEGIN DCACHE2_Init 2 */
-
-  /* USER CODE END DCACHE2_Init 2 */
+  /* USER CODE END CRC_Init 2 */
 
 }
 
@@ -529,7 +515,7 @@ static void MX_DSIHOST_DSI_Init(void)
   {
     Error_Handler();
   }
-  HostTimeouts.TimeoutCkdiv = 2;
+  HostTimeouts.TimeoutCkdiv = 1;
   HostTimeouts.HighSpeedTransmissionTimeout = 20;
   HostTimeouts.LowPowerReceptionTimeout = 20;
   HostTimeouts.HighSpeedReadTimeout = 20;
@@ -579,7 +565,7 @@ static void MX_DSIHOST_DSI_Init(void)
   }
   CmdCfg.ColorCoding = DSI_RGB888;
   CmdCfg.CommandSize = 416;
-  CmdCfg.TearingEffectSource = DSI_TE_DSILINK;
+  CmdCfg.TearingEffectSource = DSI_TE_EXTERNAL;
   CmdCfg.TearingEffectPolarity = DSI_TE_RISING_EDGE;
   CmdCfg.HSPolarity = DSI_HSYNC_ACTIVE_LOW;
   CmdCfg.VSPolarity = DSI_VSYNC_ACTIVE_LOW;
@@ -693,8 +679,12 @@ static void MX_ICACHE_Init(void)
 
   /* USER CODE END ICACHE_Init 1 */
 
-  /** Enable instruction cache (default 2-ways set associative cache)
+  /** Enable instruction cache in 1-way (direct mapped cache)
   */
+  if (HAL_ICACHE_ConfigAssociativityMode(ICACHE_1WAY) != HAL_OK)
+  {
+    Error_Handler();
+  }
   if (HAL_ICACHE_Enable() != HAL_OK)
   {
     Error_Handler();
@@ -729,12 +719,12 @@ static void MX_LTDC_Init(void)
   hltdc.Init.PCPolarity = LTDC_PCPOLARITY_IPC;
   hltdc.Init.HorizontalSync = 0;
   hltdc.Init.VerticalSync = 0;
-  hltdc.Init.AccumulatedHBP = 1;
-  hltdc.Init.AccumulatedVBP = 1;
-  hltdc.Init.AccumulatedActiveW = 417;
-  hltdc.Init.AccumulatedActiveH = 417;
-  hltdc.Init.TotalWidth = 418;
-  hltdc.Init.TotalHeigh = 418;
+  hltdc.Init.AccumulatedHBP = 0;
+  hltdc.Init.AccumulatedVBP = 0;
+  hltdc.Init.AccumulatedActiveW = 416;
+  hltdc.Init.AccumulatedActiveH = 416;
+  hltdc.Init.TotalWidth = 416;
+  hltdc.Init.TotalHeigh = 416;
   hltdc.Init.Backcolor.Blue = 0;
   hltdc.Init.Backcolor.Green = 0;
   hltdc.Init.Backcolor.Red = 255;
@@ -743,20 +733,20 @@ static void MX_LTDC_Init(void)
     Error_Handler();
   }
   pLayerCfg.WindowX0 = 0;
-  pLayerCfg.WindowX1 = 0;
+  pLayerCfg.WindowX1 = 416;
   pLayerCfg.WindowY0 = 0;
-  pLayerCfg.WindowY1 = 0;
+  pLayerCfg.WindowY1 = 416;
   pLayerCfg.PixelFormat = LTDC_PIXEL_FORMAT_ARGB8888;
-  pLayerCfg.Alpha = 0;
-  pLayerCfg.Alpha0 = 0;
+  pLayerCfg.Alpha = 255;
+  pLayerCfg.Alpha0 = 255;
   pLayerCfg.BlendingFactor1 = LTDC_BLENDING_FACTOR1_CA;
   pLayerCfg.BlendingFactor2 = LTDC_BLENDING_FACTOR2_CA;
-  pLayerCfg.FBStartAdress = 0;
-  pLayerCfg.ImageWidth = 0;
-  pLayerCfg.ImageHeight = 0;
+  pLayerCfg.FBStartAdress = framebuf;
+  pLayerCfg.ImageWidth = 416;
+  pLayerCfg.ImageHeight = 416;
   pLayerCfg.Backcolor.Blue = 0;
   pLayerCfg.Backcolor.Green = 0;
-  pLayerCfg.Backcolor.Red = 255;
+  pLayerCfg.Backcolor.Red = 0;
   if (HAL_LTDC_ConfigLayer(&hltdc, &pLayerCfg, 0) != HAL_OK)
   {
     Error_Handler();

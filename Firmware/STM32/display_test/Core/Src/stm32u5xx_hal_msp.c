@@ -263,67 +263,45 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* hadc)
 }
 
 /**
-* @brief DCACHE MSP Initialization
+* @brief CRC MSP Initialization
 * This function configures the hardware resources used in this example
-* @param hdcache: DCACHE handle pointer
+* @param hcrc: CRC handle pointer
 * @retval None
 */
-void HAL_DCACHE_MspInit(DCACHE_HandleTypeDef* hdcache)
+void HAL_CRC_MspInit(CRC_HandleTypeDef* hcrc)
 {
-  if(hdcache->Instance==DCACHE1)
+  if(hcrc->Instance==CRC)
   {
-  /* USER CODE BEGIN DCACHE1_MspInit 0 */
+  /* USER CODE BEGIN CRC_MspInit 0 */
 
-  /* USER CODE END DCACHE1_MspInit 0 */
+  /* USER CODE END CRC_MspInit 0 */
     /* Peripheral clock enable */
-    __HAL_RCC_DCACHE1_CLK_ENABLE();
-  /* USER CODE BEGIN DCACHE1_MspInit 1 */
+    __HAL_RCC_CRC_CLK_ENABLE();
+  /* USER CODE BEGIN CRC_MspInit 1 */
 
-  /* USER CODE END DCACHE1_MspInit 1 */
-  }
-  else if(hdcache->Instance==DCACHE2)
-  {
-  /* USER CODE BEGIN DCACHE2_MspInit 0 */
-
-  /* USER CODE END DCACHE2_MspInit 0 */
-    /* Peripheral clock enable */
-    __HAL_RCC_DCACHE2_CLK_ENABLE();
-  /* USER CODE BEGIN DCACHE2_MspInit 1 */
-
-  /* USER CODE END DCACHE2_MspInit 1 */
+  /* USER CODE END CRC_MspInit 1 */
   }
 
 }
 
 /**
-* @brief DCACHE MSP De-Initialization
+* @brief CRC MSP De-Initialization
 * This function freeze the hardware resources used in this example
-* @param hdcache: DCACHE handle pointer
+* @param hcrc: CRC handle pointer
 * @retval None
 */
-void HAL_DCACHE_MspDeInit(DCACHE_HandleTypeDef* hdcache)
+void HAL_CRC_MspDeInit(CRC_HandleTypeDef* hcrc)
 {
-  if(hdcache->Instance==DCACHE1)
+  if(hcrc->Instance==CRC)
   {
-  /* USER CODE BEGIN DCACHE1_MspDeInit 0 */
+  /* USER CODE BEGIN CRC_MspDeInit 0 */
 
-  /* USER CODE END DCACHE1_MspDeInit 0 */
+  /* USER CODE END CRC_MspDeInit 0 */
     /* Peripheral clock disable */
-    __HAL_RCC_DCACHE1_CLK_DISABLE();
-  /* USER CODE BEGIN DCACHE1_MspDeInit 1 */
+    __HAL_RCC_CRC_CLK_DISABLE();
+  /* USER CODE BEGIN CRC_MspDeInit 1 */
 
-  /* USER CODE END DCACHE1_MspDeInit 1 */
-  }
-  else if(hdcache->Instance==DCACHE2)
-  {
-  /* USER CODE BEGIN DCACHE2_MspDeInit 0 */
-
-  /* USER CODE END DCACHE2_MspDeInit 0 */
-    /* Peripheral clock disable */
-    __HAL_RCC_DCACHE2_CLK_DISABLE();
-  /* USER CODE BEGIN DCACHE2_MspDeInit 1 */
-
-  /* USER CODE END DCACHE2_MspDeInit 1 */
+  /* USER CODE END CRC_MspDeInit 1 */
   }
 
 }
