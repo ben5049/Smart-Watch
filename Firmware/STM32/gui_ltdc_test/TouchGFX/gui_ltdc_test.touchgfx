@@ -5,60 +5,115 @@
         "Name": "Screen1",
         "Components": [
           {
-            "Type": "Box",
-            "Name": "box1",
-            "Width": 416,
-            "Height": 416,
-            "Color": {
-              "Red": 130,
-              "Green": 77,
-              "Blue": 184
-            }
+            "Type": "Image",
+            "Name": "image1",
+            "X": -32,
+            "Y": -32,
+            "Width": 480,
+            "Height": 480,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_480x480_shattered_rain_dark.png"
           },
           {
-            "Type": "Box",
-            "Name": "box2",
-            "Width": 253,
-            "Height": 241,
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 86,
+            "Y": 178,
+            "Width": 239,
+            "Height": 61,
+            "TextId": "__SingleUse_RLTU",
+            "TextRotation": "0",
             "Color": {
-              "Red": 34,
-              "Green": 70,
-              "Blue": 117
-            }
-          },
-          {
-            "Type": "Button",
-            "Name": "button1",
-            "X": 133,
-            "Y": 216,
-            "Width": 240,
-            "Height": 50,
-            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
-            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
-            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
           }
         ],
-        "Interactions": []
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 100
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": -32,
+            "Y": -32,
+            "Width": 480,
+            "Height": 480,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_480x480_shattered_rain_dark.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 86,
+            "Y": 178,
+            "Width": 239,
+            "Height": 61,
+            "TextId": "__SingleUse_0PHE",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 100
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
       }
     ],
     "CustomContainerDefinitions": [
       {
         "Name": "CustomContainer1",
-        "X": 83,
-        "Y": 83,
-        "Width": 250,
-        "Height": 250,
+        "Width": 416,
+        "Height": 416,
         "Components": [
           {
-            "Type": "Box",
-            "Name": "box1",
-            "Width": 250,
-            "Height": 250,
+            "Type": "Circle",
+            "Name": "circle1",
+            "Width": 416,
+            "Height": 416,
+            "FileNameImage": "__generated\\alternate_theme_images_backgrounds_480x480_shattered_rain_dark.png",
             "Color": {
-              "Red": 186,
-              "Green": 107,
-              "Blue": 47
-            }
+              "Red": 54,
+              "Green": 54,
+              "Blue": 54
+            },
+            "CenterX": 208.0,
+            "CenterY": 208.0,
+            "Radius": 208.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
           }
         ],
         "Interactions": []
@@ -69,16 +124,17 @@
       "Width": 416,
       "Height": 416
     },
-    "SelectedColorDepth": 32,
+    "SelectedColorDepth": 24,
     "StartupScreenName": "Screen1",
     "SelectedStartupLanguage": "GB",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",
     "UIPath": ".",
     "AvailableColorDepths": [
-      32
+      24
     ],
     "AvailableLCDs": {
-      "32": "LCDGPU2D"
+      "32": "LCDGPU2D",
+      "24": "LCDGPU2D"
     },
     "AvailableSections": [
       "ExtFlashSection",

@@ -6,7 +6,8 @@
 
 #include <gui/common/FrontendApplication.hpp>
 #include <touchgfx/containers/Container.hpp>
-#include <touchgfx/widgets/Box.hpp>
+#include <touchgfx/widgets/canvas/Circle.hpp>
+#include <touchgfx/widgets/canvas/PainterRGB888Bitmap.hpp>
 
 class CustomContainer1Base : public touchgfx::Container
 {
@@ -23,7 +24,8 @@ protected:
     /*
      * Member Declarations
      */
-    touchgfx::Box box1;
+    touchgfx::Circle circle1;
+    touchgfx::PainterRGB888Bitmap circle1Painter;
 
 private:
 

@@ -12,6 +12,9 @@ enum LANGUAGES
 
 enum TEXTS
 {
+    T___SINGLEUSE_0PHE,
+    T___SINGLEUSE_RLTU,
+    T_CLOCK,
     NUMBER_OF_TEXT_KEYS
 };
 

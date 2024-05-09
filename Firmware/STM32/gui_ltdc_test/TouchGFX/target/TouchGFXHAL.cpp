@@ -167,16 +167,6 @@ bool TouchGFXHAL::beginFrame()
 
 void TouchGFXHAL::endFrame()
 {
-	static bool display_on = false;
-
-    if (!display_on)
-    {
-        display_on = true;
-        /* Enable the LCD, Send Display on DCS command to display */
-
-//    	HAL_DSI_ShortWrite(&hdsi, 0, DSI_DCS_SHORT_PKT_WRITE_P0, 0x29, 0x00);
-//        HAL_DSI_ShortWrite(&hdsi, 0, DSI_DCS_SHORT_PKT_WRITE_P1, DSI_SET_DISPLAY_ON, 0x00);
-    }
 
     TouchGFXGeneratedHAL::endFrame();
 }
