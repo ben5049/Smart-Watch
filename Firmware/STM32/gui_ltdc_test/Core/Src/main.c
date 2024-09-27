@@ -642,6 +642,9 @@ static void MX_LTDC_Init(void)
   /* USER CODE BEGIN LTDC_Init 2 */
 
 	__HAL_LTDC_DISABLE(&hltdc);
+
+	hdsi.Instance->CLCR &= ~DSI_CLCR_DPCC;
+
 	HAL_DSI_Start(&hdsi);
 
 	NVIC_DisableIRQ(DSI_IRQn);
@@ -700,41 +703,55 @@ static void MX_LTDC_Init(void)
 	HAL_DSI_ShortWrite(&hdsi, 0, DSI_DCS_SHORT_PKT_WRITE_P1, 0x35, 0x02);
 
 	// Display on
-    HAL_DSI_ShortWrite(&hdsi, 0, DSI_DCS_SHORT_PKT_WRITE_P1, DSI_SET_DISPLAY_ON, 0x00);
+	HAL_DSI_ShortWrite(&hdsi, 0, DSI_DCS_SHORT_PKT_WRITE_P1, DSI_SET_DISPLAY_ON, 0x00);
 
-    // Set to high speed mode. TODO: Make this work
-    DSI_LPCmdTypeDef LPCmd = {0};
-    LPCmd.LPMaxReadPacket = DSI_LP_MRDP_ENABLE;
-    LPCmd.AcknowledgeRequest = DSI_ACKNOWLEDGE_DISABLE;
+	// Set to high speed mode. TODO: Make this work
+	DSI_LPCmdTypeDef LPCmd = {0};
+	LPCmd.LPMaxReadPacket = DSI_LP_MRDP_ENABLE;
+	LPCmd.AcknowledgeRequest = DSI_ACKNOWLEDGE_DISABLE;
 
-//    LPCmd.LPGenShortWriteNoP    = DSI_LP_GSW0P_DISABLE;
-//    LPCmd.LPGenShortWriteOneP   = DSI_LP_GSW1P_DISABLE;
-//    LPCmd.LPGenShortWriteTwoP   = DSI_LP_GSW2P_DISABLE;
-//    LPCmd.LPGenShortReadNoP     = DSI_LP_GSR0P_DISABLE;
-//    LPCmd.LPGenShortReadOneP    = DSI_LP_GSR1P_DISABLE;
-//    LPCmd.LPGenShortReadTwoP    = DSI_LP_GSR2P_DISABLE;
-//    LPCmd.LPGenLongWrite        = DSI_LP_GLW_DISABLE;
-//    LPCmd.LPDcsShortWriteNoP    = DSI_LP_DSW0P_DISABLE;
-//    LPCmd.LPDcsShortWriteOneP   = DSI_LP_DSW1P_DISABLE;
-//    LPCmd.LPDcsShortReadNoP     = DSI_LP_DSR0P_DISABLE;
-//    LPCmd.LPDcsLongWrite        = DSI_LP_DLW_DISABLE;
+	LPCmd.LPGenShortWriteNoP    = DSI_LP_GSW0P_DISABLE;
+	LPCmd.LPGenShortWriteOneP   = DSI_LP_GSW1P_DISABLE;
+	LPCmd.LPGenShortWriteTwoP   = DSI_LP_GSW2P_DISABLE;
+	LPCmd.LPGenShortReadNoP     = DSI_LP_GSR0P_DISABLE;
+	LPCmd.LPGenShortReadOneP    = DSI_LP_GSR1P_DISABLE;
+	LPCmd.LPGenShortReadTwoP    = DSI_LP_GSR2P_DISABLE;
+	LPCmd.LPGenLongWrite        = DSI_LP_GLW_DISABLE;
+	LPCmd.LPDcsShortWriteNoP    = DSI_LP_DSW0P_DISABLE;
+	LPCmd.LPDcsShortWriteOneP   = DSI_LP_DSW1P_DISABLE;
+	LPCmd.LPDcsShortReadNoP     = DSI_LP_DSR0P_DISABLE;
+	LPCmd.LPDcsLongWrite        = DSI_LP_DLW_DISABLE;
 
-    LPCmd.LPGenShortWriteNoP = DSI_LP_GSW0P_ENABLE;
-    LPCmd.LPGenShortWriteOneP = DSI_LP_GSW1P_ENABLE;
-    LPCmd.LPGenShortWriteTwoP = DSI_LP_GSW2P_ENABLE;
-    LPCmd.LPGenShortReadNoP = DSI_LP_GSR0P_ENABLE;
-    LPCmd.LPGenShortReadOneP = DSI_LP_GSR1P_ENABLE;
-    LPCmd.LPGenShortReadTwoP = DSI_LP_GSR2P_ENABLE;
-    LPCmd.LPGenLongWrite = DSI_LP_GLW_ENABLE;
-    LPCmd.LPDcsShortWriteNoP = DSI_LP_DSW0P_ENABLE;
-    LPCmd.LPDcsShortWriteOneP = DSI_LP_DSW1P_ENABLE;
-    LPCmd.LPDcsShortReadNoP = DSI_LP_DSR0P_ENABLE;
-    LPCmd.LPDcsLongWrite = DSI_LP_DLW_ENABLE;
+	//    LPCmd.LPGenShortWriteNoP = DSI_LP_GSW0P_ENABLE;
+	//    LPCmd.LPGenShortWriteOneP = DSI_LP_GSW1P_ENABLE;
+	//    LPCmd.LPGenShortWriteTwoP = DSI_LP_GSW2P_ENABLE;
+	//    LPCmd.LPGenShortReadNoP = DSI_LP_GSR0P_ENABLE;
+	//    LPCmd.LPGenShortReadOneP = DSI_LP_GSR1P_ENABLE;
+	//    LPCmd.LPGenShortReadTwoP = DSI_LP_GSR2P_ENABLE;
+	//    LPCmd.LPGenLongWrite = DSI_LP_GLW_ENABLE;
+	//    LPCmd.LPDcsShortWriteNoP = DSI_LP_DSW0P_ENABLE;
+	//    LPCmd.LPDcsShortWriteOneP = DSI_LP_DSW1P_ENABLE;
+	//    LPCmd.LPDcsShortReadNoP = DSI_LP_DSR0P_ENABLE;
+	//    LPCmd.LPDcsLongWrite = DSI_LP_DLW_ENABLE;
 
-    if (HAL_DSI_ConfigCommand(&hdsi, &LPCmd) != HAL_OK)
+	if (HAL_DSI_ConfigCommand(&hdsi, &LPCmd) != HAL_OK)
+	{
+		Error_Handler();
+	}
+
+
+    __HAL_RCC_DSI_CLK_DISABLE();
+    RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
+    PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_DSI;
+    PeriphClkInit.DsiClockSelection = RCC_DSICLKSOURCE_DSIPHY;
+    if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
     {
       Error_Handler();
     }
+
+    __HAL_RCC_DSI_CLK_ENABLE();
+
+	hdsi.Instance->CLCR |= DSI_CLCR_DPCC;
 
 	__HAL_LTDC_ENABLE(&hltdc);
   /* USER CODE END LTDC_Init 2 */
