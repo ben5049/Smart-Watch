@@ -4,7 +4,7 @@
 
 This project aims to take a cheap, common smart watch and upgrade it by replacing the screen and all internal electronics with custom hardware.
 
-![main_board_v2_front](/Documentation/Images/main_board_v2_front.png)
+![main_board_v3_front](/Documentation/Images/main_board_v3_front.jpg)
 
 ## Repository structure
 
