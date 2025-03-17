@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "1fd29354-8298-42e4-8953-9554e0d488e4")
 	(paper "A4")
 	(title_block
@@ -9,9 +9,13 @@
 	)
 	(lib_symbols
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -129,12 +133,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -206,7 +215,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -218,7 +227,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -249,12 +258,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -345,6 +359,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "watch_symbols_lib:AXF5A1012A"
 			(exclude_from_sim no)
@@ -470,24 +485,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -12.7 0)
-					(length 5.08)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -640,6 +637,24 @@
 					)
 				)
 				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 12.7 7.62 180)
 					(length 5.08)
 					(name "MH1"
@@ -712,7 +727,29 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "RST Must be open drain"
+		(exclude_from_sim no)
+		(at 200.66 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03b08b45-931f-4c45-b59a-fd4790edff2a")
+	)
+	(text "CST716\nhttp://www.pluschiptech.com/zhinengchuandai/cst716.html"
+		(exclude_from_sim no)
+		(at 154.94 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4212d1fa-0da2-48b5-bad0-d5f687a990ff")
 	)
 	(junction
 		(at 132.08 83.82)
@@ -982,30 +1019,8 @@
 		)
 		(uuid "fa01b0eb-1636-4315-9c6c-eae5badbc30a")
 	)
-	(text "RST Must be open drain"
-		(exclude_from_sim no)
-		(at 200.66 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "03b08b45-931f-4c45-b59a-fd4790edff2a")
-	)
-	(text "CST716\nhttp://www.pluschiptech.com/zhinengchuandai/cst716.html"
-		(exclude_from_sim no)
-		(at 154.94 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4212d1fa-0da2-48b5-bad0-d5f687a990ff")
-	)
 	(label "I2C{I2C}"
 		(at 104.14 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1016,7 +1031,6 @@
 	)
 	(label "I2C.SDA"
 		(at 119.38 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1027,7 +1041,6 @@
 	)
 	(label "IRQN"
 		(at 119.38 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1038,7 +1051,6 @@
 	)
 	(label "RST"
 		(at 119.38 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1049,7 +1061,6 @@
 	)
 	(label "RST"
 		(at 193.04 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1060,7 +1071,6 @@
 	)
 	(label "I2C.SCL"
 		(at 119.38 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1072,7 +1082,6 @@
 	(hierarchical_label "IRQN"
 		(shape output)
 		(at 101.6 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1107,7 +1116,6 @@
 	(hierarchical_label "RST"
 		(shape input)
 		(at 101.6 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

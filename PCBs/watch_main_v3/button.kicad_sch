@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "660eefbe-646e-4f67-ac58-e0f48869394c")
 	(paper "A4")
 	(title_block
@@ -10,9 +10,13 @@
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -82,10 +86,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -94,10 +98,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -143,6 +147,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "EVP-AEJB2A:EVP-AEJB2A"
 			(pin_names
@@ -439,16 +444,15 @@
 				)
 			)
 			(symbol "EVP-AEJB2A_1_1"
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 7.62 2.54)
-					)
+				(rectangle
+					(start 5.08 5.08)
+					(end 20.32 -12.7)
 					(stroke
 						(width 0)
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
@@ -465,7 +469,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.43 0.254) (xy 13.97 1.778)
+						(xy 7.62 -2.54) (xy 7.62 2.54)
 					)
 					(stroke
 						(width 0)
@@ -475,20 +479,21 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 5.08 5.08)
-					(end 20.32 -12.7)
+				(circle
+					(center 10.922 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type solid)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(circle
-					(center 10.922 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 11.43 0.254) (xy 13.97 1.778)
+					)
 					(stroke
 						(width 0)
 						(type solid)
@@ -599,12 +604,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -695,7 +705,20 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Pullup resistor on\npower supply sheet"
+		(exclude_from_sim no)
+		(at 170.18 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+			(href "#2")
+		)
+		(uuid "e16e85b9-8111-4427-8138-331e69150abe")
 	)
 	(junction
 		(at 152.4 93.98)
@@ -797,22 +820,9 @@
 		)
 		(uuid "ede2fb60-9fcb-49fc-868a-de38a4a6c102")
 	)
-	(text "Pullup resistor on\npower supply sheet"
-		(exclude_from_sim no)
-		(at 170.18 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-			(href "#2")
-		)
-		(uuid "e16e85b9-8111-4427-8138-331e69150abe")
-	)
 	(hierarchical_label "BTN"
 		(shape output)
 		(at 157.48 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
